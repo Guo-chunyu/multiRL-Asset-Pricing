@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rlasset"
+version = "0.1.0"
+description = "Reproducible A-share ETF portfolio research with five FinRL algorithms and paper execution"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26,<3", "pandas>=2.2,<3", "torch>=2.3,<3",
+  "gymnasium==1.2.3", "stable-baselines3==2.7.1", "sb3-contrib==2.7.1",
+  "matplotlib>=3.8", "scikit-learn>=1.4", "stockstats==0.6.9", "yfinance==1.7.0",
+  "requests>=2.31,<3"
+]
+
+[project.optional-dependencies]
+data = ["akshare==1.19.1"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+rlasset = "rlasset.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

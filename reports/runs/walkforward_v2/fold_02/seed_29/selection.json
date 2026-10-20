@@ -1,0 +1,36 @@
+{
+  "selected_on": "validation",
+  "strategy": "momentum",
+  "criterion": "total_return - 0.5 * max_drawdown",
+  "validation_metrics": {
+    "total_return": 0.3162331266093643,
+    "annual_return": 0.835643462373689,
+    "annual_volatility": 0.18197727844652534,
+    "sharpe": 3.4315390085646795,
+    "max_drawdown": 0.06701890739543537,
+    "sortino": 6.066781311358932,
+    "calmar": 12.46877179663786,
+    "mean_turnover": 0.06480122360943628
+  },
+  "pool_order": [
+    "td3_risk_2",
+    "ddpg",
+    "sac",
+    "ppo",
+    "a2c",
+    "momentum",
+    "reversal",
+    "cash"
+  ],
+  "best_rl_on_validation": "td3_risk_2",
+  "best_rl_validation_metrics": {
+    "total_return": 0.2353783796604933,
+    "annual_return": 0.5956083781682444,
+    "annual_volatility": 0.14120397009111635,
+    "sharpe": 3.3819980842444735,
+    "max_drawdown": 0.05147608601413269,
+    "sortino": 5.768694731290541,
+    "calmar": 11.570584018464825,
+    "mean_turnover": 0.010939531382429922
+  }
+}

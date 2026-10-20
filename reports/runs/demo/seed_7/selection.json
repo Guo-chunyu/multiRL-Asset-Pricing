@@ -1,0 +1,23 @@
+{
+  "selected_on": "validation",
+  "strategy": "momentum",
+  "criterion": "total_return - 0.5 * max_drawdown",
+  "validation_metrics": {
+    "total_return": 0.11758905069081563,
+    "annual_return": 0.273176995849708,
+    "annual_volatility": 0.10327686301200567,
+    "sharpe": 2.3908224496473776,
+    "max_drawdown": 0.04773915889379905,
+    "sortino": 3.7880937901901808,
+    "calmar": 5.722283387049611,
+    "mean_turnover": 0.06910093095541735
+  },
+  "pool_order": [
+    "td3_risk_0",
+    "td3_risk_2",
+    "td3_risk_8",
+    "momentum",
+    "reversal",
+    "cash"
+  ]
+}

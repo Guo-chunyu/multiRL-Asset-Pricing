@@ -1,0 +1,62 @@
+{
+  "scenario": "disruption",
+  "initial_cash": 1000000,
+  "final_nav": 859784.80802228,
+  "metrics": {
+    "total_return": -0.14021519197772014,
+    "annual_return": -0.20063987870882513,
+    "annual_volatility": 0.2357831243903905,
+    "sharpe": -0.8319018247900922,
+    "max_drawdown": 0.2183995034943001,
+    "sortino": -1.1160831529518458,
+    "calmar": -0.9186828518319481,
+    "mean_turnover": 0.01088930497156554
+  },
+  "orders": 594,
+  "status_counts": {
+    "filled": 493,
+    "rejected": 55,
+    "partially_filled": 46
+  },
+  "reasons": {
+    "participation_limit": 42,
+    "halted": 32,
+    "limit_up": 10,
+    "insufficient_cash": 9,
+    "limit_down": 8
+  },
+  "quantity_fill_ratio": 0.9091649694501018,
+  "commission": 2974.74853772,
+  "slippage_cost": 368.7434399999579,
+  "minimum_cash": 96.06946227999845,
+  "negative_cash_or_position": false,
+  "config": {
+    "lot_size": 100,
+    "commission_rate": 0.0003,
+    "min_commission": 5.0,
+    "slippage_bps": 2.0,
+    "participation_rate": 0.1,
+    "t_plus_one": true
+  },
+  "claim": "Offline unadjusted price-only paper replay. No cash distributions, tick queue, broker connectivity or actual live fills.",
+  "assumptions": [
+    "Target weights decided at prior close; share sizes use observed next open.",
+    "IOC fills at open plus slippage, capped by a fraction of full-day volume (ex post liquidity proxy, not executable auction proof).",
+    "Price limits approximate previous raw close; ex-distribution reference prices are not available.",
+    "Shadow policy statistics remain fractional adjusted-price research ledgers; actual policy receives paper-account holdings.",
+    "Disruption scenario injects synthetic halts, thin volume and directional price-limit blocks; these are not historical exchange events."
+  ],
+  "policy": "equal_weight",
+  "selected_on": "validation",
+  "seed": 7,
+  "signal_data_sha256": "64c84ef0588d2a8086e7dd56987d1ce75d6f5fe3d9b155e0cf21711012d9145c",
+  "execution_data_sha256": "766d4cf09481f035c671fe9a6771bef252a2f71f86716a843288d5f611bfb479",
+  "model_hashes": {
+    "a2c.zip": "b2f811e54f46aa03f7b2a8066d920ab168c3b481c5b665fe74b8a91b38051d16",
+    "ddpg.zip": "35883b94d91f9f96f9244dac7e1da0dd3ef38f41da430e7c168ccdeae9980ef7",
+    "dqn_selector.zip": "0cfb885d0d8ebbde852eebd1a6308d0af55826135e36dd66fffe9707034bd514",
+    "ppo.zip": "50c5154a8bc0fdf049ff9d5e2c8aaefa2dfa1e106c36cc8a2608ed5bd2c49445",
+    "sac.zip": "6ca194c7d402d3bf4eed9faec12ae2d68e3870c8963145fd4e04e403b5e1caba",
+    "td3_risk_2.zip": "de83afd6ca4b4b9cf3d2662286608594c17979eaaf16847837a3b831d34e7f3a"
+  }
+}

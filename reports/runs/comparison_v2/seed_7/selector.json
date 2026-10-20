@@ -1,0 +1,17 @@
+{
+  "algorithm": "dqn",
+  "seed": 7,
+  "requested_steps": 10000,
+  "actual_steps": 10000,
+  "training_wall_seconds": 78.92356860000291,
+  "pool_order": [
+    "td3_risk_2",
+    "ddpg",
+    "sac",
+    "ppo",
+    "a2c",
+    "momentum",
+    "reversal",
+    "cash"
+  ]
+}

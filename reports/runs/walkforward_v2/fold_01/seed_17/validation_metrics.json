@@ -1,0 +1,122 @@
+{
+  "cash": {
+    "total_return": 0.0,
+    "annual_return": 0.0,
+    "annual_volatility": 0.0,
+    "sharpe": null,
+    "max_drawdown": -0.0,
+    "sortino": null,
+    "calmar": null,
+    "mean_turnover": 0.0
+  },
+  "equal_weight": {
+    "total_return": -0.015188467920550761,
+    "annual_return": -0.03326618687879725,
+    "annual_volatility": 0.19160793971080814,
+    "sharpe": -0.07947315751452937,
+    "max_drawdown": 0.12178835989936308,
+    "sortino": -0.09683527256706362,
+    "calmar": -0.2731475069233708,
+    "mean_turnover": 0.01302508948571512
+  },
+  "buy_hold": {
+    "total_return": -0.016622169256953985,
+    "annual_return": -0.03637450424559363,
+    "annual_volatility": 0.19057771838245866,
+    "sharpe": -0.09787279541001809,
+    "max_drawdown": 0.12159164275993614,
+    "sortino": -0.11922542885227973,
+    "calmar": -0.2991529962088715,
+    "mean_turnover": 0.008767546051535636
+  },
+  "momentum": {
+    "total_return": -0.018158466713169688,
+    "annual_return": -0.03969917053195501,
+    "annual_volatility": 0.1851889803142679,
+    "sharpe": -0.125169539198041,
+    "max_drawdown": 0.11859596268375668,
+    "sortino": -0.1536788070729275,
+    "calmar": -0.33474301851080085,
+    "mean_turnover": 0.06557951435814185
+  },
+  "reversal": {
+    "total_return": -0.019416276373984444,
+    "annual_return": -0.042416483579124774,
+    "annual_volatility": 0.20015868434815448,
+    "sharpe": -0.11477272599502408,
+    "max_drawdown": 0.12997258716304413,
+    "sortino": -0.13869582183063273,
+    "calmar": -0.3263494595665424,
+    "mean_turnover": 0.07082521905317124
+  },
+  "td3_risk_2": {
+    "total_return": -0.005436184172301767,
+    "annual_return": -0.011977304036167511,
+    "annual_volatility": 0.11476254893928112,
+    "sharpe": -0.04735271991409496,
+    "max_drawdown": 0.07015303985563087,
+    "sortino": -0.05730262794140544,
+    "calmar": -0.17073107681172203,
+    "mean_turnover": 0.009425120626761372
+  },
+  "ddpg": {
+    "total_return": -0.019265891858701215,
+    "annual_return": -0.04209182184584793,
+    "annual_volatility": 0.20370107779246283,
+    "sharpe": -0.10783061817382686,
+    "max_drawdown": 0.13404787016912295,
+    "sortino": -0.13249936457880482,
+    "calmar": -0.31400589798810175,
+    "mean_turnover": 0.014119047003045343
+  },
+  "sac": {
+    "total_return": -0.005828090179850386,
+    "annual_return": -0.012837719657349108,
+    "annual_volatility": 0.14203600584440096,
+    "sharpe": -0.019413168941227337,
+    "max_drawdown": 0.0877485699497503,
+    "sortino": -0.023597520024773794,
+    "calmar": -0.1463011837651679,
+    "mean_turnover": 0.010107929225914372
+  },
+  "ppo": {
+    "total_return": -0.0028434765876928863,
+    "annual_return": -0.006274764177914241,
+    "annual_volatility": 0.04808347042694443,
+    "sharpe": -0.10695908793370625,
+    "max_drawdown": 0.02986483439245939,
+    "sortino": -0.13092403961971327,
+    "calmar": -0.21010544024642452,
+    "mean_turnover": 0.004175694679503593
+  },
+  "a2c": {
+    "total_return": -2.6275010205954486e-06,
+    "annual_return": -5.808150913902837e-06,
+    "annual_volatility": 0.0007287397672391783,
+    "sharpe": -0.007608949969226791,
+    "max_drawdown": 0.00045610330016213285,
+    "sortino": -0.009190583203769203,
+    "calmar": -0.012734288289162106,
+    "mean_turnover": 6.666068996610916e-05
+  },
+  "equal_mixture": {
+    "total_return": -0.006607154427631091,
+    "annual_return": -0.014546908320948017,
+    "annual_volatility": 0.09334129697145013,
+    "sharpe": -0.11022536967123919,
+    "max_drawdown": 0.06053668489818917,
+    "sortino": -0.13384883046035806,
+    "calmar": -0.24029905742960758,
+    "mean_turnover": 0.007406329770094569
+  },
+  "dqn_selector": {
+    "total_return": 0.10358732622289747,
+    "annual_return": 0.24344146709081982,
+    "annual_volatility": 0.07296555559388089,
+    "sharpe": 3.0234321483774256,
+    "max_drawdown": 0.02361873938920416,
+    "sortino": 5.725366786686204,
+    "calmar": 10.30713210723236,
+    "mean_turnover": 0.09947079435454147
+  }
+}

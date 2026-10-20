@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="2" time="21.584" timestamp="2026-10-20T17:44:07.165529+08:00"><testcase classname="tests.test_causality_v2" name="test_future_test_prices_cannot_change_five_rl_models_selector_or_validation[24]" time="10.170" /><testcase classname="tests.test_causality_v2" name="test_future_test_prices_cannot_change_five_rl_models_selector_or_validation[48]" time="6.759" /></testsuite></testsuites>

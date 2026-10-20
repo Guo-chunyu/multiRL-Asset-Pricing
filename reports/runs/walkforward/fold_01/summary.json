@@ -1,0 +1,182 @@
+{
+  "data_kind": "market",
+  "seeds": {
+    "7": {
+      "selected_strategy": "cash",
+      "selected_test_metrics": {
+        "total_return": 0.0,
+        "annual_return": 0.0,
+        "annual_volatility": 0.0,
+        "sharpe": null,
+        "max_drawdown": -0.0,
+        "sortino": null,
+        "calmar": null,
+        "mean_turnover": 0.0
+      },
+      "test_metrics": {
+        "cash": {
+          "total_return": 0.0,
+          "annual_return": 0.0,
+          "annual_volatility": 0.0,
+          "sharpe": null,
+          "max_drawdown": -0.0,
+          "sortino": null,
+          "calmar": null,
+          "mean_turnover": 0.0
+        },
+        "equal_weight": {
+          "total_return": 0.2907138691733305,
+          "annual_return": 0.7492915967070508,
+          "annual_volatility": 0.15778241650013186,
+          "sharpe": 3.6260991108357405,
+          "max_drawdown": 0.05383711569408137,
+          "sortino": 6.3529871917958385,
+          "calmar": 13.91775148142687,
+          "mean_turnover": 0.013031373229397748
+        },
+        "buy_hold": {
+          "total_return": 0.2996191759834014,
+          "annual_return": 0.7758477868693312,
+          "annual_volatility": 0.16433222709444179,
+          "sharpe": 3.5798049245725303,
+          "max_drawdown": 0.05815966924863497,
+          "sortino": 6.241330895142576,
+          "calmar": 13.339962157496977,
+          "mean_turnover": 0.008691306520652716
+        },
+        "momentum": {
+          "total_return": 0.3256558770128677,
+          "annual_return": 0.8547404673841379,
+          "annual_volatility": 0.18182006853542923,
+          "sharpe": 3.491427848712665,
+          "max_drawdown": 0.06701890739543534,
+          "sortino": 6.163441502686777,
+          "calmar": 12.753721309433855,
+          "mean_turnover": 0.06464938614066901
+        },
+        "reversal": {
+          "total_return": 0.2647553542150241,
+          "annual_return": 0.6731209809581165,
+          "annual_volatility": 0.13991528077421178,
+          "sharpe": 3.7515516157710973,
+          "max_drawdown": 0.04340263495945326,
+          "sortino": 6.558202019758129,
+          "calmar": 15.508758433374979,
+          "mean_turnover": 0.0602933249086524
+        },
+        "td3_risk_0": {
+          "total_return": 0.27199069938414655,
+          "annual_return": 0.6941665506491641,
+          "annual_volatility": 0.14737071049735703,
+          "sharpe": 3.6538916397209973,
+          "max_drawdown": 0.053497691012735694,
+          "sortino": 6.405677099654736,
+          "calmar": 12.975635723865361,
+          "mean_turnover": 0.010536935000899602
+        },
+        "td3_risk_2": {
+          "total_return": 0.09511938437143201,
+          "annual_return": 0.22031537415326535,
+          "annual_volatility": 0.059025595289441846,
+          "sharpe": 3.4038352876286746,
+          "max_drawdown": 0.01716097400455716,
+          "sortino": 5.757619011248985,
+          "calmar": 12.838162571352873,
+          "mean_turnover": 0.005864634966506818
+        },
+        "td3_risk_8": {
+          "total_return": 0.24123690309346665,
+          "annual_return": 0.6056991087401968,
+          "annual_volatility": 0.14084429127139816,
+          "sharpe": 3.435132450102735,
+          "max_drawdown": 0.05139079437625545,
+          "sortino": 5.848525687950632,
+          "calmar": 11.786140223978586,
+          "mean_turnover": 0.010788915760485632
+        },
+        "ddpg": {
+          "total_return": 0.061357109429957424,
+          "annual_return": 0.13938498108301192,
+          "annual_volatility": 0.04870312911973149,
+          "sharpe": 2.704087592824631,
+          "max_drawdown": 0.012432212302694493,
+          "sortino": 4.315243136641329,
+          "calmar": 11.211599165886376,
+          "mean_turnover": 0.005626877157023828
+        },
+        "equal_mixture": {
+          "total_return": 0.20090103388966987,
+          "annual_return": 0.4935663281844714,
+          "annual_volatility": 0.11441934849213958,
+          "sharpe": 3.5655079364791726,
+          "max_drawdown": 0.04070850666917402,
+          "sortino": 6.161165862151451,
+          "calmar": 12.124402700289126,
+          "mean_turnover": 0.008916395911963906
+        },
+        "dqn_selector": {
+          "total_return": 0.02070785912110682,
+          "annual_return": 0.04593767132569691,
+          "annual_volatility": 0.05213104880874282,
+          "sharpe": 0.8873931809138482,
+          "max_drawdown": 0.02703377691250978,
+          "sortino": 1.5146421499494447,
+          "calmar": 1.6992694537047626,
+          "mean_turnover": 0.025622463195818887
+        }
+      },
+      "selector_choices": {
+        "cash": 85,
+        "td3_risk_0": 27,
+        "momentum": 3
+      }
+    }
+  },
+  "aggregate": {
+    "cash": {
+      "test_return_mean": 0.0,
+      "test_return_std_across_seeds": null
+    },
+    "equal_weight": {
+      "test_return_mean": 0.2907138691733305,
+      "test_return_std_across_seeds": null
+    },
+    "buy_hold": {
+      "test_return_mean": 0.2996191759834014,
+      "test_return_std_across_seeds": null
+    },
+    "momentum": {
+      "test_return_mean": 0.3256558770128677,
+      "test_return_std_across_seeds": null
+    },
+    "reversal": {
+      "test_return_mean": 0.2647553542150241,
+      "test_return_std_across_seeds": null
+    },
+    "td3_risk_0": {
+      "test_return_mean": 0.27199069938414655,
+      "test_return_std_across_seeds": null
+    },
+    "td3_risk_2": {
+      "test_return_mean": 0.09511938437143201,
+      "test_return_std_across_seeds": null
+    },
+    "td3_risk_8": {
+      "test_return_mean": 0.24123690309346665,
+      "test_return_std_across_seeds": null
+    },
+    "ddpg": {
+      "test_return_mean": 0.061357109429957424,
+      "test_return_std_across_seeds": null
+    },
+    "equal_mixture": {
+      "test_return_mean": 0.20090103388966987,
+      "test_return_std_across_seeds": null
+    },
+    "dqn_selector": {
+      "test_return_mean": 0.02070785912110682,
+      "test_return_std_across_seeds": null
+    }
+  },
+  "claim": "Executable research experiment. No claim of profitable or statistically superior performance."
+}

@@ -1,0 +1,23 @@
+{
+  "selected_on": "validation",
+  "strategy": "cash",
+  "criterion": "total_return - 0.5 * max_drawdown",
+  "validation_metrics": {
+    "total_return": 0.0,
+    "annual_return": 0.0,
+    "annual_volatility": 0.0,
+    "sharpe": null,
+    "max_drawdown": -0.0,
+    "sortino": null,
+    "calmar": null,
+    "mean_turnover": 0.0
+  },
+  "pool_order": [
+    "td3_risk_0",
+    "td3_risk_2",
+    "td3_risk_8",
+    "momentum",
+    "reversal",
+    "cash"
+  ]
+}

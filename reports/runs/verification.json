@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-19",
+  "tests": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "109",
+    "time": "13.515",
+    "timestamp": "2026-10-19T20:13:12.695956+08:00",
+    "hostname": "LAPTOP-CEG2RRK7"
+  },
+  "market_data_sha256": "64c84ef0588d2a8086e7dd56987d1ce75d6f5fe3d9b155e0cf21711012d9145c",
+  "market_checkpoint_reload": {
+    "7": {
+      "strategies": 11,
+      "all_metrics_match": true
+    },
+    "17": {
+      "strategies": 11,
+      "all_metrics_match": true
+    },
+    "29": {
+      "strategies": 11,
+      "all_metrics_match": true
+    }
+  },
+  "main_run_status": "complete",
+  "walkforward_completed_folds": 3,
+  "source_sha256": {
+    "src\\rlasset\\__init__.py": "2281775e14fca52fd6401cedfcef506add3c5d88106b5e160ddf98b70a1822c7",
+    "src\\rlasset\\cli.py": "39ff8e4fdc084a1b78da6005932611d2e3cfa5c116b7f4710a8e7e265c36b30b",
+    "src\\rlasset\\data.py": "f12e15203c52bff6c525e421840888b76ab76a05f8705e15090aa10253900272",
+    "src\\rlasset\\download.py": "f4f9c8ba16aa2af306ad3634f0650240787e5df138f763347d5cf91cb0bf9917",
+    "src\\rlasset\\env.py": "c22d1f98e335146df777924af355bf0f5a0e80f002a00317ec9172e49c92c1f7",
+    "src\\rlasset\\experiment.py": "629038a549d9917568524379c208976ffb377f2e46f9656b6dba2d67f7769549",
+    "src\\rlasset\\extractors.py": "038721236cd86985a0725b387bc86e246ac85505b2cf9564a5a49543f5fb8f73",
+    "src\\rlasset\\finrl_adapter.py": "d40ee72cd0cbfe32a097f846c7a73a9faecc64adebf6690d22d5749cde883481",
+    "src\\rlasset\\meta.py": "ca7dfb31cafd7bcf8f55b32f8bbcebf868ab6f87774b78173d6c2ad28fad02a0",
+    "src\\rlasset\\metrics.py": "f0d49bedf76c59891596f655780d8c067b57ead137d54a9b53d019b55d70ed64",
+    "src\\rlasset\\theory.py": "f420ccea651c19bcc236e7d3bafba3ce33c6978f3de3fd8f3d62d8df63602414",
+    "src\\rlasset\\walkforward.py": "d08495052f31877eeebd708942c1f0bf760979826c71ebc69ea66727d33a0fbe"
+  },
+  "checkpoint_sha256": {
+    "runs\\ashare\\seed_17\\models\\ddpg.zip": "aa9c98b776946e6674882d9b9bc1ab7479e1ecedf98b7420363faecf97354a30",
+    "runs\\ashare\\seed_17\\models\\dqn_selector.zip": "5b7bb5665b02a01b18c8a02080ac6efdae9a1682cd536ffa66c5f8aab08e6bcc",
+    "runs\\ashare\\seed_17\\models\\td3_risk_0.zip": "7248ffd1809d1305d9a525d29faf74b4be0f2be6607a1d694dc49ad7b6532d47",
+    "runs\\ashare\\seed_17\\models\\td3_risk_2.zip": "a7301c4ed8b0a4d9d8a76b9ca9e054df7ebd3609a9c008346191e821c878dc23",
+    "runs\\ashare\\seed_17\\models\\td3_risk_8.zip": "a3cfdec55fde96f2d7cdc5c36c94a41bd8501be741dbc5aff0c4cf6461690abe",
+    "runs\\ashare\\seed_29\\models\\ddpg.zip": "0849d776248a5d4a626a5eb3d4cc9739c093201cb41317a8730a5aa16665599f",
+    "runs\\ashare\\seed_29\\models\\dqn_selector.zip": "538de9e5d4f7a32deb113a9791dbea4dbe3d7fe76f6c2f4704e0ae5cf87dabdb",
+    "runs\\ashare\\seed_29\\models\\td3_risk_0.zip": "e82457d111b9aa51d4eb373dfca3eb9d478506c8bbbe26c9bedf666e27ed07a0",
+    "runs\\ashare\\seed_29\\models\\td3_risk_2.zip": "4f6434bfc991a9491b83aac45e5e45cb00c248e1ab641c59eec27d8ddbbdd717",
+    "runs\\ashare\\seed_29\\models\\td3_risk_8.zip": "ba6e287d6c094ea7798605b2447c2c5d1262250c2759a876f686e7e74ae01936",
+    "runs\\ashare\\seed_7\\models\\ddpg.zip": "4b261bf3db1184983cddf5172a9f3699d390684bdf4fb23cd7d18e607f12c7bc",
+    "runs\\ashare\\seed_7\\models\\dqn_selector.zip": "c744bef6c5f61423a631c534289fbcf3ea1ea0fcd797ccde2a2e41c8241da184",
+    "runs\\ashare\\seed_7\\models\\td3_risk_0.zip": "b771929cb269a3231c07bde2ca88f3e8185e38c50acea6c049bf343126939066",
+    "runs\\ashare\\seed_7\\models\\td3_risk_2.zip": "607d5a29a9df11a2ddcc06e093f198f82ccb1e1da9dcda15f925ae23422c8a58",
+    "runs\\ashare\\seed_7\\models\\td3_risk_8.zip": "351c336ea904ed3374a97fb7b9c6cf73831ce02e7379c83e4501ea16bad67312",
+    "runs\\walkforward\\fold_01\\seed_7\\models\\ddpg.zip": "d5c7cab362eacd9c0da2c1880d032281f771b3af93308894ed6bcf8b1ee56652",
+    "runs\\walkforward\\fold_01\\seed_7\\models\\dqn_selector.zip": "b01422da2f293d850aa6fc684a8e0b219bb808bf34afdfcfae005a7585047518",
+    "runs\\walkforward\\fold_01\\seed_7\\models\\td3_risk_0.zip": "d71bc55c594c5ed065de406cc97f47eccd71f9eeaaf15a7dea3b29e34099b875",
+    "runs\\walkforward\\fold_01\\seed_7\\models\\td3_risk_2.zip": "2e85b91eb9dbc8c01df9df5d3c1c87adf2e7ebf525d289574660eb8c843e8e4a",
+    "runs\\walkforward\\fold_01\\seed_7\\models\\td3_risk_8.zip": "5172cbb7635edae390674f12358055d338022e4011f584bde03400d9e1f08af7",
+    "runs\\walkforward\\fold_02\\seed_7\\models\\ddpg.zip": "c52f267205925e3f5efcb6a1754cbeb51e43b62f1533e26f8e40f98f747fc7a3",
+    "runs\\walkforward\\fold_02\\seed_7\\models\\dqn_selector.zip": "39c0fd4f8d14dc390a78a045643bfb9fc37f1858cd16b086beba7a08df7218b4",
+    "runs\\walkforward\\fold_02\\seed_7\\models\\td3_risk_0.zip": "c0c89955bf6c08b8a7e8111fd6ab5f4381d65ddfbcabff988411c2bebd61cea5",
+    "runs\\walkforward\\fold_02\\seed_7\\models\\td3_risk_2.zip": "07d82762be7ccdc4e7c9d20f84b1121e5d45859cb78cbdec1b51c36fdfeaffa0",
+    "runs\\walkforward\\fold_02\\seed_7\\models\\td3_risk_8.zip": "351ce0707519fa6ccc048b912a738e2e72c47e0cd274ee4f49c4f5de346ec392",
+    "runs\\walkforward\\fold_03\\seed_7\\models\\ddpg.zip": "a33dc190a2ee87b579bc24fbed93e674b56a39c6d0325eba597b1d71632103d7",
+    "runs\\walkforward\\fold_03\\seed_7\\models\\dqn_selector.zip": "0f5ad92596f79bcf45827044d2a5d79802c29a2f4ff09851072ed064651a28be",
+    "runs\\walkforward\\fold_03\\seed_7\\models\\td3_risk_0.zip": "4a6a8d029232fdf98fdf7b7cfa2f026f01033c227fe3887225a6ead41013d3c8",
+    "runs\\walkforward\\fold_03\\seed_7\\models\\td3_risk_2.zip": "17f20f3a99331baf6d2e87fa7ba0fcf56ce73feb54cd7d89703baf0cf170fbca",
+    "runs\\walkforward\\fold_03\\seed_7\\models\\td3_risk_8.zip": "4d59667ce5108420933ce38184b3c04e0b67190b758d73e3d836d092bb6508b6"
+  },
+  "scope": "Software/accounting/reproducibility verification, not evidence of stable investment advantage."
+}

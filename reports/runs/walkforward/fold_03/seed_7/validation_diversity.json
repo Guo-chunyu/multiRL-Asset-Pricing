@@ -1,0 +1,8 @@
+{
+  "mean_L1_distance": {
+    "td3_risk_0 vs td3_risk_2": 0.6385280829585229,
+    "td3_risk_0 vs td3_risk_8": 1.1701941510127416,
+    "td3_risk_2 vs td3_risk_8": 0.7292501028046785
+  },
+  "interpretation": "Observed validation allocations; different risk coefficients do not guarantee diverse policies."
+}

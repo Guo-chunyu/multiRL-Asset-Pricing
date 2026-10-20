@@ -1,0 +1,102 @@
+{
+  "objective": "stationary_average_reward",
+  "parameters": {
+    "seed": 7,
+    "horizon": 5000,
+    "episodes": 16,
+    "rho": 0.9,
+    "cost": 1.0,
+    "risk": 0.3,
+    "discount": 1.0,
+    "return_noise_std": 0.0
+  },
+  "analytic_feedback": {
+    "position_coef": 0.5821091654199726,
+    "signal_coef": 0.611328528038514,
+    "rho": 0.9,
+    "cost": 1.0,
+    "risk": 0.3,
+    "discount": 1.0
+  },
+  "policies": {
+    "analytic": {
+      "mean_reward": 0.6447371243511283,
+      "mean_pnl": 1.1898669704381817,
+      "mean_squared_position": 1.817099486956845,
+      "mean_squared_trade": 0.10013234005320922,
+      "mean_discounted_return": 3223.68562175564,
+      "episode_mean_rewards": [
+        0.5957574502532974,
+        0.5270123013599547,
+        0.691007769169995,
+        0.6234235443469972,
+        0.6075968631501488,
+        0.6351499782943897,
+        0.6748095044426453,
+        0.6753760763518337,
+        0.5830188142515255,
+        0.6585304787375408,
+        0.7633602999085366,
+        0.5991031672535936,
+        0.7036163024805246,
+        0.6335634856322142,
+        0.6769794882088003,
+        0.6674884657760516
+      ],
+      "standard_error_mean_reward": 0.014063829657567894
+    },
+    "myopic": {
+      "mean_reward": 0.5995330565882957,
+      "mean_pnl": 1.1986191482010755,
+      "mean_squared_position": 1.9969536387092657,
+      "mean_squared_trade": 0.05497837905371962,
+      "mean_discounted_return": 2997.6652829414784,
+      "episode_mean_rewards": [
+        0.5554165761465509,
+        0.4840727050962856,
+        0.6509228668712886,
+        0.5772063831769738,
+        0.5583169221121483,
+        0.5902770670061158,
+        0.6303238359830214,
+        0.6341020815251802,
+        0.5378341366180528,
+        0.6133904065920766,
+        0.7111471997162936,
+        0.5520761500899497,
+        0.6618369010048305,
+        0.5889249725987962,
+        0.6286198647454031,
+        0.6180608361297629
+      ],
+      "standard_error_mean_reward": 0.01387992578009266
+    },
+    "zero": {
+      "mean_reward": 0.0,
+      "mean_pnl": 0.0,
+      "mean_squared_position": 0.0,
+      "mean_squared_trade": 0.0,
+      "mean_discounted_return": 0.0,
+      "episode_mean_rewards": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "standard_error_mean_reward": 0.0
+    }
+  },
+  "scope": "One synthetic asset, unrestricted signed positions, exogenous observable AR(1) predictor; no learned agent in this comparison."
+}

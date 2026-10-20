@@ -1,0 +1,71 @@
+{
+  "created_at_utc": "2026-10-19T11:51:41.952649+00:00",
+  "data_path": "${PROJECT_ROOT}\\runs\\demo_synthetic.csv",
+  "data_kind": "synthetic",
+  "data_sha256": "e8e1486e24116b7cf978a2c78022995eee30eef5f66ca9b5650d0c8dac5ea0d3",
+  "data_metadata": null,
+  "tickers": [
+    "SYN000",
+    "SYN001",
+    "SYN002",
+    "SYN003"
+  ],
+  "config": {
+    "total_timesteps": 512,
+    "seeds": [
+      7
+    ],
+    "lookback": 20,
+    "cost_bps": 5.0,
+    "max_weight": 0.5,
+    "risk_levels": [
+      0.0,
+      2.0,
+      8.0
+    ],
+    "backend": "finrl",
+    "learning_rate": 0.0003,
+    "shared_encoder": true
+  },
+  "versions": {
+    "python": "3.13.1",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "torch": "2.11.0",
+    "gymnasium": "1.2.3",
+    "stable-baselines3": "2.7.1",
+    "sb3-contrib": "2.7.1"
+  },
+  "splits": {
+    "train": {
+      "start_index": 20,
+      "end_index": 409,
+      "first_decision": "2019-01-29T00:00:00",
+      "last_valuation": "2020-07-27T00:00:00",
+      "transitions": 389
+    },
+    "meta": {
+      "start_index": 410,
+      "end_index": 565,
+      "first_decision": "2020-07-28T00:00:00",
+      "last_valuation": "2021-03-02T00:00:00",
+      "transitions": 155
+    },
+    "validation": {
+      "start_index": 566,
+      "end_index": 682,
+      "first_decision": "2021-03-03T00:00:00",
+      "last_valuation": "2021-08-12T00:00:00",
+      "transitions": 116
+    },
+    "test": {
+      "start_index": 683,
+      "end_index": 799,
+      "first_decision": "2021-08-13T00:00:00",
+      "last_valuation": "2022-01-24T00:00:00",
+      "transitions": 116
+    }
+  },
+  "selection_rule": "Max validation (total_return - 0.5 * max_drawdown), including cash; never use test metrics to choose.",
+  "status": "complete"
+}

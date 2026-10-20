@@ -1,0 +1,36 @@
+{
+  "selected_on": "validation",
+  "strategy": "buy_hold",
+  "criterion": "total_return - 0.5 * max_drawdown",
+  "validation_metrics": {
+    "total_return": 0.079459183274153,
+    "annual_return": 0.18414049964004012,
+    "annual_volatility": 0.16854710452585422,
+    "sharpe": 1.086573144963649,
+    "max_drawdown": 0.07369759060203336,
+    "sortino": 1.6326033463285108,
+    "calmar": 2.4985959260784787,
+    "mean_turnover": 0.008767546051535636
+  },
+  "pool_order": [
+    "td3_risk_2",
+    "ddpg",
+    "sac",
+    "ppo",
+    "a2c",
+    "momentum",
+    "reversal",
+    "cash"
+  ],
+  "best_rl_on_validation": "sac",
+  "best_rl_validation_metrics": {
+    "total_return": 0.05859362207475991,
+    "annual_return": 0.13413488434182322,
+    "annual_volatility": 0.10537513857302988,
+    "sharpe": 1.246969407643258,
+    "max_drawdown": 0.0411958840619887,
+    "sortino": 1.8996672005683095,
+    "calmar": 3.256026357875616,
+    "mean_turnover": 0.008451024577254676
+  }
+}

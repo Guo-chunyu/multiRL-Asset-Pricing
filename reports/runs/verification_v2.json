@@ -1,0 +1,304 @@
+{
+  "verified_utc": "2026-10-20T09:57:10.111079+00:00",
+  "pytest": {
+    "tests": 198,
+    "failures_or_errors": 0
+  },
+  "complete_runs": [
+    "runs\\comparison_v2",
+    "runs\\walkforward_v2\\fold_01",
+    "runs\\walkforward_v2\\fold_02",
+    "runs\\walkforward_v2\\fold_03",
+    "runs\\risk0_v2",
+    "runs\\risk8_v2"
+  ],
+  "checkpoint_count": 84,
+  "checkpoints_sha256": {
+    "runs\\comparison_v2\\seed_7\\models\\a2c.zip": "b2f811e54f46aa03f7b2a8066d920ab168c3b481c5b665fe74b8a91b38051d16",
+    "runs\\comparison_v2\\seed_7\\models\\ddpg.zip": "35883b94d91f9f96f9244dac7e1da0dd3ef38f41da430e7c168ccdeae9980ef7",
+    "runs\\comparison_v2\\seed_7\\models\\dqn_selector.zip": "0cfb885d0d8ebbde852eebd1a6308d0af55826135e36dd66fffe9707034bd514",
+    "runs\\comparison_v2\\seed_7\\models\\ppo.zip": "50c5154a8bc0fdf049ff9d5e2c8aaefa2dfa1e106c36cc8a2608ed5bd2c49445",
+    "runs\\comparison_v2\\seed_7\\models\\sac.zip": "6ca194c7d402d3bf4eed9faec12ae2d68e3870c8963145fd4e04e403b5e1caba",
+    "runs\\comparison_v2\\seed_7\\models\\td3_risk_2.zip": "de83afd6ca4b4b9cf3d2662286608594c17979eaaf16847837a3b831d34e7f3a",
+    "runs\\comparison_v2\\seed_17\\models\\a2c.zip": "a5cb537af851dfa08844aff24e19e2a663492716bcd824138fb76065b786253a",
+    "runs\\comparison_v2\\seed_17\\models\\ddpg.zip": "34c5a814e748468b7091dba6e86e74c7e1ff58b7bac3ac7aed4f5b33b959d2d6",
+    "runs\\comparison_v2\\seed_17\\models\\dqn_selector.zip": "c0be72d9143963ac445b50b218f0d2d5a170cc15cbd25241a5ca1ef0130b8c8b",
+    "runs\\comparison_v2\\seed_17\\models\\ppo.zip": "f5a6cb8d1f56cf6ad7504fb98251824275735fdc8c94fa5ae2f35fb4c624a077",
+    "runs\\comparison_v2\\seed_17\\models\\sac.zip": "570885cd5763a2c46db88704410fe4689de4d934d4d4152ed3a87bae13a38b67",
+    "runs\\comparison_v2\\seed_17\\models\\td3_risk_2.zip": "5abe54342b948054684cc99a37eee42362959f333d1146d83f11a7d07176a847",
+    "runs\\comparison_v2\\seed_29\\models\\a2c.zip": "2ee924544ebbb5794257f9335ec2e8e26bf7aaa9595a6fdf75c43791511cb0b8",
+    "runs\\comparison_v2\\seed_29\\models\\ddpg.zip": "8f24c5911a3d61f3373fb5cacae85627c41982ece7664ac4ff44b2cad750b0c2",
+    "runs\\comparison_v2\\seed_29\\models\\dqn_selector.zip": "be87ff033153e0fc5068798361b9ba269405dd90c4380c4584214b752218e983",
+    "runs\\comparison_v2\\seed_29\\models\\ppo.zip": "3709f9502c2f6b1797442eee0d9999f9506f70fe5ca0ec9ea4a84d867dc5f9f0",
+    "runs\\comparison_v2\\seed_29\\models\\sac.zip": "f87ec7c83deec5ffa1104ee745876a4a568f9bec9f3c66f8aeb1686c63ab6a8c",
+    "runs\\comparison_v2\\seed_29\\models\\td3_risk_2.zip": "9f05a90ca8ba78714ef17cffb145a6a61cbf5a5d7e8cde6e0f28608bffd43328",
+    "runs\\walkforward_v2\\fold_01\\seed_7\\models\\a2c.zip": "95635965e016aa54526b62f538b729f48dc22ca490e8ec86787637ddac5889fd",
+    "runs\\walkforward_v2\\fold_01\\seed_7\\models\\ddpg.zip": "ec84d2b2a320b50e9069a422ea5ee1d51b79c6c660a590485485e417161bf2ec",
+    "runs\\walkforward_v2\\fold_01\\seed_7\\models\\dqn_selector.zip": "463d0be5e2a428e4ddbb46e03f9eec4b2a8cf7667f6e6b628a5d3ed9bed88e1d",
+    "runs\\walkforward_v2\\fold_01\\seed_7\\models\\ppo.zip": "d8b0fc115b6c7ea9da030aab9f359aed2ef02552430d0bd16cd311bc7e43d321",
+    "runs\\walkforward_v2\\fold_01\\seed_7\\models\\sac.zip": "6ef45c42a10345e41aa40a603dcfdfea31262fd1902d472543b182f40d9bfada",
+    "runs\\walkforward_v2\\fold_01\\seed_7\\models\\td3_risk_2.zip": "7ebc848fa1b5572b48a53fb55b2d6df2e6d77786b6094fc5c822ad3f25f4758b",
+    "runs\\walkforward_v2\\fold_01\\seed_17\\models\\a2c.zip": "6fd3a7046639e05e91da4597fd289ae0482fa9767be054122746ae766f41a0c5",
+    "runs\\walkforward_v2\\fold_01\\seed_17\\models\\ddpg.zip": "9e1bae7561d3cf7f733ad3651969b3febdd603736fcb13e78bf4657f7c460e25",
+    "runs\\walkforward_v2\\fold_01\\seed_17\\models\\dqn_selector.zip": "867bd20abb2c7c81d6caab2f9864069f62dcb21dcdd998b2a89eeb9f221f58ee",
+    "runs\\walkforward_v2\\fold_01\\seed_17\\models\\ppo.zip": "27529d6feadd4df19a1d51b9b62dbf6ae6dd27bfd8c3eeb39f66800eee6d64d0",
+    "runs\\walkforward_v2\\fold_01\\seed_17\\models\\sac.zip": "75db21d7ded793aa311b96e68aee67bf8a5a8622821598a74ff2a7ed4c4961c0",
+    "runs\\walkforward_v2\\fold_01\\seed_17\\models\\td3_risk_2.zip": "ebe66fa9eb8aa67c70b2622192b08b89d5085e4ff74ccf9b9d45494879d837b2",
+    "runs\\walkforward_v2\\fold_01\\seed_29\\models\\a2c.zip": "6cf9089b7716a5166738c3aae649c2595d500ccac92d249cdcb5d8f96ccf7370",
+    "runs\\walkforward_v2\\fold_01\\seed_29\\models\\ddpg.zip": "95f2a389c9d927373f8e19e80ec10c46fae92817b593df8277543735141732bc",
+    "runs\\walkforward_v2\\fold_01\\seed_29\\models\\dqn_selector.zip": "d4b487f51b652cc03f5bc769d6938c39ebd58b91ed5216a7c2764c030cc1cd22",
+    "runs\\walkforward_v2\\fold_01\\seed_29\\models\\ppo.zip": "d15381aa4928583d006c9f1bf41cb1673adff53373fb22fb76b84798649e3dda",
+    "runs\\walkforward_v2\\fold_01\\seed_29\\models\\sac.zip": "22c95d95dd0bd6b93c05788522c79b821a5063c56f657beeae07f11716518978",
+    "runs\\walkforward_v2\\fold_01\\seed_29\\models\\td3_risk_2.zip": "8f709722eb47b24a280aa806c25fe05f9ef21c0d1bfce7354ff605f08567a074",
+    "runs\\walkforward_v2\\fold_02\\seed_7\\models\\a2c.zip": "e116fd84099901df632d23dc7a9356b130e99f190ab10d41d328f1ce5f7c46d7",
+    "runs\\walkforward_v2\\fold_02\\seed_7\\models\\ddpg.zip": "e4db789a02ccbcc218c9fa81c860e4b530aeca60db66a4ff24c82503fc7cdf2e",
+    "runs\\walkforward_v2\\fold_02\\seed_7\\models\\dqn_selector.zip": "4a05391f8567f172e756af5bc8def1cb0f8e5afa55c187d7dea24a8b71ff2dd8",
+    "runs\\walkforward_v2\\fold_02\\seed_7\\models\\ppo.zip": "86f5eb0077c0d190f07b0f3ae2475c414cba6baf4b088914d3cceab12b27bfbe",
+    "runs\\walkforward_v2\\fold_02\\seed_7\\models\\sac.zip": "d97b2052063c623d6c7a76515ccdcc2ecf395bb2c28f9cc1a0a9bed04efb46ad",
+    "runs\\walkforward_v2\\fold_02\\seed_7\\models\\td3_risk_2.zip": "0a2af2dbaa927438dabd6caccc146233251b417c3400b5983517d11ac43aa500",
+    "runs\\walkforward_v2\\fold_02\\seed_17\\models\\a2c.zip": "7f39df26bbba73acbad3e1353f43951928bec3ba207ad040bc930397984b99a2",
+    "runs\\walkforward_v2\\fold_02\\seed_17\\models\\ddpg.zip": "be894c671713f6450b5eb5b570c0100486d3392e46458a34b92c2c2044c9fca2",
+    "runs\\walkforward_v2\\fold_02\\seed_17\\models\\dqn_selector.zip": "04a4677749ea67de19de88b9e2f31036bf0e37a0f1adc2ee88715a40cd5a686d",
+    "runs\\walkforward_v2\\fold_02\\seed_17\\models\\ppo.zip": "d21b9bf21587122f93d9f471f7ff79d1c6623b57c04360dc5e91bc599ff53328",
+    "runs\\walkforward_v2\\fold_02\\seed_17\\models\\sac.zip": "fc0173ac4f3d9a11b88dcd97d181040d6d74936b215830756cdbd7cb980a376a",
+    "runs\\walkforward_v2\\fold_02\\seed_17\\models\\td3_risk_2.zip": "4eaa27f03dbf7d9fd3f6bfd547752cc0d4e920cfde116f9d936d2b47df73209d",
+    "runs\\walkforward_v2\\fold_02\\seed_29\\models\\a2c.zip": "40ccfbf08cf120421ded48627e027ac6efe010c8c9edaea0426f08652473168e",
+    "runs\\walkforward_v2\\fold_02\\seed_29\\models\\ddpg.zip": "223e2ca4c796c2acc0ef2191ddc9a0b6baa5aeeb3c07c173702ea24ff27ff9bf",
+    "runs\\walkforward_v2\\fold_02\\seed_29\\models\\dqn_selector.zip": "c7527fd78d9b6ccc771432ee19b11e0405a234f69ec9d624b9ac0c12cb2751e9",
+    "runs\\walkforward_v2\\fold_02\\seed_29\\models\\ppo.zip": "7d63bb826c5983375f6d75712a8440b4aaa30faec1653d079c30d5cfcb628af8",
+    "runs\\walkforward_v2\\fold_02\\seed_29\\models\\sac.zip": "5539d4c3740d623c33450bc23bc08c41db6eb770454f6317a8b6b1e04884bb44",
+    "runs\\walkforward_v2\\fold_02\\seed_29\\models\\td3_risk_2.zip": "dbe4b4a844a1e04b8449251eae158930c3cabac4f4bd90043691529f09900144",
+    "runs\\walkforward_v2\\fold_03\\seed_7\\models\\a2c.zip": "89da1b3c0b5684f180004092450501eb9fcbcc4b9ed37aab046049576e17d321",
+    "runs\\walkforward_v2\\fold_03\\seed_7\\models\\ddpg.zip": "7624c7047b2e15c4412dbdae085f796888415edad233f1a78ff6323c7d07b4ad",
+    "runs\\walkforward_v2\\fold_03\\seed_7\\models\\dqn_selector.zip": "39b1040806c835e59b06edcc8e4cb4afa9d40540697854b6b517db457b038736",
+    "runs\\walkforward_v2\\fold_03\\seed_7\\models\\ppo.zip": "598d8c16f7cbe953fc38f1a40025145cf908affe1ff617e7ac5d6ce406112ec3",
+    "runs\\walkforward_v2\\fold_03\\seed_7\\models\\sac.zip": "45ce48b9a51a96fedc1b02d9f14216deefad6bfe3e3c21d85bd51ad5a65166ce",
+    "runs\\walkforward_v2\\fold_03\\seed_7\\models\\td3_risk_2.zip": "c18b1962fc0caf0fed6a63aebb643012610b51dcccf84e0851672f976a8d121f",
+    "runs\\walkforward_v2\\fold_03\\seed_17\\models\\a2c.zip": "86f3d1ac86470ea4d17c0ec4ecbcf18068350ca0838de8665ac90040b64a3234",
+    "runs\\walkforward_v2\\fold_03\\seed_17\\models\\ddpg.zip": "25c394a71b3e5f1d6764dbe8bacefb9e0a24b0b643d65db9de275bcce8be6925",
+    "runs\\walkforward_v2\\fold_03\\seed_17\\models\\dqn_selector.zip": "f25667d7bb62215df0c13518a89c4df0d56556d232f6180f22d97e6bca70ba4c",
+    "runs\\walkforward_v2\\fold_03\\seed_17\\models\\ppo.zip": "78f50a314deff95fd8e6b96cf5007d352d0fc6d4bc3b500689e3a56c6f3ecd14",
+    "runs\\walkforward_v2\\fold_03\\seed_17\\models\\sac.zip": "a3fac1fc3135aeeed00472afc1a3be5c435261cc6542f948f512fe7c12f6be87",
+    "runs\\walkforward_v2\\fold_03\\seed_17\\models\\td3_risk_2.zip": "6f06de3bf04d50e226b31b183dd3b4acf4bb19cc2cb9453d007d7b3b65fd09e6",
+    "runs\\walkforward_v2\\fold_03\\seed_29\\models\\a2c.zip": "55e3bb691ac7f6b4f70e7f8cffa1bb797bbe6fe8df74e686a6377796e6a4364a",
+    "runs\\walkforward_v2\\fold_03\\seed_29\\models\\ddpg.zip": "d426f58691b94e34fc64b7a6d918a2ad82aa739987dc9151577a93f88eaacb9b",
+    "runs\\walkforward_v2\\fold_03\\seed_29\\models\\dqn_selector.zip": "004fbfa637db4fc35d52bad8dcecbc05d74a02fa7df22e088a00f6e5ce8f0a0d",
+    "runs\\walkforward_v2\\fold_03\\seed_29\\models\\ppo.zip": "bab9f7c972ebe2563d7fb2193b6150d714bd86254418722081fffae4b252c607",
+    "runs\\walkforward_v2\\fold_03\\seed_29\\models\\sac.zip": "2adaef0094bd6545cca798ac9f85128f72ad60d1a3a7a91b818957d666aeb5e1",
+    "runs\\walkforward_v2\\fold_03\\seed_29\\models\\td3_risk_2.zip": "9e217e77d554c619d623dfbaa020cada82b83a7dff0afb92077ab8477262a2f4",
+    "runs\\risk0_v2\\seed_7\\models\\dqn_selector.zip": "fb98c22af7bbf4fb4e18fce6007014119dd4e5e0dc84accabc7c70304b04093c",
+    "runs\\risk0_v2\\seed_7\\models\\td3_risk_0.zip": "b6ef632253dfa159b3da61cc67a53e52a7190e05a317f42597820da761bfd592",
+    "runs\\risk0_v2\\seed_17\\models\\dqn_selector.zip": "56f20bf426facffc777d55f4d3885346e5e2efce5d7d3fe8aebb026695d7a1fd",
+    "runs\\risk0_v2\\seed_17\\models\\td3_risk_0.zip": "dd57d0c23cefaa339fc86718865f9b20a77dac58ec6139c9003c47e05db9071f",
+    "runs\\risk0_v2\\seed_29\\models\\dqn_selector.zip": "b77d8c410cd2fd4e8d2e695086bd044e6f565c4e1d68432a962e1b1ee6ac71df",
+    "runs\\risk0_v2\\seed_29\\models\\td3_risk_0.zip": "3279aeaccd64ae5192165155c2c5bf580bd0f158319f00c8ad24117800ac8792",
+    "runs\\risk8_v2\\seed_7\\models\\dqn_selector.zip": "b23b92ea2c471658e5f5946ebd59e01ab7925127687faee2e9167477d0620abf",
+    "runs\\risk8_v2\\seed_7\\models\\td3_risk_8.zip": "766206e48f9b88c65cc6e9bdeef78dc8c4268c3718ab8d35bca02f24c78d0190",
+    "runs\\risk8_v2\\seed_17\\models\\dqn_selector.zip": "3a7a975e74532db3f1d8b0fe3e0f5cd80941cf1f3e279ab8eb866edf1d844843",
+    "runs\\risk8_v2\\seed_17\\models\\td3_risk_8.zip": "1015b34326c04500f66371c41aea9413f5fa29a81a4180529f5671132b3544f8",
+    "runs\\risk8_v2\\seed_29\\models\\dqn_selector.zip": "3ce3d00a24e0d9865199bc664835e834a708d384c1baa720e97647bd843d16bb",
+    "runs\\risk8_v2\\seed_29\\models\\td3_risk_8.zip": "fd3cb3b23662a28bd24c31210558292242f941a65b72c6a49fe8e8d5e8179550"
+  },
+  "paper_audits": [
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_17\\disruption\\best_rl_on_validation",
+      "transitions": 170,
+      "orders_reconciled": 491,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_17\\disruption\\consensus_on_validation",
+      "transitions": 170,
+      "orders_reconciled": 299,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_17\\disruption\\dqn_selector",
+      "transitions": 170,
+      "orders_reconciled": 256,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_17\\disruption\\equal_weight",
+      "transitions": 170,
+      "orders_reconciled": 594,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_17\\disruption\\selected_on_validation",
+      "transitions": 170,
+      "orders_reconciled": 669,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_17\\normal\\best_rl_on_validation",
+      "transitions": 170,
+      "orders_reconciled": 501,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_17\\normal\\consensus_on_validation",
+      "transitions": 170,
+      "orders_reconciled": 297,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_17\\normal\\dqn_selector",
+      "transitions": 170,
+      "orders_reconciled": 242,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_17\\normal\\equal_weight",
+      "transitions": 170,
+      "orders_reconciled": 572,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_17\\normal\\selected_on_validation",
+      "transitions": 170,
+      "orders_reconciled": 668,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_29\\disruption\\best_rl_on_validation",
+      "transitions": 170,
+      "orders_reconciled": 468,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_29\\disruption\\consensus_on_validation",
+      "transitions": 170,
+      "orders_reconciled": 160,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_29\\disruption\\dqn_selector",
+      "transitions": 170,
+      "orders_reconciled": 429,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_29\\disruption\\equal_weight",
+      "transitions": 170,
+      "orders_reconciled": 594,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_29\\disruption\\selected_on_validation",
+      "transitions": 170,
+      "orders_reconciled": 669,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_29\\normal\\best_rl_on_validation",
+      "transitions": 170,
+      "orders_reconciled": 463,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_29\\normal\\consensus_on_validation",
+      "transitions": 170,
+      "orders_reconciled": 161,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_29\\normal\\dqn_selector",
+      "transitions": 170,
+      "orders_reconciled": 412,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_29\\normal\\equal_weight",
+      "transitions": 170,
+      "orders_reconciled": 572,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_29\\normal\\selected_on_validation",
+      "transitions": 170,
+      "orders_reconciled": 668,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_7\\disruption\\best_rl_on_validation",
+      "transitions": 170,
+      "orders_reconciled": 358,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_7\\disruption\\consensus_on_validation",
+      "transitions": 170,
+      "orders_reconciled": 350,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_7\\disruption\\dqn_selector",
+      "transitions": 170,
+      "orders_reconciled": 481,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_7\\disruption\\equal_weight",
+      "transitions": 170,
+      "orders_reconciled": 594,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_7\\disruption\\selected_on_validation",
+      "transitions": 170,
+      "orders_reconciled": 669,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_7\\normal\\best_rl_on_validation",
+      "transitions": 170,
+      "orders_reconciled": 358,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_7\\normal\\consensus_on_validation",
+      "transitions": 170,
+      "orders_reconciled": 354,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_7\\normal\\dqn_selector",
+      "transitions": 170,
+      "orders_reconciled": 468,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_7\\normal\\equal_weight",
+      "transitions": 170,
+      "orders_reconciled": 572,
+      "cash_shares_nav_T1": "passed"
+    },
+    {
+      "folder": "${PROJECT_ROOT}\\runs\\paper_v2\\seed_7\\normal\\selected_on_validation",
+      "transitions": 170,
+      "orders_reconciled": 668,
+      "cash_shares_nav_T1": "passed"
+    }
+  ],
+  "source_sha256": {
+    "src\\rlasset\\cli.py": "ddb33aa8a9a688eec4dae3d0b70c3ea03d9295403f756f943a0877dcefb4c971",
+    "src\\rlasset\\data.py": "f12e15203c52bff6c525e421840888b76ab76a05f8705e15090aa10253900272",
+    "src\\rlasset\\download.py": "f4f9c8ba16aa2af306ad3634f0650240787e5df138f763347d5cf91cb0bf9917",
+    "src\\rlasset\\env.py": "c22d1f98e335146df777924af355bf0f5a0e80f002a00317ec9172e49c92c1f7",
+    "src\\rlasset\\execution.py": "76b52fa50e77c7cd144f98fc6430457aa73968745f9b55cee8855f13997a24d8",
+    "src\\rlasset\\execution_data.py": "19eceb4004b93de9d769d5f526fbc254b1d436de1dd5229f14e9be9a8ae3c14b",
+    "src\\rlasset\\experiment.py": "8a7ec3eef853ce54047e395d2d24c742be0c265973e51ea260be81c081cd4e62",
+    "src\\rlasset\\extractors.py": "038721236cd86985a0725b387bc86e246ac85505b2cf9564a5a49543f5fb8f73",
+    "src\\rlasset\\finrl_adapter.py": "143e8a49246256e2a6ba94ca0a3a47a826678d761ee907896d0a879134eba794",
+    "src\\rlasset\\meta.py": "ca7dfb31cafd7bcf8f55b32f8bbcebf868ab6f87774b78173d6c2ad28fad02a0",
+    "src\\rlasset\\metrics.py": "f0d49bedf76c59891596f655780d8c067b57ead137d54a9b53d019b55d70ed64",
+    "src\\rlasset\\paper.py": "c2d1f87f732f241077d90b68144cde2724eccdad3af9a90f8e2946a39de9818a",
+    "src\\rlasset\\research_report.py": "501ce622e11875746c8358c4d129911d1e077618cc7a0addd9db6fe6b28dd581",
+    "src\\rlasset\\statistics.py": "a752ef5e45c3c3d14cb0f10967f125514871c3d26019366abef6458fa05deda5",
+    "src\\rlasset\\theory.py": "f420ccea651c19bcc236e7d3bafba3ce33c6978f3de3fd8f3d62d8df63602414",
+    "src\\rlasset\\walkforward.py": "d08495052f31877eeebd708942c1f0bf760979826c71ebc69ea66727d33a0fbe",
+    "src\\rlasset\\__init__.py": "2281775e14fca52fd6401cedfcef506add3c5d88106b5e160ddf98b70a1822c7"
+  },
+  "scope": "Computational and accounting verification; retrospective evidence, not a profitability or live-order certification."
+}

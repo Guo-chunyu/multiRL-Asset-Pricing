@@ -1,0 +1,13 @@
+{
+  "algorithm": "dqn",
+  "seed": 29,
+  "requested_steps": 10000,
+  "actual_steps": 10000,
+  "training_wall_seconds": 48.36998060000769,
+  "pool_order": [
+    "td3_risk_0",
+    "momentum",
+    "reversal",
+    "cash"
+  ]
+}

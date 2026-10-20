@@ -1,0 +1,122 @@
+{
+  "cash": {
+    "total_return": 0.0,
+    "annual_return": 0.0,
+    "annual_volatility": 0.0,
+    "sharpe": null,
+    "max_drawdown": -0.0,
+    "sortino": null,
+    "calmar": null,
+    "mean_turnover": 0.0
+  },
+  "equal_weight": {
+    "total_return": 0.07870577602900561,
+    "annual_return": 0.18231433891995763,
+    "annual_volatility": 0.16684362397688368,
+    "sharpe": 1.0867154453083983,
+    "max_drawdown": 0.07239264181594246,
+    "sortino": 1.6337170687956313,
+    "calmar": 2.5184098044589938,
+    "mean_turnover": 0.013509062662613753
+  },
+  "buy_hold": {
+    "total_return": 0.079459183274153,
+    "annual_return": 0.18414049964004012,
+    "annual_volatility": 0.16854710452585422,
+    "sharpe": 1.086573144963649,
+    "max_drawdown": 0.07369759060203336,
+    "sortino": 1.6326033463285108,
+    "calmar": 2.4985959260784787,
+    "mean_turnover": 0.008767546051535636
+  },
+  "momentum": {
+    "total_return": 0.08115021992505515,
+    "annual_return": 0.18824497222478698,
+    "annual_volatility": 0.17646868837035926,
+    "sharpe": 1.0651401999321188,
+    "max_drawdown": 0.08822741562770481,
+    "sortino": 1.5878378970583644,
+    "calmar": 2.133633529731036,
+    "mean_turnover": 0.07464653296414224
+  },
+  "reversal": {
+    "total_return": 0.07454828783202924,
+    "annual_return": 0.17226488071652735,
+    "annual_volatility": 0.16293208480129912,
+    "sharpe": 1.056422178842675,
+    "max_drawdown": 0.07207575416873394,
+    "sortino": 1.5995979005474112,
+    "calmar": 2.3900531143003274,
+    "mean_turnover": 0.07502288996993677
+  },
+  "td3_risk_2": {
+    "total_return": 0.06733579144182326,
+    "annual_return": 0.15494224415079172,
+    "annual_volatility": 0.1175828025389022,
+    "sharpe": 1.2837573242979483,
+    "max_drawdown": 0.06995732521901311,
+    "sortino": 1.869401211570734,
+    "calmar": 2.214810867421233,
+    "mean_turnover": 0.007157603133186685
+  },
+  "ddpg": {
+    "total_return": -0.009722437204619449,
+    "annual_return": -0.021365318961201658,
+    "annual_volatility": 0.05744695073392229,
+    "sharpe": -0.3474546172454489,
+    "max_drawdown": 0.04826863663706851,
+    "sortino": -0.48838003299037946,
+    "calmar": -0.44263357015544724,
+    "mean_turnover": 0.0066106239191203175
+  },
+  "sac": {
+    "total_return": 0.04422377524027952,
+    "annual_return": 0.10038255552968894,
+    "annual_volatility": 0.11601923161808624,
+    "sharpe": 0.8821118121907738,
+    "max_drawdown": 0.05577474872703181,
+    "sortino": 1.3223761075733638,
+    "calmar": 1.799784989099153,
+    "mean_turnover": 0.010008945852700298
+  },
+  "ppo": {
+    "total_return": 0.06242406414061035,
+    "annual_return": 0.14322627609996463,
+    "annual_volatility": 0.14849046724734993,
+    "sharpe": 0.9752884569195354,
+    "max_drawdown": 0.08065041577159243,
+    "sortino": 1.4235536791591001,
+    "calmar": 1.7758901145108956,
+    "mean_turnover": 0.012581836497010624
+  },
+  "a2c": {
+    "total_return": 0.0015301861939954582,
+    "annual_return": 0.003385649956012191,
+    "annual_volatility": 0.006543629967814456,
+    "sharpe": 0.5197690720304425,
+    "max_drawdown": 0.004420059090728955,
+    "sortino": 0.7431470899481878,
+    "calmar": 0.7659739126822014,
+    "mean_turnover": 0.0006892145059280672
+  },
+  "equal_mixture": {
+    "total_return": 0.034375477565965776,
+    "annual_return": 0.07757270629878872,
+    "annual_volatility": 0.0871789349347241,
+    "sharpe": 0.9003225641787167,
+    "max_drawdown": 0.048598827010167024,
+    "sortino": 1.3134155277382826,
+    "calmar": 1.5961847450054767,
+    "mean_turnover": 0.007664394254275645
+  },
+  "dqn_selector": {
+    "total_return": 0.08115021992505515,
+    "annual_return": 0.18824497222478698,
+    "annual_volatility": 0.17646868837035926,
+    "sharpe": 1.0651401999321188,
+    "max_drawdown": 0.08822741562770481,
+    "sortino": 1.5878378970583644,
+    "calmar": 2.133633529731036,
+    "mean_turnover": 0.07464653296414224
+  }
+}

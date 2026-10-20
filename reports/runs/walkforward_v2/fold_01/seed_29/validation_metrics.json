@@ -1,0 +1,122 @@
+{
+  "cash": {
+    "total_return": 0.0,
+    "annual_return": 0.0,
+    "annual_volatility": 0.0,
+    "sharpe": null,
+    "max_drawdown": -0.0,
+    "sortino": null,
+    "calmar": null,
+    "mean_turnover": 0.0
+  },
+  "equal_weight": {
+    "total_return": -0.015188467920550761,
+    "annual_return": -0.03326618687879725,
+    "annual_volatility": 0.19160793971080814,
+    "sharpe": -0.07947315751452937,
+    "max_drawdown": 0.12178835989936308,
+    "sortino": -0.09683527256706362,
+    "calmar": -0.2731475069233708,
+    "mean_turnover": 0.01302508948571512
+  },
+  "buy_hold": {
+    "total_return": -0.016622169256953985,
+    "annual_return": -0.03637450424559363,
+    "annual_volatility": 0.19057771838245866,
+    "sharpe": -0.09787279541001809,
+    "max_drawdown": 0.12159164275993614,
+    "sortino": -0.11922542885227973,
+    "calmar": -0.2991529962088715,
+    "mean_turnover": 0.008767546051535636
+  },
+  "momentum": {
+    "total_return": -0.018158466713169688,
+    "annual_return": -0.03969917053195501,
+    "annual_volatility": 0.1851889803142679,
+    "sharpe": -0.125169539198041,
+    "max_drawdown": 0.11859596268375668,
+    "sortino": -0.1536788070729275,
+    "calmar": -0.33474301851080085,
+    "mean_turnover": 0.06557951435814185
+  },
+  "reversal": {
+    "total_return": -0.019416276373984444,
+    "annual_return": -0.042416483579124774,
+    "annual_volatility": 0.20015868434815448,
+    "sharpe": -0.11477272599502408,
+    "max_drawdown": 0.12997258716304413,
+    "sortino": -0.13869582183063273,
+    "calmar": -0.3263494595665424,
+    "mean_turnover": 0.07082521905317124
+  },
+  "td3_risk_2": {
+    "total_return": 0.005069907168126352,
+    "annual_return": 0.011241566052220498,
+    "annual_volatility": 0.06291579274093333,
+    "sharpe": 0.2090067345178532,
+    "max_drawdown": 0.03465689007444556,
+    "sortino": 0.2640773688213888,
+    "calmar": 0.32436742096803217,
+    "mean_turnover": 0.005857722885161182
+  },
+  "ddpg": {
+    "total_return": -0.0028407894714200374,
+    "annual_return": -0.0062688446667911605,
+    "annual_volatility": 0.12050644016489484,
+    "sharpe": 0.008362532984388469,
+    "max_drawdown": 0.07295743007224162,
+    "sortino": 0.010154633944914886,
+    "calmar": -0.0859246914342216,
+    "mean_turnover": 0.014087229535669876
+  },
+  "sac": {
+    "total_return": -0.007689579408911631,
+    "annual_return": -0.016918947897740868,
+    "annual_volatility": 0.13164996570204754,
+    "sharpe": -0.06338535613779539,
+    "max_drawdown": 0.08164776055029978,
+    "sortino": -0.07710239558447302,
+    "calmar": -0.20721876244624995,
+    "mean_turnover": 0.009477655543265457
+  },
+  "ppo": {
+    "total_return": -0.02430340872256326,
+    "annual_return": -0.05293441102731949,
+    "annual_volatility": 0.21399003732615565,
+    "sharpe": -0.1454197373968135,
+    "max_drawdown": 0.1412356532616081,
+    "sortino": -0.1772380583479107,
+    "calmar": -0.3747949600889379,
+    "mean_turnover": 0.013079302835683478
+  },
+  "a2c": {
+    "total_return": 2.513229382285759e-05,
+    "annual_return": 5.555644196545024e-05,
+    "annual_volatility": 0.00031330387589316395,
+    "sharpe": 0.17747483988628038,
+    "max_drawdown": 0.00017891048963048953,
+    "sortino": 0.22241765556499024,
+    "calmar": 0.31052646538608786,
+    "mean_turnover": 3.4940841166186314e-05
+  },
+  "equal_mixture": {
+    "total_return": -0.004620229629309078,
+    "annual_return": -0.010184587867301882,
+    "annual_volatility": 0.10466242365013657,
+    "sharpe": -0.0453004923555183,
+    "max_drawdown": 0.06551502975328817,
+    "sortino": -0.05496254804497975,
+    "calmar": -0.15545422028585312,
+    "mean_turnover": 0.00912604020965037
+  },
+  "dqn_selector": {
+    "total_return": 0.06662745335181053,
+    "annual_return": 0.15324860453579142,
+    "annual_volatility": 0.08845367551197965,
+    "sharpe": 1.656145856362476,
+    "max_drawdown": 0.04186587371866691,
+    "sortino": 2.7653504791917487,
+    "calmar": 3.660465933796142,
+    "mean_turnover": 0.11490315890512907
+  }
+}

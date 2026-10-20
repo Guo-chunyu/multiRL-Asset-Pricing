@@ -1,0 +1,82 @@
+{
+  "cash": {
+    "total_return": 0.0,
+    "annual_return": 0.0,
+    "annual_volatility": 0.0,
+    "sharpe": null,
+    "max_drawdown": -0.0,
+    "sortino": null,
+    "calmar": null,
+    "mean_turnover": 0.0
+  },
+  "equal_weight": {
+    "total_return": 0.3484976266517255,
+    "annual_return": 0.5576999493182719,
+    "annual_volatility": 0.1531208568034484,
+    "sharpe": 2.973014281111957,
+    "max_drawdown": 0.07201382406964887,
+    "sortino": 4.973594514563523,
+    "calmar": 7.744345707553135,
+    "mean_turnover": 0.010268604152047937
+  },
+  "buy_hold": {
+    "total_return": 0.3609588329936647,
+    "annual_return": 0.579085016145394,
+    "annual_volatility": 0.1602830242187892,
+    "sharpe": 2.9323369018806607,
+    "max_drawdown": 0.07648446248406328,
+    "sortino": 4.874326751047843,
+    "calmar": 7.571276535623889,
+    "mean_turnover": 0.005879413234559191
+  },
+  "momentum": {
+    "total_return": 0.4017602316468922,
+    "annual_return": 0.6497655939968767,
+    "annual_volatility": 0.17232918198606603,
+    "sharpe": 2.9933319243640577,
+    "max_drawdown": 0.08335207444621465,
+    "sortino": 5.0908219993668915,
+    "calmar": 7.795433986662887,
+    "mean_turnover": 0.06266130473378448
+  },
+  "reversal": {
+    "total_return": 0.3102810306810485,
+    "annual_return": 0.49271034648300643,
+    "annual_volatility": 0.13994831198150076,
+    "sharpe": 2.934198955905211,
+    "max_drawdown": 0.07031503621451116,
+    "sortino": 4.85046343502128,
+    "calmar": 7.007183285519294,
+    "mean_turnover": 0.06043258079029686
+  },
+  "td3_risk_0": {
+    "total_return": 0.19156318938604883,
+    "annual_return": 0.29667869355101245,
+    "annual_volatility": 0.14193798775997085,
+    "sharpe": 1.9019207929218047,
+    "max_drawdown": 0.06515609790964345,
+    "sortino": 2.912060295259759,
+    "calmar": 4.5533526879162975,
+    "mean_turnover": 0.8337776767554678
+  },
+  "equal_mixture": {
+    "total_return": 0.19156318938604883,
+    "annual_return": 0.29667869355101245,
+    "annual_volatility": 0.14193798775997085,
+    "sharpe": 1.9019207929218047,
+    "max_drawdown": 0.06515609790964345,
+    "sortino": 2.912060295259759,
+    "calmar": 4.5533526879162975,
+    "mean_turnover": 0.8337776767554678
+  },
+  "dqn_selector": {
+    "total_return": 0.017826859893542962,
+    "annual_return": 0.02653896620979252,
+    "annual_volatility": 0.015961981058433165,
+    "sharpe": 1.6489407331206185,
+    "max_drawdown": 0.003328019032769691,
+    "sortino": 5.757882624270771,
+    "calmar": 7.974403375844245,
+    "mean_turnover": 0.014443159072677686
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "cash": {
+    "total_return": 0.0,
+    "annual_return": 0.0,
+    "annual_volatility": 0.0,
+    "sharpe": null,
+    "max_drawdown": -0.0,
+    "sortino": null,
+    "calmar": null,
+    "mean_turnover": 0.0
+  },
+  "equal_weight": {
+    "total_return": -0.015188467920550761,
+    "annual_return": -0.03326618687879725,
+    "annual_volatility": 0.19160793971080814,
+    "sharpe": -0.07947315751452937,
+    "max_drawdown": 0.12178835989936308,
+    "sortino": -0.09683527256706362,
+    "calmar": -0.2731475069233708,
+    "mean_turnover": 0.01302508948571512
+  },
+  "buy_hold": {
+    "total_return": -0.016622169256953985,
+    "annual_return": -0.03637450424559363,
+    "annual_volatility": 0.19057771838245866,
+    "sharpe": -0.09787279541001809,
+    "max_drawdown": 0.12159164275993614,
+    "sortino": -0.11922542885227973,
+    "calmar": -0.2991529962088715,
+    "mean_turnover": 0.008767546051535636
+  },
+  "momentum": {
+    "total_return": -0.018158466713169688,
+    "annual_return": -0.03969917053195501,
+    "annual_volatility": 0.1851889803142679,
+    "sharpe": -0.125169539198041,
+    "max_drawdown": 0.11859596268375668,
+    "sortino": -0.1536788070729275,
+    "calmar": -0.33474301851080085,
+    "mean_turnover": 0.06557951435814185
+  },
+  "reversal": {
+    "total_return": -0.019416276373984444,
+    "annual_return": -0.042416483579124774,
+    "annual_volatility": 0.20015868434815448,
+    "sharpe": -0.11477272599502408,
+    "max_drawdown": 0.12997258716304413,
+    "sortino": -0.13869582183063273,
+    "calmar": -0.3263494595665424,
+    "mean_turnover": 0.07082521905317124
+  },
+  "td3_risk_2": {
+    "total_return": 5.418724020959344e-06,
+    "annual_return": 1.1978271332000743e-05,
+    "annual_volatility": 0.002206451432118511,
+    "sharpe": 0.0065225313388479695,
+    "max_drawdown": 0.0013986795624151378,
+    "sortino": 0.007944416882156911,
+    "calmar": 0.008563985385843157,
+    "mean_turnover": 0.00026564831793268674
+  },
+  "ddpg": {
+    "total_return": -0.04449184097412087,
+    "annual_return": -0.0957102240640752,
+    "annual_volatility": 0.07247248749632067,
+    "sharpe": -1.3517526807091111,
+    "max_drawdown": 0.07728362405559748,
+    "sortino": -1.61256734934435,
+    "calmar": -1.2384282599793937,
+    "mean_turnover": 1.0017782869575855
+  },
+  "sac": {
+    "total_return": -0.008205776965385136,
+    "annual_return": -0.01804904731351802,
+    "annual_volatility": 0.14881661361927712,
+    "sharpe": -0.047344275617493846,
+    "max_drawdown": 0.09244876060320582,
+    "sortino": -0.057498367871201626,
+    "calmar": -0.19523298306815956,
+    "mean_turnover": 0.010376124920469462
+  },
+  "ppo": {
+    "total_return": -0.0009894340483655216,
+    "annual_return": -0.0021858602665408284,
+    "annual_volatility": 0.009836710038603825,
+    "sharpe": -0.2175764077941869,
+    "max_drawdown": 0.0070675764934537005,
+    "sortino": -0.26669853659447573,
+    "calmar": -0.3092800295215012,
+    "mean_turnover": 0.0008139142318308377
+  },
+  "a2c": {
+    "total_return": -0.0018973942029951573,
+    "annual_return": -0.0041894236980771216,
+    "annual_volatility": 0.11676648141746246,
+    "sharpe": 0.022688609952142738,
+    "max_drawdown": 0.0705498646918254,
+    "sortino": 0.027540356978579927,
+    "calmar": -0.059382448377148324,
+    "mean_turnover": 0.0072792751440010454
+  },
+  "equal_mixture": {
+    "total_return": -0.0077321410920514946,
+    "annual_return": -0.017012154136429588,
+    "annual_volatility": 0.09868766400066659,
+    "sharpe": -0.12438293211600983,
+    "max_drawdown": 0.0628412782157689,
+    "sortino": -0.15062543726909178,
+    "calmar": -0.27071623333340616,
+    "mean_turnover": 0.010407596568674536
+  },
+  "dqn_selector": {
+    "total_return": 0.08079787261678328,
+    "annual_return": 0.18738911579364648,
+    "annual_volatility": 0.07382844163250894,
+    "sharpe": 2.3636376704217468,
+    "max_drawdown": 0.02184822377949968,
+    "sortino": 4.735714353898974,
+    "calmar": 8.57685813203153,
+    "mean_turnover": 0.1854609854072082
+  }
+}

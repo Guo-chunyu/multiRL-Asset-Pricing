@@ -1,0 +1,4 @@
+{
+  "mean_L1_distance": {},
+  "interpretation": "Observed validation allocations; different risk coefficients do not guarantee diverse policies."
+}
