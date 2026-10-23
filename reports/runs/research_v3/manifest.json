@@ -1,0 +1,158 @@
+{
+  "identity": {
+    "data": {
+      "ashare_broad_raw.csv": "41c9dfa0f32be0d342703c63d0ade2aea541fb586a62e41326c88bf7dadbc9c8",
+      "cash_actions.csv": "7d8c43024d2f4154435c2e3c2d9ac79c772aa0595569e20f2d494add6ece9640",
+      "splits.csv": "6e5b9b647c5bff6f06aa9555f29ee0c3ca7d66874e66cf2d5753ae52e1b4c7c3"
+    },
+    "sources": {
+      "study_v3.py": "18e9cbfab9ec7dc15b841a4fc34257c1fc3909712f4ff72264240a2d0d41bf32",
+      "corporate_actions.py": "dc8107939442cb0ac42210fb1ad40a896a5a59166622e05f4b71d1baa02a3a69",
+      "robust_env.py": "9a345d0e93c590cdef33ad229233742d27f0ef42d37a72bdfec85ad8fecf1001",
+      "env.py": "c22d1f98e335146df777924af355bf0f5a0e80f002a00317ec9172e49c92c1f7",
+      "data.py": "f12e15203c52bff6c525e421840888b76ab76a05f8705e15090aa10253900272",
+      "finrl_adapter.py": "143e8a49246256e2a6ba94ca0a3a47a826678d761ee907896d0a879134eba794",
+      "extractors.py": "038721236cd86985a0725b387bc86e246ac85505b2cf9564a5a49543f5fb8f73",
+      "metrics.py": "f0d49bedf76c59891596f655780d8c067b57ead137d54a9b53d019b55d70ed64",
+      "research-protocol-v3.md": "5a8c4525d656f5bde8350ec12b703f40c5c400b287f4976dc420710aad5e66b1"
+    },
+    "steps": 20000,
+    "seeds": [
+      7,
+      17,
+      29
+    ],
+    "candidates": [
+      "legacy_ppo",
+      "robust_ppo",
+      "robust_sac",
+      "robust_td3"
+    ]
+  },
+  "created_at_utc": "2026-10-23T05:58:13.571842+00:00",
+  "tickers": [
+    "510050",
+    "510300",
+    "510500"
+  ],
+  "sessions": 2800,
+  "folds": [
+    {
+      "name": "fold_01",
+      "train": [
+        120,
+        665
+      ],
+      "validation": [
+        666,
+        908
+      ],
+      "test": [
+        909,
+        1395
+      ],
+      "dates": {
+        "train": [
+          "2015-10-13",
+          "2017-12-29"
+        ],
+        "validation": [
+          "2018-01-02",
+          "2018-12-28"
+        ],
+        "test": [
+          "2019-01-02",
+          "2020-12-31"
+        ]
+      }
+    },
+    {
+      "name": "fold_02",
+      "train": [
+        120,
+        1152
+      ],
+      "validation": [
+        1153,
+        1395
+      ],
+      "test": [
+        1396,
+        1880
+      ],
+      "dates": {
+        "train": [
+          "2015-10-13",
+          "2019-12-31"
+        ],
+        "validation": [
+          "2020-01-02",
+          "2020-12-31"
+        ],
+        "test": [
+          "2021-01-04",
+          "2022-12-30"
+        ]
+      }
+    },
+    {
+      "name": "fold_03",
+      "train": [
+        120,
+        1638
+      ],
+      "validation": [
+        1639,
+        1880
+      ],
+      "test": [
+        1881,
+        2364
+      ],
+      "dates": {
+        "train": [
+          "2015-10-13",
+          "2021-12-31"
+        ],
+        "validation": [
+          "2022-01-04",
+          "2022-12-30"
+        ],
+        "test": [
+          "2023-01-03",
+          "2024-12-31"
+        ]
+      }
+    },
+    {
+      "name": "fold_04",
+      "train": [
+        120,
+        2122
+      ],
+      "validation": [
+        2123,
+        2364
+      ],
+      "test": [
+        2365,
+        2799
+      ],
+      "dates": {
+        "train": [
+          "2015-10-13",
+          "2023-12-29"
+        ],
+        "validation": [
+          "2024-01-02",
+          "2024-12-31"
+        ],
+        "test": [
+          "2025-01-02",
+          "2026-10-22"
+        ]
+      }
+    }
+  ],
+  "claim": "Retrospective exploratory study, not pristine out-of-sample or live performance"
+}

@@ -1,0 +1,123 @@
+{
+  "created_at_utc": "2026-10-23T05:53:55.004981+00:00",
+  "start": "2015-04-15",
+  "end": "2026-10-22",
+  "tickers": [
+    "510050",
+    "510300",
+    "510500"
+  ],
+  "sessions": 2800,
+  "rows": 8400,
+  "cash_events": 25,
+  "split_events": 1,
+  "input_sha256": {
+    "ashare_broad_raw.csv": "41c9dfa0f32be0d342703c63d0ade2aea541fb586a62e41326c88bf7dadbc9c8",
+    "cash_actions.csv": "7d8c43024d2f4154435c2e3c2d9ac79c772aa0595569e20f2d494add6ece9640",
+    "splits.csv": "6e5b9b647c5bff6f06aa9555f29ee0c3ca7d66874e66cf2d5753ae52e1b4c7c3"
+  },
+  "strict_panel_validation": "positive finite OHLCV, complete grid, valid OHLC, unique dates/tickers",
+  "cash_event_validation": "positive cash/share, record/ex/pay ordering, record date previous session",
+  "cash_sources": [
+    {
+      "ticker": "510050",
+      "url": "https://fundf10.eastmoney.com/fhsp_510050.html",
+      "file": "data\\cache_v3\\corporate_actions\\510050_fhsp.html",
+      "sha256": "62867d1e5caeba1cc50e5bd73216fce69c08aebd6fceb0a67fd18d397b6492a3",
+      "total_dividend_records": 18,
+      "total_split_records": 1
+    },
+    {
+      "ticker": "510300",
+      "url": "https://fundf10.eastmoney.com/fhsp_510300.html",
+      "file": "data\\cache_v3\\corporate_actions\\510300_fhsp.html",
+      "sha256": "a8653739e6bfcec2bbcb45edf2456bf475df4767ce7d003968f167f3aaa1be29",
+      "total_dividend_records": 14,
+      "total_split_records": 1
+    },
+    {
+      "ticker": "510500",
+      "url": "https://fundf10.eastmoney.com/fhsp_510500.html",
+      "file": "data\\cache_v3\\corporate_actions\\510500_fhsp.html",
+      "sha256": "645c1aa56fba29238d8e1f15e662cc4df913b44d0d3b22ad4cda369540231cea",
+      "total_dividend_records": 4,
+      "total_split_records": 2
+    }
+  ],
+  "raw_crosschecks": [
+    {
+      "ticker": "510050",
+      "sessions": 2800,
+      "date_grid_equal": true,
+      "max_abs_ohlc_difference_yuan": {
+        "open": 0.0009999999999998899,
+        "high": 0.001000000000000334,
+        "low": 0.001000000000000334,
+        "close": 0.001000000000000334
+      },
+      "different_ohlc_cells": 20,
+      "source": "https://push2his.eastmoney.com/api/qt/stock/kline/get",
+      "source_file": "data\\cache_v3\\provider_audit\\510050_20150415_20261022_eastmoney_raw.json",
+      "source_sha256": "a8a3896dd982cae4e3ce6d2064d0ec4010f25c1a3b0aad00b78ffdc5da2ffd9e"
+    },
+    {
+      "ticker": "510300",
+      "sessions": 2800,
+      "date_grid_equal": true,
+      "max_abs_ohlc_difference_yuan": {
+        "open": 0.001000000000000334,
+        "high": 0.001000000000000334,
+        "low": 0.001000000000000334,
+        "close": 0.001000000000000334
+      },
+      "different_ohlc_cells": 20,
+      "source": "https://push2his.eastmoney.com/api/qt/stock/kline/get",
+      "source_file": "data\\cache_v3\\provider_audit\\510300_20150415_20261022_eastmoney_raw.json",
+      "source_sha256": "9feedbb3df3d95c48c011eb0606c076a364899c710f2a4d0d9cd1394f964cdb8"
+    },
+    {
+      "ticker": "510500",
+      "sessions": 2800,
+      "date_grid_equal": true,
+      "max_abs_ohlc_difference_yuan": {
+        "open": 0.001000000000000334,
+        "high": 0.001000000000000334,
+        "low": 0.001000000000000334,
+        "close": 0.001000000000000334
+      },
+      "different_ohlc_cells": 20,
+      "source": "https://push2his.eastmoney.com/api/qt/stock/kline/get",
+      "source_file": "data\\cache_v3\\provider_audit\\510500_20150415_20261022_eastmoney_raw.json",
+      "source_sha256": "a02d1130e4e2c3abcb53d01890882365d985bb4978f24e5e6aaf0c4dab26adcf"
+    }
+  ],
+  "primary_notice_spot_checks": [
+    {
+      "ticker": "510300",
+      "record_date": "2026-01-16",
+      "ex_date": "2026-01-19",
+      "pay_date": "2026-01-27",
+      "cash_per_share": 0.123,
+      "url": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-01-12/510300_20260112_VTCZ.pdf"
+    },
+    {
+      "ticker": "510500",
+      "record_date": "2026-01-15",
+      "ex_date": "2026-01-16",
+      "pay_date": "2026-01-21",
+      "cash_per_share": 0.062,
+      "url": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-01-09/510500_20260109_5K7U.pdf"
+    }
+  ],
+  "precise_split_source": "https://pdf.dfcfw.com/pdf/H2_AN202208291577764682_1.pdf",
+  "2015_suspension_source": "https://epaper.stcn.com/paper/zqsb/page/1/2015-04/10/B148/20150410B148_pdf.pdf",
+  "start_reason": "510500 officially suspended 2015-04-13/14 for conversion; first subsequent complete panel",
+  "limitations": [
+    "Retrospective public daily snapshots, not a point-in-time database.",
+    "Fixed three broad A-share ETFs; no individual-stock universe or survivorship study.",
+    "Tencent and Eastmoney raw prices disagree by at most one CNY 0.001 tick.",
+    "Cash schedule is an Eastmoney aggregate; only selected events checked against manager notices.",
+    "Corporate actions must be applied causally by accounting, never provider hfq price ratios.",
+    "No strategy returns or final-period performance were examined during preparation."
+  ]
+}

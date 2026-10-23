@@ -1,0 +1,2365 @@
+{
+  "verified_utc": "2026-10-23T07:12:25.194555+00:00",
+  "validation_only": false,
+  "ledgers": 288,
+  "transitions": 124812,
+  "max_absolute_error": 7.416289804496046e-14,
+  "model_count": 48,
+  "model_sha256": {
+    "runs\\research_v3\\fold_01\\seed_7\\legacy_ppo.zip": "2726a502f570507fef395f20495161414d2bbcfa0e54a1dddd33a6f7ea89f0df",
+    "runs\\research_v3\\fold_01\\seed_17\\legacy_ppo.zip": "b8726a9dae61d198534e56d782c47ec7bee904f3118bb50051f51a4b050a700d",
+    "runs\\research_v3\\fold_01\\seed_29\\legacy_ppo.zip": "26ba2d052d5532749eb8bd3dcad7c527bc19ce4a53e7a87725c563330dd0652d",
+    "runs\\research_v3\\fold_01\\seed_7\\robust_ppo.zip": "fccd26e4083c19eb6623d433568362b5b19cbb13c930a4cd6c55a89a2528270c",
+    "runs\\research_v3\\fold_01\\seed_17\\robust_ppo.zip": "74c49977614633f51ed20d5c8a6e6a707a8da03c3206dec25217211fc38bf281",
+    "runs\\research_v3\\fold_01\\seed_29\\robust_ppo.zip": "2b88bf4fba43b91dcf330b567fec690aa7e1977549cf8229a5cc260c38d1ef9e",
+    "runs\\research_v3\\fold_01\\seed_7\\robust_sac.zip": "430f83416db605948dd3c6c548a55b4d0dfb1e5150824b52cecf07e998ab79d4",
+    "runs\\research_v3\\fold_01\\seed_17\\robust_sac.zip": "dcb210d69ee79ce62a3152d0b29cf101c5c08bc82559e40b996e92dfe0fb9b42",
+    "runs\\research_v3\\fold_01\\seed_29\\robust_sac.zip": "990d1a394e3bb27e6e9c237dc7ad757a9177c025b7848820681ced4a0b51484b",
+    "runs\\research_v3\\fold_01\\seed_7\\robust_td3.zip": "276780221c47587ef6fb8f0672e50b95d0b31dd66fecca0c7241a1c2ba328eb0",
+    "runs\\research_v3\\fold_01\\seed_17\\robust_td3.zip": "725334875098fb3d9d9283a1f84e2ff59e4321bac463805daaa25b9ccb0ff8f8",
+    "runs\\research_v3\\fold_01\\seed_29\\robust_td3.zip": "46994222f40bb7ddb155ccb3f3537435d863fea2280d45cd9e0a924ef0437c57",
+    "runs\\research_v3\\fold_02\\seed_7\\legacy_ppo.zip": "a21f8a0fcacff90a3f98e6a2b600fd17df75aa53b6cf1a46edb8aabd2e68b5b5",
+    "runs\\research_v3\\fold_02\\seed_17\\legacy_ppo.zip": "746a74cbedbac7aa338c722181d0877722ea7a43dc90b32739e507f864713e45",
+    "runs\\research_v3\\fold_02\\seed_29\\legacy_ppo.zip": "47f248292d0c323189635baac65999c5181d2be55d44387340789486de17631b",
+    "runs\\research_v3\\fold_02\\seed_7\\robust_ppo.zip": "56a18561489d09b82b8d9dd9a9f0f91a2b870c2a84eb31ae22655e5483387422",
+    "runs\\research_v3\\fold_02\\seed_17\\robust_ppo.zip": "304d3e7e5f212e9129e00db78f17b605b2ff53b71e210cccb5059bb3aad48e97",
+    "runs\\research_v3\\fold_02\\seed_29\\robust_ppo.zip": "40604cee3723f33dcbd32a7cef191576959d5f78a61dd0be5ff97b4d1a873d32",
+    "runs\\research_v3\\fold_02\\seed_7\\robust_sac.zip": "658217f5c44942a0d0efafb640a732098a0f25adfd667b7829914ba86dae029b",
+    "runs\\research_v3\\fold_02\\seed_17\\robust_sac.zip": "ede7a42cbac16d1a2e126dd954a7c92eed831ea04029e423e0afbf9604fcd67a",
+    "runs\\research_v3\\fold_02\\seed_29\\robust_sac.zip": "6db4764989b9072d02ba044b8ab083f61444a7f5887be3d81d34edf13543136b",
+    "runs\\research_v3\\fold_02\\seed_7\\robust_td3.zip": "5c339397fb6cb04064540a628e53fa3fdd575836ccfc4984ab38c646dc053da9",
+    "runs\\research_v3\\fold_02\\seed_17\\robust_td3.zip": "3f938030862ef339d5bcbb669712707477810fd9f5945cf95e51d956fe586f6b",
+    "runs\\research_v3\\fold_02\\seed_29\\robust_td3.zip": "f836668f2e9b196d5823dc9fecff6d7959f862d6b47925bec34501b2a2732349",
+    "runs\\research_v3\\fold_03\\seed_7\\legacy_ppo.zip": "b74a443a31638c9cd181e3d300dda3d035ee21d5587da62673363309b9361d8d",
+    "runs\\research_v3\\fold_03\\seed_17\\legacy_ppo.zip": "3d65f6f55ccb58f2d0a99b5f9140eff161d44d812c4f193b4e3e9033e340418a",
+    "runs\\research_v3\\fold_03\\seed_29\\legacy_ppo.zip": "b73181e6ad72866ece98a39df1d46914ab25443679c007178cc7de169df067b6",
+    "runs\\research_v3\\fold_03\\seed_7\\robust_ppo.zip": "32bcf10e88b9460588648253e27732e1ddb790383cf80889207de7bb3c34c9f1",
+    "runs\\research_v3\\fold_03\\seed_17\\robust_ppo.zip": "b7217bcc761ad82ba2fe66b7c81a319f0cd8d2949de4805b1a3680ec519ec812",
+    "runs\\research_v3\\fold_03\\seed_29\\robust_ppo.zip": "546aaf1fe628db87a64d71d929948782cbc56c241b646ba89ae7ae7b1b1dc686",
+    "runs\\research_v3\\fold_03\\seed_7\\robust_sac.zip": "fb56799b4f0330d7955b71bb98f89a9fc138fe352e2e2c54da8919ccab41b1b3",
+    "runs\\research_v3\\fold_03\\seed_17\\robust_sac.zip": "3f02291415e9d41efb6365eac93dc55a01b03fc3e0bee9e810251a9608c17e02",
+    "runs\\research_v3\\fold_03\\seed_29\\robust_sac.zip": "d1309b6564d3d5bdce3c72e7616f3b8947e1414b6baabe047b09c31e151ee920",
+    "runs\\research_v3\\fold_03\\seed_7\\robust_td3.zip": "25e63ac0336696432621088217c00c3b8afd6e230ce2b62e598b0e5eab488f09",
+    "runs\\research_v3\\fold_03\\seed_17\\robust_td3.zip": "317736bc0e4eb11fd8fcaadb5241d01dfb0585a4ad5ecd0bbb994c8198cc3a01",
+    "runs\\research_v3\\fold_03\\seed_29\\robust_td3.zip": "a525e0bd07291ec84677fcddbc0adca0297167edba170e6a0f3ee4aa536dd19b",
+    "runs\\research_v3\\fold_04\\seed_7\\legacy_ppo.zip": "69757fb18e276446c30726902a47a1dd60f0747a859ffd318712b002364397f0",
+    "runs\\research_v3\\fold_04\\seed_17\\legacy_ppo.zip": "59fd912d7d63c64d814af543da2af71f7796a1ead1c8bd73637d3b17683bab93",
+    "runs\\research_v3\\fold_04\\seed_29\\legacy_ppo.zip": "f98f74f87e13a91b57ad3ac30b9774a2a35a714d1124d92a8cc7b05d05584b9a",
+    "runs\\research_v3\\fold_04\\seed_7\\robust_ppo.zip": "521672920580a1e72edc202afe629167fd007da7e9a8b7b8b690b175593cbd2e",
+    "runs\\research_v3\\fold_04\\seed_17\\robust_ppo.zip": "1c34292f3358c75013dde2c2ad476be3e10ec041f2dbc071700a04cca6c1c451",
+    "runs\\research_v3\\fold_04\\seed_29\\robust_ppo.zip": "73b1f9e6bf3b6e63dded10a7e24cd7b9dfe4451429d8cf57d2d9df51f40feb70",
+    "runs\\research_v3\\fold_04\\seed_7\\robust_sac.zip": "299ef198af6430bcf1270c34a5eda7e1e9c7c88ccb93f53d17ccbb20dceeb921",
+    "runs\\research_v3\\fold_04\\seed_17\\robust_sac.zip": "282d634031fbb34d5049a325c320cf16795028631999943c9c719fc6ef99e71d",
+    "runs\\research_v3\\fold_04\\seed_29\\robust_sac.zip": "809443d9d0226593ed03b2d46b6305558f0f21a37bb1336dd912e304526a4fc2",
+    "runs\\research_v3\\fold_04\\seed_7\\robust_td3.zip": "b8c33486d3f38a09a2a35ca7986d094a3de447a025156d8717aa6a2089315e84",
+    "runs\\research_v3\\fold_04\\seed_17\\robust_td3.zip": "8e15dcc7e56da05460641faf33318b1e1ebb5fcce99f56c329b9a331bca7f8eb",
+    "runs\\research_v3\\fold_04\\seed_29\\robust_td3.zip": "c059859e3f1b2c03832453ad6da7f93153a8646487416d1518d09117dace4afc"
+  },
+  "ledger_results": {
+    "runs\\research_v3\\fold_01\\seed_7\\validation_legacy_ppo.csv": {
+      "days": 242,
+      "max_absolute_error": 2.731148640577885e-14,
+      "dividend_entitlements": 2,
+      "split_sessions": 0,
+      "first_decision": "2018-01-02",
+      "last_valuation": "2018-12-28"
+    },
+    "runs\\research_v3\\fold_01\\seed_17\\validation_legacy_ppo.csv": {
+      "days": 242,
+      "max_absolute_error": 2.5868196473766147e-14,
+      "dividend_entitlements": 2,
+      "split_sessions": 0,
+      "first_decision": "2018-01-02",
+      "last_valuation": "2018-12-28"
+    },
+    "runs\\research_v3\\fold_01\\seed_29\\validation_legacy_ppo.csv": {
+      "days": 242,
+      "max_absolute_error": 2.4202861936828413e-14,
+      "dividend_entitlements": 2,
+      "split_sessions": 0,
+      "first_decision": "2018-01-02",
+      "last_valuation": "2018-12-28"
+    },
+    "runs\\research_v3\\fold_01\\seed_7\\validation_robust_ppo.csv": {
+      "days": 242,
+      "max_absolute_error": 5.9119376061289586e-15,
+      "dividend_entitlements": 2,
+      "split_sessions": 0,
+      "first_decision": "2018-01-02",
+      "last_valuation": "2018-12-28"
+    },
+    "runs\\research_v3\\fold_01\\seed_17\\validation_robust_ppo.csv": {
+      "days": 242,
+      "max_absolute_error": 6.665235830886395e-15,
+      "dividend_entitlements": 2,
+      "split_sessions": 0,
+      "first_decision": "2018-01-02",
+      "last_valuation": "2018-12-28"
+    },
+    "runs\\research_v3\\fold_01\\seed_29\\validation_robust_ppo.csv": {
+      "days": 242,
+      "max_absolute_error": 8.287963251283836e-15,
+      "dividend_entitlements": 2,
+      "split_sessions": 0,
+      "first_decision": "2018-01-02",
+      "last_valuation": "2018-12-28"
+    },
+    "runs\\research_v3\\fold_01\\seed_7\\validation_robust_sac.csv": {
+      "days": 242,
+      "max_absolute_error": 7.868705687030797e-15,
+      "dividend_entitlements": 2,
+      "split_sessions": 0,
+      "first_decision": "2018-01-02",
+      "last_valuation": "2018-12-28"
+    },
+    "runs\\research_v3\\fold_01\\seed_17\\validation_robust_sac.csv": {
+      "days": 242,
+      "max_absolute_error": 8.132383655379272e-15,
+      "dividend_entitlements": 2,
+      "split_sessions": 0,
+      "first_decision": "2018-01-02",
+      "last_valuation": "2018-12-28"
+    },
+    "runs\\research_v3\\fold_01\\seed_29\\validation_robust_sac.csv": {
+      "days": 242,
+      "max_absolute_error": 6.161737786669619e-15,
+      "dividend_entitlements": 2,
+      "split_sessions": 0,
+      "first_decision": "2018-01-02",
+      "last_valuation": "2018-12-28"
+    },
+    "runs\\research_v3\\fold_01\\seed_7\\validation_robust_td3.csv": {
+      "days": 242,
+      "max_absolute_error": 8.663396445067755e-15,
+      "dividend_entitlements": 2,
+      "split_sessions": 0,
+      "first_decision": "2018-01-02",
+      "last_valuation": "2018-12-28"
+    },
+    "runs\\research_v3\\fold_01\\seed_17\\validation_robust_td3.csv": {
+      "days": 242,
+      "max_absolute_error": 5.051514762044462e-15,
+      "dividend_entitlements": 2,
+      "split_sessions": 0,
+      "first_decision": "2018-01-02",
+      "last_valuation": "2018-12-28"
+    },
+    "runs\\research_v3\\fold_01\\seed_29\\validation_robust_td3.csv": {
+      "days": 242,
+      "max_absolute_error": 6.439293542825908e-15,
+      "dividend_entitlements": 2,
+      "split_sessions": 0,
+      "first_decision": "2018-01-02",
+      "last_valuation": "2018-12-28"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_01\\buy_hold.csv": {
+      "days": 486,
+      "max_absolute_error": 4.440892098500626e-16,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_01\\equal_100.csv": {
+      "days": 486,
+      "max_absolute_error": 9.325873406851315e-15,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_01\\equal_80.csv": {
+      "days": 486,
+      "max_absolute_error": 9.103828801926284e-15,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_01\\equal_90.csv": {
+      "days": 486,
+      "max_absolute_error": 8.215650382226158e-15,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_01\\inverse_vol_90.csv": {
+      "days": 486,
+      "max_absolute_error": 1.887379141862766e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_01\\seed_17_legacy_ppo.csv": {
+      "days": 486,
+      "max_absolute_error": 6.616929226765933e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_01\\seed_17_robust_mixture.csv": {
+      "days": 486,
+      "max_absolute_error": 1.8207657603852567e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_01\\seed_17_robust_ppo.csv": {
+      "days": 486,
+      "max_absolute_error": 1.6759254980970237e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_01\\seed_17_robust_sac.csv": {
+      "days": 486,
+      "max_absolute_error": 1.9539925233402755e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_01\\seed_17_robust_td3.csv": {
+      "days": 486,
+      "max_absolute_error": 1.6209256159527285e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_01\\seed_29_legacy_ppo.csv": {
+      "days": 486,
+      "max_absolute_error": 7.416289804496046e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_01\\seed_29_robust_mixture.csv": {
+      "days": 486,
+      "max_absolute_error": 1.3988810110276972e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_01\\seed_29_robust_ppo.csv": {
+      "days": 486,
+      "max_absolute_error": 1.9095836023552692e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_01\\seed_29_robust_sac.csv": {
+      "days": 486,
+      "max_absolute_error": 1.3378187446733136e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_01\\seed_29_robust_td3.csv": {
+      "days": 486,
+      "max_absolute_error": 1.2212453270876722e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_01\\seed_7_legacy_ppo.csv": {
+      "days": 486,
+      "max_absolute_error": 6.350475700855895e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_01\\seed_7_robust_mixture.csv": {
+      "days": 486,
+      "max_absolute_error": 1.7985612998927536e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_01\\seed_7_robust_ppo.csv": {
+      "days": 486,
+      "max_absolute_error": 1.3405943022348765e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_01\\seed_7_robust_sac.csv": {
+      "days": 486,
+      "max_absolute_error": 1.887379141862766e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_01\\seed_7_robust_td3.csv": {
+      "days": 486,
+      "max_absolute_error": 1.600108934241007e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_01\\buy_hold.csv": {
+      "days": 486,
+      "max_absolute_error": 4.440892098500626e-16,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_01\\equal_100.csv": {
+      "days": 486,
+      "max_absolute_error": 6.8833827526759706e-15,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_01\\equal_80.csv": {
+      "days": 486,
+      "max_absolute_error": 4.440892098500626e-15,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_01\\equal_90.csv": {
+      "days": 486,
+      "max_absolute_error": 1.1102230246251565e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_01\\inverse_vol_90.csv": {
+      "days": 486,
+      "max_absolute_error": 1.865174681370263e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_01\\seed_17_legacy_ppo.csv": {
+      "days": 486,
+      "max_absolute_error": 6.150635556423367e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_01\\seed_17_robust_mixture.csv": {
+      "days": 486,
+      "max_absolute_error": 1.479372180313021e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_01\\seed_17_robust_ppo.csv": {
+      "days": 486,
+      "max_absolute_error": 1.5987211554602254e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_01\\seed_17_robust_sac.csv": {
+      "days": 486,
+      "max_absolute_error": 1.9817480989559044e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_01\\seed_17_robust_td3.csv": {
+      "days": 486,
+      "max_absolute_error": 1.9095836023552692e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_01\\seed_29_legacy_ppo.csv": {
+      "days": 486,
+      "max_absolute_error": 6.833422716567839e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_01\\seed_29_robust_mixture.csv": {
+      "days": 486,
+      "max_absolute_error": 1.9317880628477724e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_01\\seed_29_robust_ppo.csv": {
+      "days": 486,
+      "max_absolute_error": 1.8058210498770808e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_01\\seed_29_robust_sac.csv": {
+      "days": 486,
+      "max_absolute_error": 1.84297022087776e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_01\\seed_29_robust_td3.csv": {
+      "days": 486,
+      "max_absolute_error": 1.554312234475219e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_01\\seed_7_legacy_ppo.csv": {
+      "days": 486,
+      "max_absolute_error": 6.661338147750939e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_01\\seed_7_robust_mixture.csv": {
+      "days": 486,
+      "max_absolute_error": 1.8207657603852567e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_01\\seed_7_robust_ppo.csv": {
+      "days": 486,
+      "max_absolute_error": 1.354472090042691e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_01\\seed_7_robust_sac.csv": {
+      "days": 486,
+      "max_absolute_error": 2.042810365310288e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_01\\seed_7_robust_td3.csv": {
+      "days": 486,
+      "max_absolute_error": 1.4432899320127035e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_01\\buy_hold.csv": {
+      "days": 486,
+      "max_absolute_error": 2.220446049250313e-16,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_01\\equal_100.csv": {
+      "days": 486,
+      "max_absolute_error": 7.549516567451064e-15,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_01\\equal_80.csv": {
+      "days": 486,
+      "max_absolute_error": 6.661338147750939e-15,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_01\\equal_90.csv": {
+      "days": 486,
+      "max_absolute_error": 9.381384558082573e-15,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_01\\inverse_vol_90.csv": {
+      "days": 486,
+      "max_absolute_error": 1.9984014443252818e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_01\\seed_17_legacy_ppo.csv": {
+      "days": 486,
+      "max_absolute_error": 6.661338147750939e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_01\\seed_17_robust_mixture.csv": {
+      "days": 486,
+      "max_absolute_error": 1.7985612998927536e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_01\\seed_17_robust_ppo.csv": {
+      "days": 486,
+      "max_absolute_error": 1.7430079664207225e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_01\\seed_17_robust_sac.csv": {
+      "days": 486,
+      "max_absolute_error": 1.7985612998927536e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_01\\seed_17_robust_td3.csv": {
+      "days": 486,
+      "max_absolute_error": 1.6431300764452317e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_01\\seed_29_legacy_ppo.csv": {
+      "days": 486,
+      "max_absolute_error": 6.772360450213455e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_01\\seed_29_robust_mixture.csv": {
+      "days": 486,
+      "max_absolute_error": 1.6930901125533637e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_01\\seed_29_robust_ppo.csv": {
+      "days": 486,
+      "max_absolute_error": 1.6431300764452317e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_01\\seed_29_robust_sac.csv": {
+      "days": 486,
+      "max_absolute_error": 1.7791323969618134e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_01\\seed_29_robust_td3.csv": {
+      "days": 486,
+      "max_absolute_error": 1.4654943925052066e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_01\\seed_7_legacy_ppo.csv": {
+      "days": 486,
+      "max_absolute_error": 7.238654120556021e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_01\\seed_7_robust_mixture.csv": {
+      "days": 486,
+      "max_absolute_error": 1.7430501486614958e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_01\\seed_7_robust_ppo.csv": {
+      "days": 486,
+      "max_absolute_error": 1.6736612096224235e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_01\\seed_7_robust_sac.csv": {
+      "days": 486,
+      "max_absolute_error": 1.509903313490213e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_01\\seed_7_robust_td3.csv": {
+      "days": 486,
+      "max_absolute_error": 1.4030443473700416e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 0,
+      "first_decision": "2019-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\fold_02\\seed_7\\validation_legacy_ppo.csv": {
+      "days": 242,
+      "max_absolute_error": 2.708944180085382e-14,
+      "dividend_entitlements": 1,
+      "split_sessions": 0,
+      "first_decision": "2020-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\fold_02\\seed_17\\validation_legacy_ppo.csv": {
+      "days": 242,
+      "max_absolute_error": 3.1308289294429414e-14,
+      "dividend_entitlements": 1,
+      "split_sessions": 0,
+      "first_decision": "2020-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\fold_02\\seed_29\\validation_legacy_ppo.csv": {
+      "days": 242,
+      "max_absolute_error": 2.836619827917275e-14,
+      "dividend_entitlements": 1,
+      "split_sessions": 0,
+      "first_decision": "2020-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\fold_02\\seed_7\\validation_robust_ppo.csv": {
+      "days": 242,
+      "max_absolute_error": 7.549516567451064e-15,
+      "dividend_entitlements": 1,
+      "split_sessions": 0,
+      "first_decision": "2020-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\fold_02\\seed_17\\validation_robust_ppo.csv": {
+      "days": 242,
+      "max_absolute_error": 7.771561172376096e-15,
+      "dividend_entitlements": 1,
+      "split_sessions": 0,
+      "first_decision": "2020-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\fold_02\\seed_29\\validation_robust_ppo.csv": {
+      "days": 242,
+      "max_absolute_error": 5.134781488891349e-15,
+      "dividend_entitlements": 1,
+      "split_sessions": 0,
+      "first_decision": "2020-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\fold_02\\seed_7\\validation_robust_sac.csv": {
+      "days": 242,
+      "max_absolute_error": 6.675215935558754e-15,
+      "dividend_entitlements": 1,
+      "split_sessions": 0,
+      "first_decision": "2020-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\fold_02\\seed_17\\validation_robust_sac.csv": {
+      "days": 242,
+      "max_absolute_error": 4.6629367034256575e-15,
+      "dividend_entitlements": 1,
+      "split_sessions": 0,
+      "first_decision": "2020-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\fold_02\\seed_29\\validation_robust_sac.csv": {
+      "days": 242,
+      "max_absolute_error": 5.551115123125783e-15,
+      "dividend_entitlements": 1,
+      "split_sessions": 0,
+      "first_decision": "2020-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\fold_02\\seed_7\\validation_robust_td3.csv": {
+      "days": 242,
+      "max_absolute_error": 6.439293542825908e-15,
+      "dividend_entitlements": 1,
+      "split_sessions": 0,
+      "first_decision": "2020-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\fold_02\\seed_17\\validation_robust_td3.csv": {
+      "days": 242,
+      "max_absolute_error": 6.661338147750939e-15,
+      "dividend_entitlements": 1,
+      "split_sessions": 0,
+      "first_decision": "2020-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\fold_02\\seed_29\\validation_robust_td3.csv": {
+      "days": 242,
+      "max_absolute_error": 6.439293542825908e-15,
+      "dividend_entitlements": 1,
+      "split_sessions": 0,
+      "first_decision": "2020-01-02",
+      "last_valuation": "2020-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_02\\buy_hold.csv": {
+      "days": 484,
+      "max_absolute_error": 4.440892098500626e-16,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_02\\equal_100.csv": {
+      "days": 484,
+      "max_absolute_error": 6.2305430035782785e-15,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_02\\equal_80.csv": {
+      "days": 484,
+      "max_absolute_error": 5.218048215738236e-15,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_02\\equal_90.csv": {
+      "days": 484,
+      "max_absolute_error": 4.468647674116255e-15,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_02\\inverse_vol_90.csv": {
+      "days": 484,
+      "max_absolute_error": 1.2184697695261093e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_02\\seed_17_legacy_ppo.csv": {
+      "days": 484,
+      "max_absolute_error": 5.88418203051333e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_02\\seed_17_robust_mixture.csv": {
+      "days": 484,
+      "max_absolute_error": 1.189326415129699e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_02\\seed_17_robust_ppo.csv": {
+      "days": 484,
+      "max_absolute_error": 1.3183898417423734e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_02\\seed_17_robust_sac.csv": {
+      "days": 484,
+      "max_absolute_error": 1.3683498778505054e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_02\\seed_17_robust_td3.csv": {
+      "days": 484,
+      "max_absolute_error": 1.329492071988625e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_02\\seed_29_legacy_ppo.csv": {
+      "days": 484,
+      "max_absolute_error": 5.256906021600116e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_02\\seed_29_robust_mixture.csv": {
+      "days": 484,
+      "max_absolute_error": 1.1421419365831298e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_02\\seed_29_robust_ppo.csv": {
+      "days": 484,
+      "max_absolute_error": 1.3024303857633868e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_02\\seed_29_robust_sac.csv": {
+      "days": 484,
+      "max_absolute_error": 1.0963452368173421e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_02\\seed_29_robust_td3.csv": {
+      "days": 484,
+      "max_absolute_error": 1.3500970576675151e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_02\\seed_7_legacy_ppo.csv": {
+      "days": 484,
+      "max_absolute_error": 4.96269692007445e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_02\\seed_7_robust_mixture.csv": {
+      "days": 484,
+      "max_absolute_error": 1.289246487345963e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_02\\seed_7_robust_ppo.csv": {
+      "days": 484,
+      "max_absolute_error": 1.399574900418088e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_02\\seed_7_robust_sac.csv": {
+      "days": 484,
+      "max_absolute_error": 1.6459056340067946e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_02\\seed_7_robust_td3.csv": {
+      "days": 484,
+      "max_absolute_error": 1.1947006178007624e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_02\\buy_hold.csv": {
+      "days": 484,
+      "max_absolute_error": 4.440892098500626e-16,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_02\\equal_100.csv": {
+      "days": 484,
+      "max_absolute_error": 4.426396717784278e-15,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_02\\equal_80.csv": {
+      "days": 484,
+      "max_absolute_error": 3.774758283725532e-15,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_02\\equal_90.csv": {
+      "days": 484,
+      "max_absolute_error": 4.773959005888173e-15,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_02\\inverse_vol_90.csv": {
+      "days": 484,
+      "max_absolute_error": 1.1809997424450103e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_02\\seed_17_legacy_ppo.csv": {
+      "days": 484,
+      "max_absolute_error": 6.017408793468348e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_02\\seed_17_robust_mixture.csv": {
+      "days": 484,
+      "max_absolute_error": 1.3239409568654992e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_02\\seed_17_robust_ppo.csv": {
+      "days": 484,
+      "max_absolute_error": 1.2462253451417382e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_02\\seed_17_robust_sac.csv": {
+      "days": 484,
+      "max_absolute_error": 1.4099832412739488e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_02\\seed_17_robust_td3.csv": {
+      "days": 484,
+      "max_absolute_error": 1.0436096431476471e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_02\\seed_29_legacy_ppo.csv": {
+      "days": 484,
+      "max_absolute_error": 4.9904524956900786e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_02\\seed_29_robust_mixture.csv": {
+      "days": 484,
+      "max_absolute_error": 1.1719791803699309e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_02\\seed_29_robust_ppo.csv": {
+      "days": 484,
+      "max_absolute_error": 1.3926360065141807e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_02\\seed_29_robust_sac.csv": {
+      "days": 484,
+      "max_absolute_error": 1.4654943925052066e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_02\\seed_29_robust_td3.csv": {
+      "days": 484,
+      "max_absolute_error": 1.5152694882337286e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_02\\seed_7_legacy_ppo.csv": {
+      "days": 484,
+      "max_absolute_error": 5.1514348342607263e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_02\\seed_7_robust_mixture.csv": {
+      "days": 484,
+      "max_absolute_error": 1.2774503677093207e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_02\\seed_7_robust_ppo.csv": {
+      "days": 484,
+      "max_absolute_error": 1.5827616994812388e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_02\\seed_7_robust_sac.csv": {
+      "days": 484,
+      "max_absolute_error": 1.1476930517062556e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_02\\seed_7_robust_td3.csv": {
+      "days": 484,
+      "max_absolute_error": 1.858370998414185e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_02\\buy_hold.csv": {
+      "days": 484,
+      "max_absolute_error": 2.220446049250313e-16,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_02\\equal_100.csv": {
+      "days": 484,
+      "max_absolute_error": 6.985934048873063e-15,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_02\\equal_80.csv": {
+      "days": 484,
+      "max_absolute_error": 7.549516567451064e-15,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_02\\equal_90.csv": {
+      "days": 484,
+      "max_absolute_error": 8.645861804268407e-15,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_02\\inverse_vol_90.csv": {
+      "days": 484,
+      "max_absolute_error": 1.314226505400029e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_02\\seed_17_legacy_ppo.csv": {
+      "days": 484,
+      "max_absolute_error": 5.706546346573305e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_02\\seed_17_robust_mixture.csv": {
+      "days": 484,
+      "max_absolute_error": 1.0949574580365606e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_02\\seed_17_robust_ppo.csv": {
+      "days": 484,
+      "max_absolute_error": 1.2490009027033011e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_02\\seed_17_robust_sac.csv": {
+      "days": 484,
+      "max_absolute_error": 1.3530843112619095e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_02\\seed_17_robust_td3.csv": {
+      "days": 484,
+      "max_absolute_error": 1.2087553180606392e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_02\\seed_29_legacy_ppo.csv": {
+      "days": 484,
+      "max_absolute_error": 4.6629367034256575e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_02\\seed_29_robust_mixture.csv": {
+      "days": 484,
+      "max_absolute_error": 1.1136924715771102e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_02\\seed_29_robust_ppo.csv": {
+      "days": 484,
+      "max_absolute_error": 1.2503886814840826e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_02\\seed_29_robust_sac.csv": {
+      "days": 484,
+      "max_absolute_error": 1.189326415129699e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_02\\seed_29_robust_td3.csv": {
+      "days": 484,
+      "max_absolute_error": 1.5621873499252596e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_02\\seed_7_legacy_ppo.csv": {
+      "days": 484,
+      "max_absolute_error": 4.873879078104437e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_02\\seed_7_robust_mixture.csv": {
+      "days": 484,
+      "max_absolute_error": 1.0352829704629585e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_02\\seed_7_robust_ppo.csv": {
+      "days": 484,
+      "max_absolute_error": 1.5633327965502986e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_02\\seed_7_robust_sac.csv": {
+      "days": 484,
+      "max_absolute_error": 1.2864709297844001e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_02\\seed_7_robust_td3.csv": {
+      "days": 484,
+      "max_absolute_error": 1.5363956504894968e-14,
+      "dividend_entitlements": 4,
+      "split_sessions": 1,
+      "first_decision": "2021-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\fold_03\\seed_7\\validation_legacy_ppo.csv": {
+      "days": 241,
+      "max_absolute_error": 2.842170943040401e-14,
+      "dividend_entitlements": 2,
+      "split_sessions": 1,
+      "first_decision": "2022-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\fold_03\\seed_17\\validation_legacy_ppo.csv": {
+      "days": 241,
+      "max_absolute_error": 2.2093438190040615e-14,
+      "dividend_entitlements": 2,
+      "split_sessions": 1,
+      "first_decision": "2022-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\fold_03\\seed_29\\validation_legacy_ppo.csv": {
+      "days": 241,
+      "max_absolute_error": 2.892130979148533e-14,
+      "dividend_entitlements": 2,
+      "split_sessions": 1,
+      "first_decision": "2022-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\fold_03\\seed_7\\validation_robust_ppo.csv": {
+      "days": 241,
+      "max_absolute_error": 6.9111383282915995e-15,
+      "dividend_entitlements": 2,
+      "split_sessions": 1,
+      "first_decision": "2022-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\fold_03\\seed_17\\validation_robust_ppo.csv": {
+      "days": 241,
+      "max_absolute_error": 5.648259637780484e-15,
+      "dividend_entitlements": 2,
+      "split_sessions": 1,
+      "first_decision": "2022-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\fold_03\\seed_29\\validation_robust_ppo.csv": {
+      "days": 241,
+      "max_absolute_error": 6.925016116099414e-15,
+      "dividend_entitlements": 2,
+      "split_sessions": 1,
+      "first_decision": "2022-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\fold_03\\seed_7\\validation_robust_sac.csv": {
+      "days": 241,
+      "max_absolute_error": 6.00908212078366e-15,
+      "dividend_entitlements": 2,
+      "split_sessions": 1,
+      "first_decision": "2022-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\fold_03\\seed_17\\validation_robust_sac.csv": {
+      "days": 241,
+      "max_absolute_error": 6.00908212078366e-15,
+      "dividend_entitlements": 2,
+      "split_sessions": 1,
+      "first_decision": "2022-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\fold_03\\seed_29\\validation_robust_sac.csv": {
+      "days": 241,
+      "max_absolute_error": 5.925815393936773e-15,
+      "dividend_entitlements": 2,
+      "split_sessions": 1,
+      "first_decision": "2022-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\fold_03\\seed_7\\validation_robust_td3.csv": {
+      "days": 241,
+      "max_absolute_error": 6.439293542825908e-15,
+      "dividend_entitlements": 2,
+      "split_sessions": 1,
+      "first_decision": "2022-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\fold_03\\seed_17\\validation_robust_td3.csv": {
+      "days": 241,
+      "max_absolute_error": 6.543376951384516e-15,
+      "dividend_entitlements": 2,
+      "split_sessions": 1,
+      "first_decision": "2022-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\fold_03\\seed_29\\validation_robust_td3.csv": {
+      "days": 241,
+      "max_absolute_error": 4.387115670745345e-15,
+      "dividend_entitlements": 2,
+      "split_sessions": 1,
+      "first_decision": "2022-01-04",
+      "last_valuation": "2022-12-30"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_03\\buy_hold.csv": {
+      "days": 483,
+      "max_absolute_error": 4.440892098500626e-16,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_03\\equal_100.csv": {
+      "days": 483,
+      "max_absolute_error": 3.774758283725532e-15,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_03\\equal_80.csv": {
+      "days": 483,
+      "max_absolute_error": 6.217248937900877e-15,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_03\\equal_90.csv": {
+      "days": 483,
+      "max_absolute_error": 2.6922908347160046e-15,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_03\\inverse_vol_90.csv": {
+      "days": 483,
+      "max_absolute_error": 1.021405182655144e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_03\\seed_17_legacy_ppo.csv": {
+      "days": 483,
+      "max_absolute_error": 5.573319583618286e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_03\\seed_17_robust_mixture.csv": {
+      "days": 483,
+      "max_absolute_error": 1.1102230246251565e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_03\\seed_17_robust_ppo.csv": {
+      "days": 483,
+      "max_absolute_error": 1.532107773982716e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_03\\seed_17_robust_sac.csv": {
+      "days": 483,
+      "max_absolute_error": 1.4210854715202004e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_03\\seed_17_robust_td3.csv": {
+      "days": 483,
+      "max_absolute_error": 1.2656542480726785e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_03\\seed_29_legacy_ppo.csv": {
+      "days": 483,
+      "max_absolute_error": 5.706546346573305e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_03\\seed_29_robust_mixture.csv": {
+      "days": 483,
+      "max_absolute_error": 1.199040866595169e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_03\\seed_29_robust_ppo.csv": {
+      "days": 483,
+      "max_absolute_error": 1.2434497875801753e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_03\\seed_29_robust_sac.csv": {
+      "days": 483,
+      "max_absolute_error": 1.3100631690576847e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_03\\seed_29_robust_td3.csv": {
+      "days": 483,
+      "max_absolute_error": 1.3100631690576847e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_03\\seed_7_legacy_ppo.csv": {
+      "days": 483,
+      "max_absolute_error": 5.895284260759581e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_03\\seed_7_robust_mixture.csv": {
+      "days": 483,
+      "max_absolute_error": 1.0880185641326534e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_03\\seed_7_robust_ppo.csv": {
+      "days": 483,
+      "max_absolute_error": 1.2434497875801753e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_03\\seed_7_robust_sac.csv": {
+      "days": 483,
+      "max_absolute_error": 1.2434497875801753e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_03\\seed_7_robust_td3.csv": {
+      "days": 483,
+      "max_absolute_error": 1.3100631690576847e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_03\\buy_hold.csv": {
+      "days": 483,
+      "max_absolute_error": 4.440892098500626e-16,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_03\\equal_100.csv": {
+      "days": 483,
+      "max_absolute_error": 3.9968028886505635e-15,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_03\\equal_80.csv": {
+      "days": 483,
+      "max_absolute_error": 7.327471962526033e-15,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_03\\equal_90.csv": {
+      "days": 483,
+      "max_absolute_error": 5.551115123125783e-15,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_03\\inverse_vol_90.csv": {
+      "days": 483,
+      "max_absolute_error": 1.199040866595169e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_03\\seed_17_legacy_ppo.csv": {
+      "days": 483,
+      "max_absolute_error": 5.762057497804562e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_03\\seed_17_robust_mixture.csv": {
+      "days": 483,
+      "max_absolute_error": 1.3322676295501878e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_03\\seed_17_robust_ppo.csv": {
+      "days": 483,
+      "max_absolute_error": 1.4432899320127035e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_03\\seed_17_robust_sac.csv": {
+      "days": 483,
+      "max_absolute_error": 1.1546319456101628e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_03\\seed_17_robust_td3.csv": {
+      "days": 483,
+      "max_absolute_error": 1.2219392164780629e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_03\\seed_29_legacy_ppo.csv": {
+      "days": 483,
+      "max_absolute_error": 5.473399511402022e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_03\\seed_29_robust_mixture.csv": {
+      "days": 483,
+      "max_absolute_error": 1.2434497875801753e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_03\\seed_29_robust_ppo.csv": {
+      "days": 483,
+      "max_absolute_error": 1.509903313490213e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_03\\seed_29_robust_sac.csv": {
+      "days": 483,
+      "max_absolute_error": 1.199040866595169e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_03\\seed_29_robust_td3.csv": {
+      "days": 483,
+      "max_absolute_error": 1.3988810110276972e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_03\\seed_7_legacy_ppo.csv": {
+      "days": 483,
+      "max_absolute_error": 6.306066779870889e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_03\\seed_7_robust_mixture.csv": {
+      "days": 483,
+      "max_absolute_error": 1.0880185641326534e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_03\\seed_7_robust_ppo.csv": {
+      "days": 483,
+      "max_absolute_error": 1.1324274851176597e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_03\\seed_7_robust_sac.csv": {
+      "days": 483,
+      "max_absolute_error": 1.1102230246251565e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_03\\seed_7_robust_td3.csv": {
+      "days": 483,
+      "max_absolute_error": 1.2656542480726785e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_03\\buy_hold.csv": {
+      "days": 483,
+      "max_absolute_error": 4.440892098500626e-16,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_03\\equal_100.csv": {
+      "days": 483,
+      "max_absolute_error": 4.884981308350689e-15,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_03\\equal_80.csv": {
+      "days": 483,
+      "max_absolute_error": 6.439293542825908e-15,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_03\\equal_90.csv": {
+      "days": 483,
+      "max_absolute_error": 3.9968028886505635e-15,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_03\\inverse_vol_90.csv": {
+      "days": 483,
+      "max_absolute_error": 1.1102230246251565e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_03\\seed_17_legacy_ppo.csv": {
+      "days": 483,
+      "max_absolute_error": 5.46229728115577e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_03\\seed_17_robust_mixture.csv": {
+      "days": 483,
+      "max_absolute_error": 1.1546319456101628e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_03\\seed_17_robust_ppo.csv": {
+      "days": 483,
+      "max_absolute_error": 1.176836406102666e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_03\\seed_17_robust_sac.csv": {
+      "days": 483,
+      "max_absolute_error": 1.4654943925052066e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_03\\seed_17_robust_td3.csv": {
+      "days": 483,
+      "max_absolute_error": 1.2212453270876722e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_03\\seed_29_legacy_ppo.csv": {
+      "days": 483,
+      "max_absolute_error": 5.3734794391857577e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_03\\seed_29_robust_mixture.csv": {
+      "days": 483,
+      "max_absolute_error": 1.1324274851176597e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_03\\seed_29_robust_ppo.csv": {
+      "days": 483,
+      "max_absolute_error": 1.2434497875801753e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_03\\seed_29_robust_sac.csv": {
+      "days": 483,
+      "max_absolute_error": 1.2656542480726785e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_03\\seed_29_robust_td3.csv": {
+      "days": 483,
+      "max_absolute_error": 1.2434497875801753e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_03\\seed_7_legacy_ppo.csv": {
+      "days": 483,
+      "max_absolute_error": 5.639932965095795e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_03\\seed_7_robust_mixture.csv": {
+      "days": 483,
+      "max_absolute_error": 1.0436096431476471e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_03\\seed_7_robust_ppo.csv": {
+      "days": 483,
+      "max_absolute_error": 1.3100631690576847e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_03\\seed_7_robust_sac.csv": {
+      "days": 483,
+      "max_absolute_error": 1.2434497875801753e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_03\\seed_7_robust_td3.csv": {
+      "days": 483,
+      "max_absolute_error": 1.3100631690576847e-14,
+      "dividend_entitlements": 5,
+      "split_sessions": 0,
+      "first_decision": "2023-01-03",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\fold_04\\seed_7\\validation_legacy_ppo.csv": {
+      "days": 241,
+      "max_absolute_error": 3.197442310920451e-14,
+      "dividend_entitlements": 3,
+      "split_sessions": 0,
+      "first_decision": "2024-01-02",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\fold_04\\seed_17\\validation_legacy_ppo.csv": {
+      "days": 241,
+      "max_absolute_error": 2.8199664825478976e-14,
+      "dividend_entitlements": 3,
+      "split_sessions": 0,
+      "first_decision": "2024-01-02",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\fold_04\\seed_29\\validation_legacy_ppo.csv": {
+      "days": 241,
+      "max_absolute_error": 2.7977620220553945e-14,
+      "dividend_entitlements": 3,
+      "split_sessions": 0,
+      "first_decision": "2024-01-02",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\fold_04\\seed_7\\validation_robust_ppo.csv": {
+      "days": 241,
+      "max_absolute_error": 7.105427357601002e-15,
+      "dividend_entitlements": 3,
+      "split_sessions": 0,
+      "first_decision": "2024-01-02",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\fold_04\\seed_17\\validation_robust_ppo.csv": {
+      "days": 241,
+      "max_absolute_error": 7.993605777301127e-15,
+      "dividend_entitlements": 3,
+      "split_sessions": 0,
+      "first_decision": "2024-01-02",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\fold_04\\seed_29\\validation_robust_ppo.csv": {
+      "days": 241,
+      "max_absolute_error": 7.327471962526033e-15,
+      "dividend_entitlements": 3,
+      "split_sessions": 0,
+      "first_decision": "2024-01-02",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\fold_04\\seed_7\\validation_robust_sac.csv": {
+      "days": 241,
+      "max_absolute_error": 5.10702591327572e-15,
+      "dividend_entitlements": 3,
+      "split_sessions": 0,
+      "first_decision": "2024-01-02",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\fold_04\\seed_17\\validation_robust_sac.csv": {
+      "days": 241,
+      "max_absolute_error": 7.771561172376096e-15,
+      "dividend_entitlements": 3,
+      "split_sessions": 0,
+      "first_decision": "2024-01-02",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\fold_04\\seed_29\\validation_robust_sac.csv": {
+      "days": 241,
+      "max_absolute_error": 5.10702591327572e-15,
+      "dividend_entitlements": 3,
+      "split_sessions": 0,
+      "first_decision": "2024-01-02",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\fold_04\\seed_7\\validation_robust_td3.csv": {
+      "days": 241,
+      "max_absolute_error": 6.8833827526759706e-15,
+      "dividend_entitlements": 3,
+      "split_sessions": 0,
+      "first_decision": "2024-01-02",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\fold_04\\seed_17\\validation_robust_td3.csv": {
+      "days": 241,
+      "max_absolute_error": 5.995204332975845e-15,
+      "dividend_entitlements": 3,
+      "split_sessions": 0,
+      "first_decision": "2024-01-02",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\fold_04\\seed_29\\validation_robust_td3.csv": {
+      "days": 241,
+      "max_absolute_error": 6.217248937900877e-15,
+      "dividend_entitlements": 3,
+      "split_sessions": 0,
+      "first_decision": "2024-01-02",
+      "last_valuation": "2024-12-31"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_04\\buy_hold.csv": {
+      "days": 434,
+      "max_absolute_error": 4.585904139070562e-16,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_04\\equal_100.csv": {
+      "days": 434,
+      "max_absolute_error": 6.661338147750939e-15,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_04\\equal_80.csv": {
+      "days": 434,
+      "max_absolute_error": 5.329070518200751e-15,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_04\\equal_90.csv": {
+      "days": 434,
+      "max_absolute_error": 5.10702591327572e-15,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_04\\inverse_vol_90.csv": {
+      "days": 434,
+      "max_absolute_error": 1.2656542480726785e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_04\\seed_17_legacy_ppo.csv": {
+      "days": 434,
+      "max_absolute_error": 5.417888360170764e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_04\\seed_17_robust_mixture.csv": {
+      "days": 434,
+      "max_absolute_error": 1.176836406102666e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_04\\seed_17_robust_ppo.csv": {
+      "days": 434,
+      "max_absolute_error": 1.4432899320127035e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_04\\seed_17_robust_sac.csv": {
+      "days": 434,
+      "max_absolute_error": 1.2656542480726785e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_04\\seed_17_robust_td3.csv": {
+      "days": 434,
+      "max_absolute_error": 1.3988810110276972e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_04\\seed_29_legacy_ppo.csv": {
+      "days": 434,
+      "max_absolute_error": 6.38378239159465e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_04\\seed_29_robust_mixture.csv": {
+      "days": 434,
+      "max_absolute_error": 1.3988810110276972e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_04\\seed_29_robust_ppo.csv": {
+      "days": 434,
+      "max_absolute_error": 1.2434497875801753e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_04\\seed_29_robust_sac.csv": {
+      "days": 434,
+      "max_absolute_error": 1.2656542480726785e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_04\\seed_29_robust_td3.csv": {
+      "days": 434,
+      "max_absolute_error": 1.0658141036401503e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_04\\seed_7_legacy_ppo.csv": {
+      "days": 434,
+      "max_absolute_error": 4.9960036108132044e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_04\\seed_7_robust_mixture.csv": {
+      "days": 434,
+      "max_absolute_error": 1.2212453270876722e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_04\\seed_7_robust_ppo.csv": {
+      "days": 434,
+      "max_absolute_error": 1.6653345369377348e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_04\\seed_7_robust_sac.csv": {
+      "days": 434,
+      "max_absolute_error": 1.457167719820518e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_10bps\\fold_04\\seed_7_robust_td3.csv": {
+      "days": 434,
+      "max_absolute_error": 1.1102230246251565e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_04\\buy_hold.csv": {
+      "days": 434,
+      "max_absolute_error": 4.440892098500626e-16,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_04\\equal_100.csv": {
+      "days": 434,
+      "max_absolute_error": 6.217248937900877e-15,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_04\\equal_80.csv": {
+      "days": 434,
+      "max_absolute_error": 9.547918011776346e-15,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_04\\equal_90.csv": {
+      "days": 434,
+      "max_absolute_error": 8.215650382226158e-15,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_04\\inverse_vol_90.csv": {
+      "days": 434,
+      "max_absolute_error": 1.4432899320127035e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_04\\seed_17_legacy_ppo.csv": {
+      "days": 434,
+      "max_absolute_error": 5.4511950509095186e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_04\\seed_17_robust_mixture.csv": {
+      "days": 434,
+      "max_absolute_error": 1.3322676295501878e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_04\\seed_17_robust_ppo.csv": {
+      "days": 434,
+      "max_absolute_error": 1.4210854715202004e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_04\\seed_17_robust_sac.csv": {
+      "days": 434,
+      "max_absolute_error": 1.199040866595169e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_04\\seed_17_robust_td3.csv": {
+      "days": 434,
+      "max_absolute_error": 1.3988810110276972e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_04\\seed_29_legacy_ppo.csv": {
+      "days": 434,
+      "max_absolute_error": 5.839773109528323e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_04\\seed_29_robust_mixture.csv": {
+      "days": 434,
+      "max_absolute_error": 1.3988810110276972e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_04\\seed_29_robust_ppo.csv": {
+      "days": 434,
+      "max_absolute_error": 1.3100631690576847e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_04\\seed_29_robust_sac.csv": {
+      "days": 434,
+      "max_absolute_error": 1.199040866595169e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_04\\seed_29_robust_td3.csv": {
+      "days": 434,
+      "max_absolute_error": 1.7763568394002505e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_04\\seed_7_legacy_ppo.csv": {
+      "days": 434,
+      "max_absolute_error": 5.440092820663267e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_04\\seed_7_robust_mixture.csv": {
+      "days": 434,
+      "max_absolute_error": 1.354472090042691e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_04\\seed_7_robust_ppo.csv": {
+      "days": 434,
+      "max_absolute_error": 1.84297022087776e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_04\\seed_7_robust_sac.csv": {
+      "days": 434,
+      "max_absolute_error": 1.3322676295501878e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_20bps\\fold_04\\seed_7_robust_td3.csv": {
+      "days": 434,
+      "max_absolute_error": 1.2878587085651816e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_04\\buy_hold.csv": {
+      "days": 434,
+      "max_absolute_error": 2.220446049250313e-16,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_04\\equal_100.csv": {
+      "days": 434,
+      "max_absolute_error": 5.329070518200751e-15,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_04\\equal_80.csv": {
+      "days": 434,
+      "max_absolute_error": 6.217248937900877e-15,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_04\\equal_90.csv": {
+      "days": 434,
+      "max_absolute_error": 4.440892098500626e-15,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_04\\inverse_vol_90.csv": {
+      "days": 434,
+      "max_absolute_error": 1.3100631690576847e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_04\\seed_17_legacy_ppo.csv": {
+      "days": 434,
+      "max_absolute_error": 4.729550084903167e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_04\\seed_17_robust_mixture.csv": {
+      "days": 434,
+      "max_absolute_error": 1.2434497875801753e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_04\\seed_17_robust_ppo.csv": {
+      "days": 434,
+      "max_absolute_error": 1.199040866595169e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_04\\seed_17_robust_sac.csv": {
+      "days": 434,
+      "max_absolute_error": 1.4488410471358293e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_04\\seed_17_robust_td3.csv": {
+      "days": 434,
+      "max_absolute_error": 1.3988810110276972e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_04\\seed_29_legacy_ppo.csv": {
+      "days": 434,
+      "max_absolute_error": 5.417888360170764e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_04\\seed_29_robust_mixture.csv": {
+      "days": 434,
+      "max_absolute_error": 1.3766765505351941e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_04\\seed_29_robust_ppo.csv": {
+      "days": 434,
+      "max_absolute_error": 1.354472090042691e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_04\\seed_29_robust_sac.csv": {
+      "days": 434,
+      "max_absolute_error": 1.2434497875801753e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_04\\seed_29_robust_td3.csv": {
+      "days": 434,
+      "max_absolute_error": 1.4876988529977098e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_04\\seed_7_legacy_ppo.csv": {
+      "days": 434,
+      "max_absolute_error": 5.10702591327572e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_04\\seed_7_robust_mixture.csv": {
+      "days": 434,
+      "max_absolute_error": 1.2656542480726785e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_04\\seed_7_robust_ppo.csv": {
+      "days": 434,
+      "max_absolute_error": 1.554312234475219e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_04\\seed_7_robust_sac.csv": {
+      "days": 434,
+      "max_absolute_error": 1.3988810110276972e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    },
+    "runs\\research_v3\\evaluation_5bps\\fold_04\\seed_7_robust_td3.csv": {
+      "days": 434,
+      "max_absolute_error": 1.4432899320127035e-14,
+      "dividend_entitlements": 6,
+      "split_sessions": 0,
+      "first_decision": "2025-01-02",
+      "last_valuation": "2026-10-22"
+    }
+  },
+  "interpretation": "Independent cash/share/receivable reconstruction from raw prices and event CSVs. This validates accounting and validation-only selection, not predictability, market-data completeness or real-world fills."
+}

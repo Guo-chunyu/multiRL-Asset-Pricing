@@ -1,0 +1,7 @@
+{
+  "execution": "Three main seed workers, plus disjoint fold_04 workers in a staging directory; completed fold_04 records will be reused by main workers. No parameter or interval changes.",
+  "registered_model_count": 48,
+  "registered_training_steps": 960000,
+  "fold04_partition": "runs/research_v3_partition_fold04",
+  "test_not_opened_during_fit": true
+}

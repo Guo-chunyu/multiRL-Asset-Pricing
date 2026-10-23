@@ -7,9 +7,12 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 ALLOWED_RUNS = {"ashare", "demo", "walkforward", "comparison_v2", "walkforward_v2",
-                "risk0_v2", "risk8_v2", "paper_v2", "research_v2"}
+                "risk0_v2", "risk8_v2", "paper_v2", "research_v2", "research_v3"}
 ALLOWED_ROOT_FILES = {"theory.json", "verification.json", "verification_v2.json",
-                      "pytest.xml", "pytest_v2.xml", "causality_v2_pytest.xml"}
+                      "pytest.xml", "pytest_v2.xml", "causality_v2_pytest.xml",
+                      "pytest_v3.xml", "verification_v3.json"}
+WITHDRAWN_ADJUSTED_RUNS = {"ashare", "walkforward", "comparison_v2", "walkforward_v2",
+                          "risk0_v2", "risk8_v2", "research_v2"}
 
 
 def scrub(value):
@@ -51,7 +54,13 @@ def main():
             tree.write(target, encoding="utf-8", xml_declaration=True)
             target.write_bytes(target.read_bytes().replace(b"\r\n", b"\n"))
         elif path.suffix in {".md", ".csv"}:
-            target.write_text(scrub(path.read_text(encoding="utf-8")), encoding="utf-8", newline="\n")
+            content = scrub(path.read_text(encoding="utf-8"))
+            if path.suffix == ".md" and relative.parts[0] in WITHDRAWN_ADJUSTED_RUNS:
+                content = ("> 2026-10-23 correction: the market-performance interpretation of these "
+                           "Tencent hfq price-ratio results is withdrawn because additive adjustments "
+                           "distort returns. Original numerical records are retained for audit. "
+                           "See docs/data-audit-v3.md and the v3 raw-price/corporate-action study.\n\n" + content)
+            target.write_text(content, encoding="utf-8", newline="\n")
         else:
             target.write_bytes(path.read_bytes())
         records.append({"path": target.relative_to(ROOT).as_posix(),
@@ -59,7 +68,8 @@ def main():
                         "published_sha256": hashlib.sha256(target.read_bytes()).hexdigest()})
     manifest = {"purpose": "Read-only research archive, not resumable training checkpoints.",
                 "transformations": ["Local workspace/profile paths replaced with placeholders.",
-                                    "JUnit machine hostnames removed; numeric research values unchanged."],
+                                    "JUnit machine hostnames removed; numeric research values unchanged.",
+                                    "Dated performance-correction notices added to superseded adjusted-price Markdown reports."],
                 "excluded": ["Market-data snapshots", "Model ZIPs", "Environment/vendor folders",
                              "Third-party paper full text and source snapshots", "Console logs"],
                 "files": records}

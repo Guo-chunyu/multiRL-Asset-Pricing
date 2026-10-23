@@ -1,3 +1,5 @@
+> 2026-10-23 correction: the market-performance interpretation of these Tencent hfq price-ratio results is withdrawn because additive adjustments distort returns. Original numerical records are retained for audit. See docs/data-audit-v3.md and the v3 raw-price/corporate-action study.
+
 # A 股 ETF 深度强化学习比较：回顾性研究
 
 本轮使用已经被研究过程查看过的历史测试区间，因此所有新增算法、消融及推断均属于**回顾性 / 探索性**研究。代码中的时间隔离不能恢复研究者层面的未见测试集；不得将本报告称为全新、未经查看的样本外验证。

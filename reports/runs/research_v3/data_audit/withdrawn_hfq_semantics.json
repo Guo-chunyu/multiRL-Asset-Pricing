@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "passed": false,
+  "total_return_verified": false,
+  "raw_snapshot_sha256": "b732fe1a8557fa374d8ff0e0a8d5cae7a3fe23b256810bdd1c43d73f68d118b4",
+  "adjusted_snapshot_sha256": "53837aa0668542eb2aa56b585bbf42aa6e1c69e53c7f4d8e4ca678a69e5d0ef3",
+  "dates": 1157,
+  "tickers": [
+    "159915",
+    "510050",
+    "510300",
+    "510500"
+  ],
+  "bars": 4628,
+  "violating_bars": 1983,
+  "volume_mismatches": 0,
+  "intraday_abs_difference_bps": {
+    "mean": 6.810900733232674,
+    "max": 119.82901466364825
+  },
+  "max_factor_inconsistency_after_rounding_bps": 167.0194666873881,
+  "parameters": {
+    "tolerance_bps": 5.0,
+    "raw_price_decimals": 3,
+    "adjusted_price_decimals": 3,
+    "volume_rtol": 1e-08,
+    "volume_atol": 1e-06
+  },
+  "per_ticker": {
+    "159915": {
+      "violating_bars": 0,
+      "volume_mismatches": 0,
+      "mean_intraday_abs_difference_bps": 1.3044199872208977,
+      "max_intraday_abs_difference_bps": 5.051743851212098
+    },
+    "510050": {
+      "violating_bars": 1121,
+      "volume_mismatches": 0,
+      "mean_intraday_abs_difference_bps": 13.327116048593766,
+      "max_intraday_abs_difference_bps": 119.82901466364825
+    },
+    "510300": {
+      "violating_bars": 805,
+      "volume_mismatches": 0,
+      "mean_intraday_abs_difference_bps": 10.145447608246803,
+      "max_intraday_abs_difference_bps": 85.6268101427693
+    },
+    "510500": {
+      "violating_bars": 57,
+      "volume_mismatches": 0,
+      "mean_intraday_abs_difference_bps": 2.4666192888692264,
+      "max_intraday_abs_difference_bps": 26.63094706083391
+    }
+  },
+  "examples": [
+    {
+      "date": "2022-01-04",
+      "ticker": "510050",
+      "raw_ohlc": {
+        "open": 3.27,
+        "high": 3.27,
+        "low": 3.205,
+        "close": 3.247
+      },
+      "adjusted_ohlc": {
+        "open": 4.565,
+        "high": 4.565,
+        "low": 4.488,
+        "close": 4.538
+      },
+      "intraday_abs_difference_bps": 11.19071783380332,
+      "factor_inconsistency_after_rounding_bps": 25.39920460673306
+    },
+    {
+      "date": "2022-01-04",
+      "ticker": "510300",
+      "raw_ohlc": {
+        "open": 5.025,
+        "high": 5.027,
+        "low": 4.942,
+        "close": 4.99
+      },
+      "adjusted_ohlc": {
+        "open": 2.035,
+        "high": 2.036,
+        "low": 2.004,
+        "close": 2.022
+      },
+      "intraday_abs_difference_bps": 5.769677411466834,
+      "factor_inconsistency_after_rounding_bps": 6.090179535798157
+    },
+    {
+      "date": "2022-01-05",
+      "ticker": "510050",
+      "raw_ohlc": {
+        "open": 3.242,
+        "high": 3.277,
+        "low": 3.226,
+        "close": 3.241
+      },
+      "adjusted_ohlc": {
+        "open": 4.532,
+        "high": 4.573,
+        "low": 4.513,
+        "close": 4.531
+      },
+      "intraday_abs_difference_bps": 0.8779843982842372,
+      "factor_inconsistency_after_rounding_bps": 19.522718544233708
+    },
+    {
+      "date": "2022-01-06",
+      "ticker": "510050",
+      "raw_ohlc": {
+        "open": 3.229,
+        "high": 3.238,
+        "low": 3.18,
+        "close": 3.193
+      },
+      "adjusted_ohlc": {
+        "open": 4.516,
+        "high": 4.527,
+        "low": 4.458,
+        "close": 4.474
+      },
+      "intraday_abs_difference_bps": 18.486968052204844,
+      "factor_inconsistency_after_rounding_bps": 21.83550350089325
+    },
+    {
+      "date": "2022-01-06",
+      "ticker": "510300",
+      "raw_ohlc": {
+        "open": 4.923,
+        "high": 4.933,
+        "low": 4.857,
+        "close": 4.887
+      },
+      "adjusted_ohlc": {
+        "open": 1.997,
+        "high": 2.001,
+        "low": 1.973,
+        "close": 1.984
+      },
+      "intraday_abs_difference_bps": 8.028496126274431,
+      "factor_inconsistency_after_rounding_bps": 7.271952109002555
+    },
+    {
+      "date": "2022-01-07",
+      "ticker": "510050",
+      "raw_ohlc": {
+        "open": 3.199,
+        "high": 3.223,
+        "low": 3.199,
+        "close": 3.207
+      },
+      "adjusted_ohlc": {
+        "open": 4.481,
+        "high": 4.509,
+        "low": 4.481,
+        "close": 4.49
+      },
+      "intraday_abs_difference_bps": 4.923012442725749,
+      "factor_inconsistency_after_rounding_bps": 7.115259669290275
+    },
+    {
+      "date": "2022-01-10",
+      "ticker": "510050",
+      "raw_ohlc": {
+        "open": 3.208,
+        "high": 3.223,
+        "low": 3.185,
+        "close": 3.216
+      },
+      "adjusted_ohlc": {
+        "open": 4.492,
+        "high": 4.509,
+        "low": 4.464,
+        "close": 4.501
+      },
+      "intraday_abs_difference_bps": 4.9020369823415955,
+      "factor_inconsistency_after_rounding_bps": 12.959613034788653
+    },
+    {
+      "date": "2022-01-11",
+      "ticker": "510050",
+      "raw_ohlc": {
+        "open": 3.216,
+        "high": 3.233,
+        "low": 3.192,
+        "close": 3.196
+      },
+      "adjusted_ohlc": {
+        "open": 4.501,
+        "high": 4.521,
+        "low": 4.473,
+        "close": 4.477
+      },
+      "intraday_abs_difference_bps": 8.867570611726938,
+      "factor_inconsistency_after_rounding_bps": 15.564719887433132
+    },
+    {
+      "date": "2022-01-12",
+      "ticker": "510050",
+      "raw_ohlc": {
+        "open": 3.206,
+        "high": 3.23,
+        "low": 3.198,
+        "close": 3.22
+      },
+      "adjusted_ohlc": {
+        "open": 4.489,
+        "high": 4.518,
+        "low": 4.48,
+        "close": 4.506
+      },
+      "intraday_abs_difference_bps": 5.797772526925371,
+      "factor_inconsistency_after_rounding_bps": 9.772064333368746
+    },
+    {
+      "date": "2022-01-13",
+      "ticker": "510050",
+      "raw_ohlc": {
+        "open": 3.226,
+        "high": 3.234,
+        "low": 3.164,
+        "close": 3.166
+      },
+      "adjusted_ohlc": {
+        "open": 4.513,
+        "high": 4.522,
+        "low": 4.439,
+        "close": 4.442
+      },
+      "intraday_abs_difference_bps": 28.66555239125379,
+      "factor_inconsistency_after_rounding_bps": 28.695932935982604
+    },
+    {
+      "date": "2022-01-13",
+      "ticker": "510300",
+      "raw_ohlc": {
+        "open": 4.93,
+        "high": 4.932,
+        "low": 4.836,
+        "close": 4.838
+      },
+      "adjusted_ohlc": {
+        "open": 2.0,
+        "high": 2.001,
+        "low": 1.965,
+        "close": 1.966
+      },
+      "intraday_abs_difference_bps": 16.61257606490829,
+      "factor_inconsistency_after_rounding_bps": 9.82806897221522
+    },
+    {
+      "date": "2022-01-14",
+      "ticker": "510050",
+      "raw_ohlc": {
+        "open": 3.16,
+        "high": 3.162,
+        "low": 3.119,
+        "close": 3.12
+      },
+      "adjusted_ohlc": {
+        "open": 4.435,
+        "high": 4.437,
+        "low": 4.386,
+        "close": 4.387
+      },
+      "intraday_abs_difference_bps": 18.352289754969277,
+      "factor_inconsistency_after_rounding_bps": 15.87614483180566
+    }
+  ],
+  "limitations": "Necessary intraday consistency check only. Verify corporate actions, overnight return factors, data precision and point-in-time availability independently. Low-resolution prices can conceal distortions smaller than their rounding intervals."
+}

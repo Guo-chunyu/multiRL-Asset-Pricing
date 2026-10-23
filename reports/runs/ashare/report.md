@@ -1,3 +1,5 @@
+> 2026-10-23 correction: the market-performance interpretation of these Tencent hfq price-ratio results is withdrawn because additive adjustments distort returns. Original numerical records are retained for audit. See docs/data-audit-v3.md and the v3 raw-price/corporate-action study.
+
 # 实验结果
 
 数据：market；资产：159915, 510050, 510300, 510500；每个基础模型及选择器预算：5000 steps。

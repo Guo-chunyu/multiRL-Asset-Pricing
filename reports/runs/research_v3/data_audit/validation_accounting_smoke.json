@@ -1,0 +1,69 @@
+{
+  "scope": "Only pre-specified validation intervals; no test performance evaluated",
+  "results": [
+    {
+      "fold": "fold_01",
+      "range": "validation",
+      "env": "legacy_ppo",
+      "steps": 242,
+      "max_independent_accounting_error": 3.469446951953614e-16,
+      "dividend_ex_dates": 2
+    },
+    {
+      "fold": "fold_01",
+      "range": "validation",
+      "env": "robust_ppo",
+      "steps": 242,
+      "max_independent_accounting_error": 2.498001805406602e-16,
+      "dividend_ex_dates": 2
+    },
+    {
+      "fold": "fold_02",
+      "range": "validation",
+      "env": "legacy_ppo",
+      "steps": 242,
+      "max_independent_accounting_error": 4.996003610813204e-16,
+      "dividend_ex_dates": 1
+    },
+    {
+      "fold": "fold_02",
+      "range": "validation",
+      "env": "robust_ppo",
+      "steps": 242,
+      "max_independent_accounting_error": 4.440892098500626e-16,
+      "dividend_ex_dates": 1
+    },
+    {
+      "fold": "fold_03",
+      "range": "validation",
+      "env": "legacy_ppo",
+      "steps": 241,
+      "max_independent_accounting_error": 3.3306690738754696e-16,
+      "dividend_ex_dates": 2
+    },
+    {
+      "fold": "fold_03",
+      "range": "validation",
+      "env": "robust_ppo",
+      "steps": 241,
+      "max_independent_accounting_error": 2.636779683484747e-16,
+      "dividend_ex_dates": 2
+    },
+    {
+      "fold": "fold_04",
+      "range": "validation",
+      "env": "legacy_ppo",
+      "steps": 241,
+      "max_independent_accounting_error": 4.440892098500626e-16,
+      "dividend_ex_dates": 3
+    },
+    {
+      "fold": "fold_04",
+      "range": "validation",
+      "env": "robust_ppo",
+      "steps": 241,
+      "max_independent_accounting_error": 4.440892098500626e-16,
+      "dividend_ex_dates": 3
+    }
+  ]
+}

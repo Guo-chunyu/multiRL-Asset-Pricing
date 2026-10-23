@@ -2,11 +2,32 @@
 
 A 股 ETF 深度强化学习组合优化：五算法比较、MetaTrader 式策略选择与模拟成交研究。
 
+**2026-10-23 数据口径更正：旧 v1/v2 的腾讯 hfq 为加法复权，价格比不能代表可交易总收益。旧复权回测的业绩解释已撤回，原记录保留供复核。新 v3 使用未复权价格、独立分红应收/支付和份额折算会计。** 见[数据纠错说明](docs/data-audit-v3.md)与[v3实验协议](docs/research-protocol-v3.md)。
+
+最新结果：[v3回测与迭代结论](docs/results-v3.md)、[完整实验表与图](reports/runs/research_v3/report.md)、[指标CSV](reports/runs/research_v3/metrics.csv)。48个模型、960,000步训练、4个测试时期、3种成本假设均已执行；287项测试通过。**验证预选策略尚未稳定优于简单等权组合，目标未达成。**
+
+v3 复现（先完成下方安装）：
+
+```powershell
+.\.venv\Scripts\python.exe scripts/prepare_market_data_v3.py
+.\.venv\Scripts\python.exe -m rlasset.study_v3 --stage prepare
+.\.venv\Scripts\python.exe -m rlasset.study_v3 --stage fit --seed 7
+.\.venv\Scripts\python.exe -m rlasset.study_v3 --stage fit --seed 17
+.\.venv\Scripts\python.exe -m rlasset.study_v3 --stage fit --seed 29
+.\.venv\Scripts\python.exe -m rlasset.study_v3 --stage select
+.\.venv\Scripts\python.exe -m rlasset.study_v3 --stage evaluate --cost-bps 5
+.\.venv\Scripts\python.exe -m rlasset.study_v3 --stage evaluate --cost-bps 10
+.\.venv\Scripts\python.exe -m rlasset.study_v3 --stage evaluate --cost-bps 20
+.\.venv\Scripts\python.exe -m rlasset.study_report_v3 --run runs/research_v3
+```
+
+下面保留 v2 架构与复现记录；其 hfq 收益不能继续作为市场业绩依据。v3 的三只宽基、长历史和会计均不同，也不能与旧表直接计算提升幅度。
+
 这是以 FinRL 为真实算法入口的深度强化学习组合优化研究项目。支持 TD3、DDPG、SAC、PPO、A2C、冻结策略池上的 DQN 选择器，以及独立的整数份额模拟成交。研究路线对应 **Deep Deterministic Portfolio Optimization → MetaTrader → FinRL → RLPortfolio → 可执行组合优化实验**。这里的“大模型”指深度强化学习，不包含大语言模型。
 
 核心问题是：在明确的时间顺序、成本与持仓约束下，连续控制能否学习有效组合；多种风险偏好的策略与 DQN 选择器能否改善稳定性。项目包含论文研究、会计环境、严格时间切分、基线、模型保存与重载、净值和风险指标。成功运行与实证优势需要分别判断；短预算训练用于检查研究流程。
 
-最新研究入口：[五算法研究与成交模拟结果](docs/results-v2.md)、[实验协议](docs/research-protocol-v2.md)、[自动统计报告](reports/runs/research_v2/report.md)、[执行引擎说明](docs/execution.md)。原[首轮结果](docs/results.md)和模型仍保留。本轮复用了已经查看的行情，明确属于回顾性、探索性研究，尚未证明稳定超额收益。
+历史研究入口：[五算法研究与成交模拟结果（复权绩效已撤回）](docs/results-v2.md)、[旧实验协议](docs/research-protocol-v2.md)、[旧自动统计报告](reports/runs/research_v2/report.md)、[执行引擎说明](docs/execution.md)。原[首轮结果](docs/results.md)和模型仍保留。已查看的行情不能恢复为未触碰的测试数据，研究仍属于回顾性、探索性。
 
 ## 本轮完整实验
 

@@ -1,5 +1,15 @@
 # Published research results
 
+**2026-10-23 correction:** v1/v2 Tencent hfq price ratios distort ETF returns.
+Their adjusted-price performance interpretation has been withdrawn; historical
+files remain for audit. See [data correction](../docs/data-audit-v3.md).
+The raw-price paper ledgers remain price-only records, excluding dividends.
+
+Current study: [v3 conclusions](../docs/results-v3.md),
+[full report](runs/research_v3/report.md), [metrics CSV](runs/research_v3/metrics.csv),
+[paired intervals CSV](runs/research_v3/excess_intervals.csv),
+[independent accounting audit](runs/verification_v3.json).
+
 This is a read-only export of the completed local experiments, with numerical
 results preserved. Workspace paths are replaced with `${PROJECT_ROOT}` and
 user-profile paths with `${USERPROFILE}`; machine hostnames are removed from
