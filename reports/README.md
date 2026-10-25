@@ -5,7 +5,13 @@ Their adjusted-price performance interpretation has been withdrawn; historical
 files remain for audit. See [data correction](../docs/data-audit-v3.md).
 The raw-price paper ledgers remain price-only records, excluding dividends.
 
-Current study: [v3 conclusions](../docs/results-v3.md),
+Current study: [v4 conclusions](../docs/results-v4.md),
+[full report](runs/research_v4/report.md), [metrics CSV](runs/research_v4/metrics.csv),
+[signal diagnostics](runs/research_v4/signal_metrics.csv),
+[factorial ablations](runs/research_v4/ablation_metrics.csv),
+[independent accounting and risk audit](runs/verification_v4.json).
+
+Previous corrected-accounting study: [v3 conclusions](../docs/results-v3.md),
 [full report](runs/research_v3/report.md), [metrics CSV](runs/research_v3/metrics.csv),
 [paired intervals CSV](runs/research_v3/excess_intervals.csv),
 [independent accounting audit](runs/verification_v3.json).
@@ -14,6 +20,14 @@ This is a read-only export of the completed local experiments, with numerical
 results preserved. Workspace paths are replaced with `${PROJECT_ROOT}` and
 user-profile paths with `${USERPROFILE}`; machine hostnames are removed from
 JUnit records. `export_manifest.json` records both original and published hashes.
+
+Embedded hashes and `record_sha256` seals inside the research files refer to
+the **original local artifacts**, before path scrubbing and LF normalization.
+They are preserved for provenance and are not expected to validate the sanitized
+public copies. Check public file integrity against each `published_sha256` in
+`export_manifest.json`; `original_sha256` identifies the source bytes. This
+inventory is not an external cryptographic attestation. The public archive is
+not a resumable training directory.
 
 - [Chinese study conclusions](../docs/results-v2.md)
 - [Five-algorithm statistical report and figures](runs/research_v2/report.md)

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-25T12:46:37.904326+00:00",
+  "verified": true,
+  "method": "Independent read-only reconstruction from raw close, ex-date cash and split CSVs; no production signal/environment or diagnostics functions imported. Recomputed geometric-market next-five-session labels, past-20-session persistence volatility, prediction MSE and training-mean-reference MSE. Checked partition boundaries and row coverage. No new model training, policy evaluation, fitting or selection.",
+  "scope_limits": [
+    "Uses archived fit target means and archived predictions as inputs; does not independently re-estimate Ridge coefficients or prove absence of every possible leakage channel.",
+    "Feature causality and training causality are checked by separate automated tests.",
+    "This verifies arithmetic and alignment, not predictive significance or future returns."
+  ],
+  "prediction_rows": 1134,
+  "metric_rows": 32,
+  "label_and_persistence_numeric_comparisons": 3402,
+  "mse_numeric_comparisons": 64,
+  "metric_group_boundary_checks": 32,
+  "max_absolute_error": 1.0061396160665481e-16,
+  "max_label_absolute_error": 9.8879238130678e-17,
+  "max_metric_absolute_error": 1.0061396160665481e-16,
+  "tolerance": 1e-12,
+  "files_sha256": {
+    "data/v3/ashare_broad_raw.csv": "41c9dfa0f32be0d342703c63d0ade2aea541fb586a62e41326c88bf7dadbc9c8",
+    "data/v3/cash_actions.csv": "7d8c43024d2f4154435c2e3c2d9ac79c772aa0595569e20f2d494add6ece9640",
+    "data/v3/splits.csv": "6e5b9b647c5bff6f06aa9555f29ee0c3ca7d66874e66cf2d5753ae52e1b4c7c3",
+    "runs/research_v4/manifest.json": "9e753c378601554ada3de34b6d36db5d16223ec04381f41820ced7a7049a59c2",
+    "runs/research_v4/frozen_selection.json": "23226ae3a17e8462ae9a7805b6b39dc79ec2f5a10e3bb52ac28182e1abfdc7f5",
+    "runs/research_v4/signal_metrics.csv": "4a4267d364412d335fb3952d70c3721cdd2d39fd0a80c7ad2bb8056c286d385c",
+    "runs/research_v4/signal_predictions.csv": "c74ad9c7f12ab37997c9bc42de6eb119fd5d12b51bbcc4b2b5b78b5f5f7fcfb7",
+    "runs/research_v4/signal_diagnostics.json": "06add393f96bd6dfd93f8f9041a6e294b19f7d976c894b35e7d7d21ec3d9974e",
+    "src/rlasset/signal_diagnostics.py": "16d8845a3fc912fd425eb605bd6458ff490c52fb80b0f3e265eefdcf899e916d",
+    "src/rlasset/risk_env.py": "7c8dcf538d2ef17f15d4530403c679a686f155359923b1447eb4e64184f0f778"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "training_workers": 3,
+  "worker_partition": "one complete 4-fold run for each seed 7/17/29",
+  "worker_exit_codes": {
+    "7": 0,
+    "17": 0,
+    "29": 0
+  },
+  "model_count": 72,
+  "requested_steps_per_model": 20000,
+  "actual_total_steps": 1440000,
+  "all_final_checkpoints": true,
+  "frozen_selection_sha256": "23226ae3a17e8462ae9a7805b6b39dc79ec2f5a10e3bb52ac28182e1abfdc7f5",
+  "source_manifest_sha256": "9e753c378601554ada3de34b6d36db5d16223ec04381f41820ced7a7049a59c2",
+  "test_status": "See completed evaluation summaries and independent verification; this file records training orchestration only."
+}

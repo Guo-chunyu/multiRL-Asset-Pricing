@@ -1,0 +1,21 @@
+{
+  "python": "3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "torch": "2.11.0",
+    "gymnasium": "1.2.3",
+    "stable-baselines3": "2.7.1",
+    "sb3-contrib": "2.7.1",
+    "akshare": "1.19.1",
+    "matplotlib": "3.10.8",
+    "pytest": "9.1.1"
+  },
+  "device": "cpu",
+  "torch_num_threads": 1,
+  "parallel_training_workers": 3,
+  "OMP_NUM_THREADS": 1,
+  "MKL_NUM_THREADS": 1,
+  "OPENBLAS_NUM_THREADS": 1
+}

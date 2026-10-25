@@ -1,0 +1,19 @@
+{
+  "candidate": "vol_target10",
+  "fold": "fold_02",
+  "kind": "rule",
+  "validation_sha256": "752fb9c9c004e3e91df1d68daccb15f41dfc5f3391099d2d3d6a867cdc41f2de",
+  "validation_metrics": {
+    "total_return": 0.12898541713677436,
+    "annual_return": 0.1346594541420653,
+    "annual_volatility": 0.13127364677108125,
+    "sharpe": 1.028439317599633,
+    "max_drawdown": 0.10392247827961298,
+    "sortino": 1.4351262277259702,
+    "calmar": 1.2957683108725684,
+    "mean_turnover": 0.01384900885436809,
+    "mean_cash_weight": 0.5080008875040034,
+    "return_days": 242
+  },
+  "record_sha256": "e6fcb4246b33959bdb7f4e017ffba579a8f0e6a6de7ffe161326d96d9f8a04ee"
+}

@@ -7,10 +7,10 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 ALLOWED_RUNS = {"ashare", "demo", "walkforward", "comparison_v2", "walkforward_v2",
-                "risk0_v2", "risk8_v2", "paper_v2", "research_v2", "research_v3"}
+                "risk0_v2", "risk8_v2", "paper_v2", "research_v2", "research_v3", "research_v4"}
 ALLOWED_ROOT_FILES = {"theory.json", "verification.json", "verification_v2.json",
                       "pytest.xml", "pytest_v2.xml", "causality_v2_pytest.xml",
-                      "pytest_v3.xml", "verification_v3.json"}
+                      "pytest_v3.xml", "verification_v3.json", "pytest_v4.xml", "verification_v4.json"}
 WITHDRAWN_ADJUSTED_RUNS = {"ashare", "walkforward", "comparison_v2", "walkforward_v2",
                           "risk0_v2", "risk8_v2", "research_v2"}
 
@@ -67,7 +67,10 @@ def main():
                         "original_sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
                         "published_sha256": hashlib.sha256(target.read_bytes()).hexdigest()})
     manifest = {"purpose": "Read-only research archive, not resumable training checkpoints.",
+                "embedded_hash_scope": "Hashes and record seals embedded inside research files refer to original local artifacts before path scrubbing and LF normalization; they are intentionally preserved, not recomputed.",
+                "public_integrity": "Verify each published file using files[].published_sha256; files[].original_sha256 identifies its original local bytes. This is an integrity inventory, not a cryptographic signature by an external authority.",
                 "transformations": ["Local workspace/profile paths replaced with placeholders.",
+                                    "Published text uses canonical LF newlines; original embedded hashes and seals remain provenance of local originals.",
                                     "JUnit machine hostnames removed; numeric research values unchanged.",
                                     "Dated performance-correction notices added to superseded adjusted-price Markdown reports."],
                 "excluded": ["Market-data snapshots", "Model ZIPs", "Environment/vendor folders",

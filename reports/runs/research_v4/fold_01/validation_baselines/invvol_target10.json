@@ -1,0 +1,19 @@
+{
+  "candidate": "invvol_target10",
+  "fold": "fold_01",
+  "kind": "rule",
+  "validation_sha256": "9757af17b705b3c06976b68e74b419fd1c5a9eae6e58951c2d8f707be5c54b84",
+  "validation_metrics": {
+    "total_return": -0.1743747200542319,
+    "annual_return": -0.18088616282132888,
+    "annual_volatility": 0.11133071303391358,
+    "sharpe": -1.7358281455319104,
+    "max_drawdown": 0.2118686991899826,
+    "sortino": -2.129087018905407,
+    "calmar": -0.8537653910789734,
+    "mean_turnover": 0.011223849188639095,
+    "mean_cash_weight": 0.4814810398088172,
+    "return_days": 242
+  },
+  "record_sha256": "95660d8fd4d4713decd41966cd2e6baacead10c706c414af6e314e464ae04137"
+}

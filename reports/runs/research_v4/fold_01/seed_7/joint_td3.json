@@ -1,0 +1,35 @@
+{
+  "candidate": "joint_td3",
+  "seed": 7,
+  "fold": "fold_01",
+  "actual_steps": 20000,
+  "requested_steps": 20000,
+  "training_seconds": 65.95554270000139,
+  "model_sha256": "8750b2f660daedcb3026c9d63731d286e8b7230bfbf9ac20a29430f70d71a97f",
+  "validation_sha256": "83882d3b42e313362351bbba9c15bc1aed931dd849f4210b09a6411d0a9e6399",
+  "validation_metrics": {
+    "total_return": -0.09556874930889661,
+    "annual_return": -0.09931506807393167,
+    "annual_volatility": 0.055234025568830204,
+    "sharpe": -1.8657875293987094,
+    "max_drawdown": 0.11348091629003552,
+    "sortino": -2.262188173697475,
+    "calmar": -0.8751697758599459,
+    "mean_turnover": 0.01143547470443485,
+    "mean_cash_weight": 0.7438875854869694,
+    "return_days": 242
+  },
+  "backend": "finrl",
+  "provenance": {
+    "repository": "https://github.com/AI4Finance-Foundation/FinRL",
+    "commit": "8511e7c15fbe1fbe5eb25e9f89932ac1ecd546a0",
+    "license": "MIT",
+    "models_path": "${PROJECT_ROOT}\\vendor\\FinRL\\finrl\\agents\\stablebaselines3\\models.py",
+    "sha256_lf": {
+      "finrl/agents/stablebaselines3/models.py": "e71707d0eaae0117fad36f9aa1be59da0186619db59111fe43372d92ad9510b0",
+      "finrl/config.py": "48675567fd7b797d228b2d5729e7b00f824894a2303c8bb51ec62b9389c9b70e"
+    },
+    "loader": "package path registration; root __init__ skipped; original modules executed"
+  },
+  "record_sha256": "9d3ff81b94007cefd5415d77ef50837a69c27f9ababa03c42b9a0f7c6f5ac68f"
+}

@@ -1,12 +1,35 @@
 # multiRL Asset Pricing
 
-A 股 ETF 深度强化学习组合优化：五算法比较、MetaTrader 式策略选择与模拟成交研究。
+A 股 ETF 深度强化学习组合优化：多算法比较、因果信息、风险预算与模拟成交研究。
 
 **2026-10-23 数据口径更正：旧 v1/v2 的腾讯 hfq 为加法复权，价格比不能代表可交易总收益。旧复权回测的业绩解释已撤回，原记录保留供复核。新 v3 使用未复权价格、独立分红应收/支付和份额折算会计。** 见[数据纠错说明](docs/data-audit-v3.md)与[v3实验协议](docs/research-protocol-v3.md)。
 
-最新结果：[v3回测与迭代结论](docs/results-v3.md)、[完整实验表与图](reports/runs/research_v3/report.md)、[指标CSV](reports/runs/research_v3/metrics.csv)。48个模型、960,000步训练、4个测试时期、3种成本假设均已执行；287项测试通过。**验证预选策略尚未稳定优于简单等权组合，目标未达成。**
+最新结果：[v4 信息与风险配置结论](docs/results-v4.md)、[完整实验表与图](reports/runs/research_v4/report.md)、[指标CSV](reports/runs/research_v4/metrics.csv)、[信息诊断](reports/runs/research_v4/signal_metrics.csv)。72个模型、1,440,000步训练、4个测试时期、3种成本假设均已执行；364项测试通过，404个账本独立审计通过。**风险配置能力更明确，但新增收益信息和跨阶段稳定优势未获证实，整体目标仍未达成。**
 
-v3 复现（先完成下方安装）：
+保留上一轮：[v3纠正会计后的研究结论](docs/results-v3.md)与[v3完整结果](reports/runs/research_v3/report.md)。
+
+v4 实现：[信息与风险配置说明](docs/implementation-v4.md)、[固定实验协议](docs/research-protocol-v4.md)。采用 PPO 的信息×风险配置 2×2 消融，加联合方案的 SAC/TD3 比较；模型可调整 5%–20% 的目标年化波动预算，并与无需 RL 的风险规则比较。风险目标不保证实际波动或回撤上限。
+
+v4 复现（先完成下方安装并准备 v3 原始行情和公司行动）：
+
+```powershell
+.\.venv\Scripts\python.exe scripts/prepare_market_data_v3.py
+.\.venv\Scripts\python.exe -m rlasset.study_v4 --stage prepare
+.\.venv\Scripts\python.exe -m rlasset.study_v4 --stage fit --seed 7
+.\.venv\Scripts\python.exe -m rlasset.study_v4 --stage fit --seed 17
+.\.venv\Scripts\python.exe -m rlasset.study_v4 --stage fit --seed 29
+.\.venv\Scripts\python.exe -m rlasset.study_v4 --stage select
+.\.venv\Scripts\python.exe -m rlasset.study_v4 --stage evaluate --cost-bps 5
+.\.venv\Scripts\python.exe -m rlasset.study_v4 --stage evaluate --cost-bps 10
+.\.venv\Scripts\python.exe -m rlasset.study_v4 --stage evaluate --cost-bps 20
+.\.venv\Scripts\python.exe -m rlasset.signal_diagnostics --run runs/research_v4
+.\.venv\Scripts\python.exe -m rlasset.study_report_v4 --run runs/research_v4
+.\.venv\Scripts\python.exe scripts/audit_research_v4.py --run runs/research_v4
+```
+
+可在 `fit` 后追加 `--fold fold_01` 等分片参数；所有折和种子完成后才能 `select`。源码/协议/数据发生变化时必须用新的 `--output` 路径，不能混入原实验。v4 是已查看历史上的探索性改进，未重训旧 DQN。
+
+保留 v3 复现：
 
 ```powershell
 .\.venv\Scripts\python.exe scripts/prepare_market_data_v3.py
