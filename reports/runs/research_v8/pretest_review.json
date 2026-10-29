@@ -1,0 +1,66 @@
+{
+  "created_at_utc": "2026-10-27T01:45:37.478646+00:00",
+  "status": "passed",
+  "scope": "Independent pretest artifact and selection verification. No v8 test evaluation read or run.",
+  "manifest_sha256": "dad69d9ec8748a4b43c1370ff44311d4ab6acecb10a76a73711f05e9f640e63f",
+  "pretraining_review_sha256": "967ace96871e8653f7f1f66652fa26da46907e514e90920aa56b227823cb3407",
+  "frozen_selection_sha256": "4bbedd79d023be1cfd1293af531e2d28650ad9bdcc3c8942519f5100b61e1971",
+  "execution_recovery_sha256": "cb70273bb5487f4f5c551844fc1d6a208cd49e8d57a2e5fbc9a3bb87905110f7",
+  "source_sha256": {
+    "src/rlasset/study_v8.py": "9085b5de9ae5824032d2bbc4d01318107e9eb14f9ae84c03a41e4f5aadf72a99",
+    "src/rlasset/scaled_selector_v8.py": "281f76361faa0594d5cbf17c1f392f4e419b619833232d9da70e49db9bf1facb",
+    "docs/research-protocol-v8.md": "b82605aa16ef5dfc847e947f28c178ca2c5f34b5899d83fc3ab2132fc2cfb630",
+    "tests/test_study_v8.py": "146f19bf172fbfa3da55920d26c107089f45972eea4b6364209f6c093a88d681",
+    "tests/test_scaled_selector_v8.py": "667d2e0f405063450823d2cfe0bcc84db96aa437b0780606102f3c3ca594d5cc"
+  },
+  "checks": {
+    "all_candidate_records_and_models": 48,
+    "new_scaled_fits": 24,
+    "byte_identical_reused_controls": 24,
+    "model_archive_step_and_numeric_config_verified": true,
+    "paired_schedule_groups": 12,
+    "fragments_per_fit": 159,
+    "actual_schedule_matches_seeded_plan": true,
+    "validation_ledgers_and_metrics_verified": 48,
+    "baseline_ledgers_and_metrics_verified": 24,
+    "accounting_audit_sidecars_verified": 72,
+    "maximum_recorded_accounting_error": 1.354472090042691e-14,
+    "source_runtime_data_control_identity_verified": true,
+    "selection_recomputed_from_validation_only": true,
+    "all_frozen_artifact_hashes_verified": true,
+    "no_evaluation_directories_before_or_during_review": true,
+    "pretraining_full_regression": "483 passed; frozen sources unchanged"
+  },
+  "selection": {
+    "fold_01": {
+      "learned_only": "drawdown_scaled",
+      "with_rules": "cash"
+    },
+    "fold_02": {
+      "learned_only": "drawdown_scaled",
+      "with_rules": "equal50"
+    },
+    "fold_03": {
+      "learned_only": "lognet_raw",
+      "with_rules": "cash"
+    },
+    "fold_04": {
+      "learned_only": "lognet_scaled",
+      "with_rules": "lognet_scaled"
+    }
+  },
+  "compute_accounting": {
+    "new_retained_fit_daily_transitions": 480000,
+    "historical_reused_control_daily_transitions": 480000,
+    "execution_interruption_events": 2,
+    "interruption_cause": "Unknown; no claim of user cancellation",
+    "discarded_partial_compute": "Unknown; additional to retained-fit counts",
+    "completed_records_preserved_across_recovery": true
+  },
+  "limitations": [
+    "Historical periods were repeatedly inspected in previous studies; this is exploratory development, not pristine independent test evidence.",
+    "Audit sidecar hash/error verification is not a new third accounting implementation.",
+    "No return or drawdown success is inferred from this engineering gate."
+  ],
+  "permission": "Proceed to the frozen 5, 10 and 20 bps test replays without changing models, selections, inputs or protocol."
+}

@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "inherited_v7_identity": {
+      "data": {
+        "ashare_broad_raw.csv": "41c9dfa0f32be0d342703c63d0ade2aea541fb586a62e41326c88bf7dadbc9c8",
+        "cash_actions.csv": "7d8c43024d2f4154435c2e3c2d9ac79c772aa0595569e20f2d494add6ece9640",
+        "splits.csv": "6e5b9b647c5bff6f06aa9555f29ee0c3ca7d66874e66cf2d5753ae52e1b4c7c3",
+        "restoration_verification.json": "b7b53649fbbba0e03b6648c58bcc4b28a601736264f9d51228983a8866af37d6",
+        "restoration_audit.json": "b7b53649fbbba0e03b6648c58bcc4b28a601736264f9d51228983a8866af37d6"
+      },
+      "sources": {
+        "study_v7.py": "5068ffa2adbeefc0984268f3b40a9bdb492a3fada1238c269d5e836845e53b63",
+        "study_v3.py": "18e9cbfab9ec7dc15b841a4fc34257c1fc3909712f4ff72264240a2d0d41bf32",
+        "study_v4.py": "b9acd0ee543613cbce6de32a846a5f292e171b80ea0e5cfe04afab5f8b22595b",
+        "study_v5.py": "7dd6e81860532b59b010a5eefd5bdf231102c3658ad958f78c2c0bf5e14484d3",
+        "statistics.py": "a752ef5e45c3c3d14cb0f10967f125514871c3d26019366abef6458fa05deda5",
+        "selector_env_v6.py": "94cad98eff63e8c0983f31fc5f111cfb7d185aede0a4ce26415c0e9c538945cb",
+        "masked_selector_v7.py": "005e50d8a3d99d4040fbcbb01ce17e0473756a6b2cb41e495b9f5b5d0e22d831",
+        "study_v6.py": "d7ab6bf73295c769f9f67ec32efd39f207723021ab65b021fb7e8eb00506cf86",
+        "residual_env.py": "252dedada74598c4ed080d9a5c6d710e62adb11e22438d68c54a50022436f8af",
+        "risk_env.py": "7c8dcf538d2ef17f15d4530403c679a686f155359923b1447eb4e64184f0f778",
+        "signal_diagnostics.py": "16d8845a3fc912fd425eb605bd6458ff490c52fb80b0f3e265eefdcf899e916d",
+        "corporate_actions.py": "dc8107939442cb0ac42210fb1ad40a896a5a59166622e05f4b71d1baa02a3a69",
+        "robust_env.py": "9a345d0e93c590cdef33ad229233742d27f0ef42d37a72bdfec85ad8fecf1001",
+        "env.py": "c22d1f98e335146df777924af355bf0f5a0e80f002a00317ec9172e49c92c1f7",
+        "data.py": "f12e15203c52bff6c525e421840888b76ab76a05f8705e15090aa10253900272",
+        "finrl_adapter.py": "143e8a49246256e2a6ba94ca0a3a47a826678d761ee907896d0a879134eba794",
+        "metrics.py": "f0d49bedf76c59891596f655780d8c067b57ead137d54a9b53d019b55d70ed64",
+        "research-protocol-v7.md": "4fd9032bd02f18faa8f0d1ce44aff597b8f80f6d7f41c77390577bf741c57478",
+        "audit_research_v3.py": "e94a7b17a2a84e5655edba2578b451bd1accd7dc600fd318fed05c84c6eb1b4f",
+        "test_study_v7.py": "4b158d2d7e1ab81110a8204e6d5c913796399b086bf19516f11830f6b65c4ac0",
+        "test_masked_selector_v7.py": "f22e7eb2225199c780f5c974ad214d845b4516880baf6452093a752c6b5471a5"
+      },
+      "steps": 20000,
+      "seeds": [
+        7,
+        17,
+        29
+      ],
+      "candidates": [
+        "lognet_alltrue",
+        "lognet_phase",
+        "drawdown_alltrue",
+        "drawdown_phase"
+      ],
+      "baselines": [
+        "cash",
+        "equal50",
+        "vol10",
+        "trend10",
+        "equal_target_mix",
+        "trailing20"
+      ],
+      "cost_bps": [
+        5,
+        10,
+        20
+      ],
+      "backend": "sb3_contrib.MaskablePPO==2.7.1",
+      "ppo_config": {
+        "learning_rate": 0.0001,
+        "n_steps": 100,
+        "batch_size": 50,
+        "n_epochs": 10,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "clip_range": 0.2,
+        "clip_range_vf": null,
+        "normalize_advantage": true,
+        "ent_coef": 0.0,
+        "vf_coef": 0.5,
+        "max_grad_norm": 0.5,
+        "target_kl": null,
+        "policy_kwargs": {
+          "net_arch": [
+            64,
+            64
+          ]
+        }
+      },
+      "daily_market_transitions": 960000,
+      "training_fits": 48
+    },
+    "sources": {
+      "src/rlasset/study_v8.py": "9085b5de9ae5824032d2bbc4d01318107e9eb14f9ae84c03a41e4f5aadf72a99",
+      "src/rlasset/scaled_selector_v8.py": "281f76361faa0594d5cbf17c1f392f4e419b619833232d9da70e49db9bf1facb",
+      "docs/research-protocol-v8.md": "b82605aa16ef5dfc847e947f28c178ca2c5f34b5899d83fc3ab2132fc2cfb630",
+      "tests/test_study_v8.py": "146f19bf172fbfa3da55920d26c107089f45972eea4b6364209f6c093a88d681",
+      "tests/test_scaled_selector_v8.py": "667d2e0f405063450823d2cfe0bcc84db96aa437b0780606102f3c3ca594d5cc"
+    },
+    "controls": {
+      "manifest.json": "39aa48f97e0361b8ba9865adb325f90efffe07b02fdac9fbb6ca4a17c277b70b",
+      "fold_01/seed_7/lognet_phase.zip": "3f9abf926195d00af3b14540268ae6275df5c1cf2650892274e04849d4cb150d",
+      "fold_01/seed_7/lognet_phase.json": "0c532f3d33b3472c4a044b0f16df18a34855b07416a1a17befd565155cb2b6dd",
+      "fold_01/seed_7/validation_lognet_phase.csv": "eb8edd58a9c62d894fdd6401368edfa433fc82cca49c37514d95d01826204e22",
+      "fold_01/seed_7/drawdown_phase.zip": "f1dc0148415bf4e66c3f5abfffb7d1c9175ed3550f1b1e60eeb9e782a239f13b",
+      "fold_01/seed_7/drawdown_phase.json": "5ded7d00df70f065f1f06e2c26439702981a725c210a8f08e1c887a4806e13e9",
+      "fold_01/seed_7/validation_drawdown_phase.csv": "ce7b212176f80a420c9fe9f541947f62300f98aa867340115b8c7f6f1592b955",
+      "fold_01/seed_17/lognet_phase.zip": "8e2551385850c731c677efbf0acae8035c14db48f0e77aa4292400536509be57",
+      "fold_01/seed_17/lognet_phase.json": "5575f35062b627667132be1f23c26203dd46f1ae2e99073ebcdf96f7caf86f95",
+      "fold_01/seed_17/validation_lognet_phase.csv": "1edc849eaae8c8324871f11342ebde28512feba2158c39ba5bab6c847135ab53",
+      "fold_01/seed_17/drawdown_phase.zip": "a87463295b6b851417b234048b6aab0c803ab2f4e04eaae22fe113d824278200",
+      "fold_01/seed_17/drawdown_phase.json": "7e8be8f019c38eece63a60dcb10b22d3929acd1fa7180a299e540fd4d40a47e4",
+      "fold_01/seed_17/validation_drawdown_phase.csv": "759ab32e6323750c672b759c3002c7863eee9e8136459b4bd27d3ecd188d68a9",
+      "fold_01/seed_29/lognet_phase.zip": "3bb8e3421c3e379c1bc9dd5791630bcc9b573a763122113bb43c42ff0139f560",
+      "fold_01/seed_29/lognet_phase.json": "16437b987ece490ce0d66891bec17699384be78430b0b9981cc47023423859b2",
+      "fold_01/seed_29/validation_lognet_phase.csv": "eb8edd58a9c62d894fdd6401368edfa433fc82cca49c37514d95d01826204e22",
+      "fold_01/seed_29/drawdown_phase.zip": "25838b2f3da9e69900ddc198e8ef0a18ec8733be892c3e1f24476d7332cadd48",
+      "fold_01/seed_29/drawdown_phase.json": "20ec090788eed38e61650ac89343a40d300cbdc661c904a8537e9bb352903c97",
+      "fold_01/seed_29/validation_drawdown_phase.csv": "ce7b212176f80a420c9fe9f541947f62300f98aa867340115b8c7f6f1592b955",
+      "fold_02/seed_7/lognet_phase.zip": "d2508cd5deebc4106d81002974eeaed9c2231d11e91707447949d971bfd6c48f",
+      "fold_02/seed_7/lognet_phase.json": "8f9ce61c95ec1850c87fb0ee9982b4f7547fbd8641b576ad216c4929dec2319f",
+      "fold_02/seed_7/validation_lognet_phase.csv": "9361650a40b0bd0a995a465253afa74a42d9bb32d9a7b06b7a2585473d5bc8be",
+      "fold_02/seed_7/drawdown_phase.zip": "223ad9ab7cb7059678ae8e47cf33a778e629d2c8d83a121a9e17886533f92e2d",
+      "fold_02/seed_7/drawdown_phase.json": "0680a315b332bb6209b81c325f07c7ead1de7fdf0a0ef1b89fce07262e0daec7",
+      "fold_02/seed_7/validation_drawdown_phase.csv": "eb12ac404e9776b8f3dc5ffdd200cf8f2e3f4f1b80bbf4c0ac2040994c4a5017",
+      "fold_02/seed_17/lognet_phase.zip": "6abe15e0c050acc15243a716cf5ccb2df69833493e0c5d28ac0fcc5afeb909ee",
+      "fold_02/seed_17/lognet_phase.json": "58f330ec54471dee958ecc7fdd0af6907769d874c5efac841ed740fefa81adeb",
+      "fold_02/seed_17/validation_lognet_phase.csv": "03b09814d6d695f429abf906a2a2fa194fb0c271d8edc291ee025b068da7b22d",
+      "fold_02/seed_17/drawdown_phase.zip": "843adb609430bb5274562e719ab815c85f34ec51f6dc8f2e356b7b79cabbdcbc",
+      "fold_02/seed_17/drawdown_phase.json": "98bf092f5e224065e769e41ffa0e7f10fa362d5268f53cecf70130ab6bb51089",
+      "fold_02/seed_17/validation_drawdown_phase.csv": "2e6d9cfca2c19ccad20693c78ad355e440925579389b3b6d1ba1453ceb145c6d",
+      "fold_02/seed_29/lognet_phase.zip": "6b978f346513084d936e3fa0da58cd15ee7bf9b87adb33fae8f9e52e35fa278c",
+      "fold_02/seed_29/lognet_phase.json": "13336b16dd6781d18dba5367c12541bef5219b2ed8b931c3457a990a58d2fa9b",
+      "fold_02/seed_29/validation_lognet_phase.csv": "9361650a40b0bd0a995a465253afa74a42d9bb32d9a7b06b7a2585473d5bc8be",
+      "fold_02/seed_29/drawdown_phase.zip": "5b5734b04e870ee7826f6c745af1822ff044210ae367d1bf9184c50e2e013d15",
+      "fold_02/seed_29/drawdown_phase.json": "b040ca93212980c89840037c5ead14c01f87fd0c9a41f99cd0e394cccbad0752",
+      "fold_02/seed_29/validation_drawdown_phase.csv": "73077c4fd51249cfc13e5e915e82a521b5924b6366c812f66d347064e904f7e2",
+      "fold_03/seed_7/lognet_phase.zip": "dd4865a3ddfc3cd220bb712812f53642d19e1099608b225d899668907b05488c",
+      "fold_03/seed_7/lognet_phase.json": "b46443e9804515de67444a93dca57facf00591c6258dace056591bbfd3f465f7",
+      "fold_03/seed_7/validation_lognet_phase.csv": "a2805466aef029459242ccbbda5d28f7cf3403b57bda03b89692acab025d9d76",
+      "fold_03/seed_7/drawdown_phase.zip": "67516b7df0bc07d1390c501f85efb36b589c673d2395c16092e2077b70a91cde",
+      "fold_03/seed_7/drawdown_phase.json": "36341a2dde4f73125aa3c3573a75375e54108a2557a79503091ad73ba7781508",
+      "fold_03/seed_7/validation_drawdown_phase.csv": "b04a87e53cdc27734fb16ae95a4d2cb638e38ea2998d9fcaab986c4d926b555e",
+      "fold_03/seed_17/lognet_phase.zip": "aa8c7beac845afd8cedcb5ed530d44610864367a8243bb41b3accfbe9fa4c938",
+      "fold_03/seed_17/lognet_phase.json": "9088d345a95f196a13c36968f4b888b4d68e92ccf5b9f7205e5e8f0fbafcda2c",
+      "fold_03/seed_17/validation_lognet_phase.csv": "8b9b4c0741f3b9236d2fbc57bb835d69ca1542d489e5fd34d590bd38b0a4ae5f",
+      "fold_03/seed_17/drawdown_phase.zip": "63a43e430f4573043a7ccad29888a6c180835adeac7d68accbdb406a7c0f0583",
+      "fold_03/seed_17/drawdown_phase.json": "f1743ade366cabfbca515f71768445ac20f3e1aaef6ec4354365307567eeddb2",
+      "fold_03/seed_17/validation_drawdown_phase.csv": "bc69e7b334bb3156415a46e434bf8ffce8d03208b2e0b81ef668352811c82466",
+      "fold_03/seed_29/lognet_phase.zip": "c459747c3c84f26eda6386097332c4f17bc5417ed162c9dc5f02e1fe3db945ad",
+      "fold_03/seed_29/lognet_phase.json": "a66421b766e1ea6d415ecd1db638d018a629c90a627d562d29ab2a12122fc960",
+      "fold_03/seed_29/validation_lognet_phase.csv": "d5b3cb999d0560435ae8114408e7dab8a466f2c6d312d29e65c6b8f53adf29fb",
+      "fold_03/seed_29/drawdown_phase.zip": "de440439721389fd9da67d8d014d7e755fdf35b422d92d7c7308e083b5563e3d",
+      "fold_03/seed_29/drawdown_phase.json": "2d6352d9f91655e9e437e773f6520d4cedf297f9cedb627ac4dfca0034e9db45",
+      "fold_03/seed_29/validation_drawdown_phase.csv": "d412e2db0bdfe714e1c67e51dc44cee761ee984743e080c1f52e3c87f37e9c96",
+      "fold_04/seed_7/lognet_phase.zip": "b5aac2be919eb8de001f8f9dd54bde5c23c67ef45994cc8847949811ccd6e12b",
+      "fold_04/seed_7/lognet_phase.json": "428e95dceb2111d752487eb3d3707390aab91a9a1660f0de27a743b8e19e086f",
+      "fold_04/seed_7/validation_lognet_phase.csv": "46962fe45c24159d757e2848897c33f2984c048701b6e817dd507e6fe22923cb",
+      "fold_04/seed_7/drawdown_phase.zip": "9dd959d0e2311a2b0f2d425a9da88ddd4d89ca16f1676e038c3d9362259c7ffc",
+      "fold_04/seed_7/drawdown_phase.json": "7922e112118b33483c1abf766da854acc518c7827aca9eefc34e45dfec005195",
+      "fold_04/seed_7/validation_drawdown_phase.csv": "fe724dc3722502219c155661c2b668ab30f7330e7be2da2f2ae79db33296a561",
+      "fold_04/seed_17/lognet_phase.zip": "f358bd226ea4e08cc6d0bf62dca99cbf1f31c53e4d660e5e75cb1a82ba5b53ea",
+      "fold_04/seed_17/lognet_phase.json": "76ce97b221e1c8c18e3c923d3ab8f0bdcbcf4b64c4137019f615465c52318fe5",
+      "fold_04/seed_17/validation_lognet_phase.csv": "5baf81d2fee36b894ca544b27af55cd00bc5014d12c37f01b0c34d3b10d2c269",
+      "fold_04/seed_17/drawdown_phase.zip": "f4df37db7154de7aa5ac902d1ca7e7c5c2c00d871e685369c742a88d92c91cef",
+      "fold_04/seed_17/drawdown_phase.json": "fbe6020cedef4557b8d758ede9744a3026159afd9f979fcaae4e9882c5874e38",
+      "fold_04/seed_17/validation_drawdown_phase.csv": "08c47579976c8679c478fcff604e0c37f30d8a50c1c4c547d3b4cd063abb81b1",
+      "fold_04/seed_29/lognet_phase.zip": "27603bb8faf8eceb684e202ed25b5139129ade2ea9546ba623d8e3460cc1270c",
+      "fold_04/seed_29/lognet_phase.json": "c5978b6167065c1c1d2650cffc1753b37277bfd7ae2ba5a460ca12a87fbe378c",
+      "fold_04/seed_29/validation_lognet_phase.csv": "efb8d2e0ace7ee47ad311814b94d84312211a30216fdae240141eeb68e39b3ad",
+      "fold_04/seed_29/drawdown_phase.zip": "99d4e48c3eeae68803b6682b237bbc92098746851fe7977bd0f3085bad8b6769",
+      "fold_04/seed_29/drawdown_phase.json": "280673ffa6691aea1abc36c56ae178ceee35c8e0a21f1558f5ba6c13d5beb932",
+      "fold_04/seed_29/validation_drawdown_phase.csv": "fe724dc3722502219c155661c2b668ab30f7330e7be2da2f2ae79db33296a561"
+    },
+    "runtime": {
+      "Python": "3.12.14",
+      "Stable-Baselines3": "2.7.1",
+      "PyTorch": "2.14.1+cpu",
+      "GPU Enabled": "False",
+      "Numpy": "2.3.5",
+      "Cloudpickle": "3.1.2",
+      "Gymnasium": "1.2.3",
+      "sb3-contrib": "2.7.1"
+    },
+    "steps": 20000,
+    "seeds": [
+      7,
+      17,
+      29
+    ],
+    "candidates": [
+      "lognet_raw",
+      "lognet_scaled",
+      "drawdown_raw",
+      "drawdown_scaled"
+    ],
+    "new_candidates": [
+      "lognet_scaled",
+      "drawdown_scaled"
+    ],
+    "ppo_config": {
+      "learning_rate": 0.0001,
+      "n_steps": 100,
+      "batch_size": 50,
+      "n_epochs": 10,
+      "gamma": 0.99,
+      "gae_lambda": 0.95,
+      "clip_range": 0.2,
+      "clip_range_vf": null,
+      "normalize_advantage": true,
+      "ent_coef": 0.0,
+      "vf_coef": 0.5,
+      "max_grad_norm": 0.5,
+      "target_kl": null,
+      "policy_kwargs": {
+        "net_arch": [
+          64,
+          64
+        ]
+      }
+    },
+    "new_training_fits": 24,
+    "new_daily_market_transitions": 480000,
+    "reused_control_fits": 24
+  },
+  "folds": [
+    {
+      "name": "fold_01",
+      "train": [
+        120,
+        665
+      ],
+      "validation": [
+        666,
+        908
+      ],
+      "test": [
+        909,
+        1395
+      ],
+      "dates": {
+        "train": [
+          "2015-10-13",
+          "2017-12-29"
+        ],
+        "validation": [
+          "2018-01-02",
+          "2018-12-28"
+        ],
+        "test": [
+          "2019-01-02",
+          "2020-12-31"
+        ]
+      }
+    },
+    {
+      "name": "fold_02",
+      "train": [
+        120,
+        1152
+      ],
+      "validation": [
+        1153,
+        1395
+      ],
+      "test": [
+        1396,
+        1880
+      ],
+      "dates": {
+        "train": [
+          "2015-10-13",
+          "2019-12-31"
+        ],
+        "validation": [
+          "2020-01-02",
+          "2020-12-31"
+        ],
+        "test": [
+          "2021-01-04",
+          "2022-12-30"
+        ]
+      }
+    },
+    {
+      "name": "fold_03",
+      "train": [
+        120,
+        1638
+      ],
+      "validation": [
+        1639,
+        1880
+      ],
+      "test": [
+        1881,
+        2364
+      ],
+      "dates": {
+        "train": [
+          "2015-10-13",
+          "2021-12-31"
+        ],
+        "validation": [
+          "2022-01-04",
+          "2022-12-30"
+        ],
+        "test": [
+          "2023-01-03",
+          "2024-12-31"
+        ]
+      }
+    },
+    {
+      "name": "fold_04",
+      "train": [
+        120,
+        2122
+      ],
+      "validation": [
+        2123,
+        2364
+      ],
+      "test": [
+        2365,
+        2799
+      ],
+      "dates": {
+        "train": [
+          "2015-10-13",
+          "2023-12-29"
+        ],
+        "validation": [
+          "2024-01-02",
+          "2024-12-31"
+        ],
+        "test": [
+          "2025-01-02",
+          "2026-10-22"
+        ]
+      }
+    }
+  ],
+  "tickers": [
+    "510050",
+    "510300",
+    "510500"
+  ],
+  "sessions": 2800,
+  "created_at_utc": "2026-10-27T01:14:26.971835+00:00",
+  "claim": "Previously inspected historical development; not pristine OOS or live efficacy",
+  "data_snapshot": "Exact restored original three ETFs; current independent source verification limitations inherited",
+  "controls_source": "/workspace/scratch/e92c85eb35e4/multiRL-Asset-Pricing/runs/research_v7"
+}

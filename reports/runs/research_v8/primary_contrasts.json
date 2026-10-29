@@ -1,0 +1,3746 @@
+[
+  {
+    "cost_bps": 5,
+    "fold": "fold_01",
+    "candidate": "lognet_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.0002566320356085773,
+      "annualized_mean_excess_return": 0.06467127297336148,
+      "annualized_mean_excess_ci": [
+        -0.004862520541399785,
+        0.12505885076202783
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.34979126751675893,
+      "benchmark_total_return": 0.2003821955217866,
+      "cumulative_return_difference": 0.14940907199497233,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_01",
+    "candidate": "lognet_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.00030384856478284176,
+      "annualized_mean_excess_return": 0.07656983832527613,
+      "annualized_mean_excess_ci": [
+        0.006358306743687311,
+        0.13291394801786224
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": 0.34979126751675893,
+      "benchmark_total_return": 0.1660246445962641,
+      "cumulative_return_difference": 0.18376662292049484,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_01",
+    "candidate": "lognet_raw",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.0006454578593329587,
+      "annualized_mean_excess_return": 0.1626553805519056,
+      "annualized_mean_excess_ci": [
+        -0.03864060337730495,
+        0.3464584042363857
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.34979126751675893,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": 0.34979126751675893,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_01",
+    "candidate": "lognet_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.0002667378767696863,
+      "annualized_mean_excess_return": 0.06721794494596094,
+      "annualized_mean_excess_ci": [
+        -0.0036773627666995172,
+        0.12552867631108483
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.3563912056458143,
+      "benchmark_total_return": 0.2003821955217866,
+      "cumulative_return_difference": 0.15600901012402768,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_01",
+    "candidate": "lognet_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.0003139544059439506,
+      "annualized_mean_excess_return": 0.07911651029787556,
+      "annualized_mean_excess_ci": [
+        0.006889124530176819,
+        0.13372668590894116
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": 0.3563912056458143,
+      "benchmark_total_return": 0.1660246445962641,
+      "cumulative_return_difference": 0.1903665610495502,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_01",
+    "candidate": "lognet_scaled",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.0006555637004940678,
+      "annualized_mean_excess_return": 0.16520205252450507,
+      "annualized_mean_excess_ci": [
+        -0.03716187149386594,
+        0.3465153761564045
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.3563912056458143,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": 0.3563912056458143,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_01",
+    "candidate": "drawdown_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.00024652619444746833,
+      "annualized_mean_excess_return": 0.06212460100076202,
+      "annualized_mean_excess_ci": [
+        -0.006595140430801828,
+        0.12387712124426348
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.3432053997201958,
+      "benchmark_total_return": 0.2003821955217866,
+      "cumulative_return_difference": 0.14282320419840921,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_01",
+    "candidate": "drawdown_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.0002937427236217328,
+      "annualized_mean_excess_return": 0.07402316635267667,
+      "annualized_mean_excess_ci": [
+        0.00567123194557631,
+        0.1315485257095148
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": 0.3432053997201958,
+      "benchmark_total_return": 0.1660246445962641,
+      "cumulative_return_difference": 0.17718075512393172,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_01",
+    "candidate": "drawdown_raw",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.0006353520181718498,
+      "annualized_mean_excess_return": 0.16010870857930615,
+      "annualized_mean_excess_ci": [
+        -0.03972550410425707,
+        0.34645840423638546
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.3432053997201958,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": 0.3432053997201958,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_01",
+    "candidate": "drawdown_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.00028923797742564126,
+      "annualized_mean_excess_return": 0.0728879703112616,
+      "annualized_mean_excess_ci": [
+        0.002360332293128315,
+        0.1313739772867359
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": 0.37077570337430377,
+      "benchmark_total_return": 0.2003821955217866,
+      "cumulative_return_difference": 0.17039350785251717,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_01",
+    "candidate": "drawdown_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.00033645450659990555,
+      "annualized_mean_excess_return": 0.0847865356631762,
+      "annualized_mean_excess_ci": [
+        0.00915426184804152,
+        0.14366733785908203
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": 0.37077570337430377,
+      "benchmark_total_return": 0.1660246445962641,
+      "cumulative_return_difference": 0.20475105877803967,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_01",
+    "candidate": "drawdown_scaled",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.0006780638011500225,
+      "annualized_mean_excess_return": 0.17087207788980568,
+      "annualized_mean_excess_ci": [
+        -0.03176174633132524,
+        0.3499178255368423
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.37077570337430377,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": 0.37077570337430377,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_02",
+    "candidate": "lognet_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00011709925310305326,
+      "annualized_mean_excess_return": -0.02950901178196942,
+      "annualized_mean_excess_ci": [
+        -0.06542903395748749,
+        -0.00034734449839251755
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": -0.135846424301439,
+      "benchmark_total_return": -0.0822592837631756,
+      "cumulative_return_difference": -0.05358714053826341,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_02",
+    "candidate": "lognet_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.0001888058051842087,
+      "annualized_mean_excess_return": -0.04757906290642059,
+      "annualized_mean_excess_ci": [
+        -0.129263531813329,
+        0.015895779290671114
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.135846424301439,
+      "benchmark_total_return": -0.05068625024396467,
+      "cumulative_return_difference": -0.08516017405747434,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_02",
+    "candidate": "lognet_raw",
+    "anchor": "equal50",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00010872573744964448,
+      "annualized_mean_excess_return": -0.02739888583731041,
+      "annualized_mean_excess_ci": [
+        -0.05848393902494624,
+        0.002334323245114741
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.135846424301439,
+      "benchmark_total_return": -0.08999250074958132,
+      "cumulative_return_difference": -0.04585392355185769,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_02",
+    "candidate": "lognet_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.0001059476514843801,
+      "annualized_mean_excess_return": -0.026698808174063785,
+      "annualized_mean_excess_ci": [
+        -0.06543245733383576,
+        0.0002628661328524945
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.13124003026863074,
+      "benchmark_total_return": -0.0822592837631756,
+      "cumulative_return_difference": -0.04898074650545514,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_02",
+    "candidate": "lognet_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00017765420356553548,
+      "annualized_mean_excess_return": -0.04476885929851494,
+      "annualized_mean_excess_ci": [
+        -0.12934794482755335,
+        0.01584169884747888
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.13124003026863074,
+      "benchmark_total_return": -0.05068625024396467,
+      "cumulative_return_difference": -0.08055378002466607,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_02",
+    "candidate": "lognet_scaled",
+    "anchor": "equal50",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -9.757413583097136e-05,
+      "annualized_mean_excess_return": -0.024588682229404784,
+      "annualized_mean_excess_ci": [
+        -0.058057762775386386,
+        0.00264949141851481
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.13124003026863074,
+      "benchmark_total_return": -0.08999250074958132,
+      "cumulative_return_difference": -0.04124752951904942,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_02",
+    "candidate": "drawdown_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.0001170992531030544,
+      "annualized_mean_excess_return": -0.02950901178196971,
+      "annualized_mean_excess_ci": [
+        -0.06542903395748882,
+        -0.00034734449839208875
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": -0.135846424301439,
+      "benchmark_total_return": -0.0822592837631756,
+      "cumulative_return_difference": -0.05358714053826341,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_02",
+    "candidate": "drawdown_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.0001888058051842098,
+      "annualized_mean_excess_return": -0.047579062906420874,
+      "annualized_mean_excess_ci": [
+        -0.12926353181332934,
+        0.015895779290670004
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.135846424301439,
+      "benchmark_total_return": -0.05068625024396467,
+      "cumulative_return_difference": -0.08516017405747434,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_02",
+    "candidate": "drawdown_raw",
+    "anchor": "equal50",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.0001087257374496457,
+      "annualized_mean_excess_return": -0.027398885837310715,
+      "annualized_mean_excess_ci": [
+        -0.05848393902494671,
+        0.002334323245114227
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.135846424301439,
+      "benchmark_total_return": -0.08999250074958132,
+      "cumulative_return_difference": -0.04585392355185769,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_02",
+    "candidate": "drawdown_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.0001161326529057693,
+      "annualized_mean_excess_return": -0.029265428532253866,
+      "annualized_mean_excess_ci": [
+        -0.06402284938687121,
+        0.0007629959983737398
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.1351628454316407,
+      "benchmark_total_return": -0.0822592837631756,
+      "cumulative_return_difference": -0.052903561668465104,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_02",
+    "candidate": "drawdown_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00018783920498692476,
+      "annualized_mean_excess_return": -0.04733547965670504,
+      "annualized_mean_excess_ci": [
+        -0.12839238707268202,
+        0.01793895127204642
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.1351628454316407,
+      "benchmark_total_return": -0.05068625024396467,
+      "cumulative_return_difference": -0.08447659518767603,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_02",
+    "candidate": "drawdown_scaled",
+    "anchor": "equal50",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.0001077591372523606,
+      "annualized_mean_excess_return": -0.02715530258759487,
+      "annualized_mean_excess_ci": [
+        -0.05637365670094507,
+        0.0026366356116986765
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.1351628454316407,
+      "benchmark_total_return": -0.08999250074958132,
+      "cumulative_return_difference": -0.04517034468205938,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_03",
+    "candidate": "lognet_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -5.1051048875624945e-05,
+      "annualized_mean_excess_return": -0.012864864316657487,
+      "annualized_mean_excess_ci": [
+        -0.10083035205367892,
+        0.09554731269947432
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.05091988164172179,
+      "benchmark_total_return": -0.018589361379559688,
+      "cumulative_return_difference": -0.0323305202621621,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_03",
+    "candidate": "lognet_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -7.878897168275652e-05,
+      "annualized_mean_excess_return": -0.019854820864054643,
+      "annualized_mean_excess_ci": [
+        -0.16820929937452353,
+        0.1457662888729438
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.05091988164172179,
+      "benchmark_total_return": -0.006142418250971393,
+      "cumulative_return_difference": -0.044777463390750394,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_03",
+    "candidate": "lognet_raw",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -8.184325534349767e-05,
+      "annualized_mean_excess_return": -0.020624500346561412,
+      "annualized_mean_excess_ci": [
+        -0.19687150981371504,
+        0.19966624927529336
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.05091988164172179,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": -0.05091988164172179,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_03",
+    "candidate": "lognet_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -3.232337065279309e-05,
+      "annualized_mean_excess_return": -0.008145489404503858,
+      "annualized_mean_excess_ci": [
+        -0.09985770910800633,
+        0.09749447143681314
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.04233611923801783,
+      "benchmark_total_return": -0.018589361379559688,
+      "cumulative_return_difference": -0.023746757858458145,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_03",
+    "candidate": "lognet_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -6.006129345992466e-05,
+      "annualized_mean_excess_return": -0.015135445951901015,
+      "annualized_mean_excess_ci": [
+        -0.16697625561496968,
+        0.1467327483879325
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.04233611923801783,
+      "benchmark_total_return": -0.006142418250971393,
+      "cumulative_return_difference": -0.03619370098704644,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_03",
+    "candidate": "lognet_scaled",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -6.311557712066576e-05,
+      "annualized_mean_excess_return": -0.015905125434407773,
+      "annualized_mean_excess_ci": [
+        -0.19628925654305332,
+        0.20048391677987404
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.04233611923801783,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": -0.04233611923801783,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_03",
+    "candidate": "drawdown_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -5.1051048875624945e-05,
+      "annualized_mean_excess_return": -0.012864864316657487,
+      "annualized_mean_excess_ci": [
+        -0.10083035205367892,
+        0.09554731269947432
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.05091988164172179,
+      "benchmark_total_return": -0.018589361379559688,
+      "cumulative_return_difference": -0.0323305202621621,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_03",
+    "candidate": "drawdown_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -7.878897168275652e-05,
+      "annualized_mean_excess_return": -0.019854820864054643,
+      "annualized_mean_excess_ci": [
+        -0.16820929937452353,
+        0.1457662888729438
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.05091988164172179,
+      "benchmark_total_return": -0.006142418250971393,
+      "cumulative_return_difference": -0.044777463390750394,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_03",
+    "candidate": "drawdown_raw",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -8.184325534349767e-05,
+      "annualized_mean_excess_return": -0.020624500346561412,
+      "annualized_mean_excess_ci": [
+        -0.19687150981371504,
+        0.19966624927529336
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.05091988164172179,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": -0.05091988164172179,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_03",
+    "candidate": "drawdown_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -3.232337065279309e-05,
+      "annualized_mean_excess_return": -0.008145489404503858,
+      "annualized_mean_excess_ci": [
+        -0.09985770910800633,
+        0.09749447143681314
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.04233611923801783,
+      "benchmark_total_return": -0.018589361379559688,
+      "cumulative_return_difference": -0.023746757858458145,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_03",
+    "candidate": "drawdown_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -6.006129345992466e-05,
+      "annualized_mean_excess_return": -0.015135445951901015,
+      "annualized_mean_excess_ci": [
+        -0.16697625561496968,
+        0.1467327483879325
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.04233611923801783,
+      "benchmark_total_return": -0.006142418250971393,
+      "cumulative_return_difference": -0.03619370098704644,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_03",
+    "candidate": "drawdown_scaled",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -6.311557712066576e-05,
+      "annualized_mean_excess_return": -0.015905125434407773,
+      "annualized_mean_excess_ci": [
+        -0.19628925654305332,
+        0.20048391677987404
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.04233611923801783,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": -0.04233611923801783,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_04",
+    "candidate": "lognet_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -2.1589152245166723e-05,
+      "annualized_mean_excess_return": -0.005440466365782014,
+      "annualized_mean_excess_ci": [
+        -0.022894245792955435,
+        0.013014126156617314
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.06949346087797714,
+      "benchmark_total_return": 0.0790034453816717,
+      "cumulative_return_difference": -0.009509984503694557,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_04",
+    "candidate": "lognet_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -2.1913670662877574e-05,
+      "annualized_mean_excess_return": -0.005522245007045149,
+      "annualized_mean_excess_ci": [
+        -0.08452391255069203,
+        0.08123618835415292
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.06949346087797714,
+      "benchmark_total_return": 0.07643741090726786,
+      "cumulative_return_difference": -0.006943950029290713,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_04",
+    "candidate": "lognet_raw",
+    "anchor": "vol10",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.0001346258806822829,
+      "annualized_mean_excess_return": -0.03392572193193529,
+      "annualized_mean_excess_ci": [
+        -0.10864641598447658,
+        0.025430021410931782
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.06949346087797714,
+      "benchmark_total_return": 0.12656310248934055,
+      "cumulative_return_difference": -0.05706964161136341,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_04",
+    "candidate": "lognet_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -9.76815010100696e-05,
+      "annualized_mean_excess_return": -0.02461573825453754,
+      "annualized_mean_excess_ci": [
+        -0.0778188888768912,
+        0.029976149215860205
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.03435880793013979,
+      "benchmark_total_return": 0.0790034453816717,
+      "cumulative_return_difference": -0.04464463745153191,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_04",
+    "candidate": "lognet_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -9.800601942778047e-05,
+      "annualized_mean_excess_return": -0.024697516895800676,
+      "annualized_mean_excess_ci": [
+        -0.13850298690671628,
+        0.09595128563551136
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.03435880793013979,
+      "benchmark_total_return": 0.07643741090726786,
+      "cumulative_return_difference": -0.042078602977128066,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_04",
+    "candidate": "lognet_scaled",
+    "anchor": "vol10",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.0002107182294471858,
+      "annualized_mean_excess_return": -0.05310099382069082,
+      "annualized_mean_excess_ci": [
+        -0.15086456635893297,
+        0.02637995584129818
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.03435880793013979,
+      "benchmark_total_return": 0.12656310248934055,
+      "cumulative_return_difference": -0.09220429455920076,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_04",
+    "candidate": "drawdown_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -8.049241721655692e-05,
+      "annualized_mean_excess_return": -0.020284089138572343,
+      "annualized_mean_excess_ci": [
+        -0.07040243549123047,
+        0.020565590232126993
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.04502865526894029,
+      "benchmark_total_return": 0.0790034453816717,
+      "cumulative_return_difference": -0.03397479011273141,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_04",
+    "candidate": "drawdown_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -8.081693563426777e-05,
+      "annualized_mean_excess_return": -0.020365867779835477,
+      "annualized_mean_excess_ci": [
+        -0.11271050520942678,
+        0.07066498249944592
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.04502865526894029,
+      "benchmark_total_return": 0.07643741090726786,
+      "cumulative_return_difference": -0.03140875563832757,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_04",
+    "candidate": "drawdown_raw",
+    "anchor": "vol10",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00019352914565367308,
+      "annualized_mean_excess_return": -0.04876934470472562,
+      "annualized_mean_excess_ci": [
+        -0.16546023259709794,
+        0.037740735864543955
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.04502865526894029,
+      "benchmark_total_return": 0.12656310248934055,
+      "cumulative_return_difference": -0.08153444722040026,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_04",
+    "candidate": "drawdown_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00010320218347128114,
+      "annualized_mean_excess_return": -0.02600695023476285,
+      "annualized_mean_excess_ci": [
+        -0.07945813223985985,
+        0.021162825267965903
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.03492303544364561,
+      "benchmark_total_return": 0.0790034453816717,
+      "cumulative_return_difference": -0.04408040993802609,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_04",
+    "candidate": "drawdown_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00010352670188899195,
+      "annualized_mean_excess_return": -0.026088728876025973,
+      "annualized_mean_excess_ci": [
+        -0.1176979196078562,
+        0.06791865410135262
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.03492303544364561,
+      "benchmark_total_return": 0.07643741090726786,
+      "cumulative_return_difference": -0.041514375463622244,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 5,
+    "fold": "fold_04",
+    "candidate": "drawdown_scaled",
+    "anchor": "vol10",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00021623891190839732,
+      "annualized_mean_excess_return": -0.05449220580091613,
+      "annualized_mean_excess_ci": [
+        -0.1736262273870615,
+        0.037835603986614834
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.03492303544364561,
+      "benchmark_total_return": 0.12656310248934055,
+      "cumulative_return_difference": -0.09164006704569494,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_01",
+    "candidate": "lognet_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.00025543331765999586,
+      "annualized_mean_excess_return": 0.06436919605031896,
+      "annualized_mean_excess_ci": [
+        -0.0053317010859668685,
+        0.12490551722497265
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.34669871105517713,
+      "benchmark_total_return": 0.19832745106491845,
+      "cumulative_return_difference": 0.14837125999025869,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_01",
+    "candidate": "lognet_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.0003143486654420603,
+      "annualized_mean_excess_return": 0.07921586369139919,
+      "annualized_mean_excess_ci": [
+        0.008646657158462056,
+        0.13632826908405124
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": 0.34669871105517713,
+      "benchmark_total_return": 0.15743623300935794,
+      "cumulative_return_difference": 0.1892624780458192,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_01",
+    "candidate": "lognet_raw",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.0006407287367972457,
+      "annualized_mean_excess_return": 0.16146364167290592,
+      "annualized_mean_excess_ci": [
+        -0.03988498441587869,
+        0.34488039679761634
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.34669871105517713,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": 0.34669871105517713,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_01",
+    "candidate": "lognet_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.00026554218004815896,
+      "annualized_mean_excess_return": 0.06691662937213606,
+      "annualized_mean_excess_ci": [
+        -0.004069059702788318,
+        0.1252724593252693
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.3532853980529014,
+      "benchmark_total_return": 0.19832745106491845,
+      "cumulative_return_difference": 0.15495794698798293,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_01",
+    "candidate": "lognet_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.0003244575278302233,
+      "annualized_mean_excess_return": 0.08176329701321627,
+      "annualized_mean_excess_ci": [
+        0.009004886814332726,
+        0.13661734466795195
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": 0.3532853980529014,
+      "benchmark_total_return": 0.15743623300935794,
+      "cumulative_return_difference": 0.19584916504354344,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_01",
+    "candidate": "lognet_scaled",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.0006508375991854088,
+      "annualized_mean_excess_return": 0.164011074994723,
+      "annualized_mean_excess_ci": [
+        -0.038296341827582916,
+        0.34529108952443177
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.3532853980529014,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": 0.3532853980529014,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_01",
+    "candidate": "drawdown_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.00024532445527183276,
+      "annualized_mean_excess_return": 0.06182176272850186,
+      "annualized_mean_excess_ci": [
+        -0.00696147903940334,
+        0.12357551176454643
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.3401260399627646,
+      "benchmark_total_return": 0.19832745106491845,
+      "cumulative_return_difference": 0.14179858889784613,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_01",
+    "candidate": "drawdown_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.0003042398030538972,
+      "annualized_mean_excess_return": 0.0766684303695821,
+      "annualized_mean_excess_ci": [
+        0.007770620054429161,
+        0.13526665116312775
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": 0.3401260399627646,
+      "benchmark_total_return": 0.15743623300935794,
+      "cumulative_return_difference": 0.18268980695340664,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_01",
+    "candidate": "drawdown_raw",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.0006306198744090827,
+      "annualized_mean_excess_return": 0.15891620835108883,
+      "annualized_mean_excess_ci": [
+        -0.04091910085744225,
+        0.3448803967976156
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.3401260399627646,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": 0.3401260399627646,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_01",
+    "candidate": "drawdown_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.0002880389484672846,
+      "annualized_mean_excess_return": 0.07258581501375572,
+      "annualized_mean_excess_ci": [
+        0.0021695729181572423,
+        0.13109550261367273
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": 0.36763530462126415,
+      "benchmark_total_return": 0.19832745106491845,
+      "cumulative_return_difference": 0.1693078535563457,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_01",
+    "candidate": "drawdown_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.00034695429624934896,
+      "annualized_mean_excess_return": 0.08743248265483594,
+      "annualized_mean_excess_ci": [
+        0.011311277980112626,
+        0.1465404096431678
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": 0.36763530462126415,
+      "benchmark_total_return": 0.15743623300935794,
+      "cumulative_return_difference": 0.2101990716119062,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_01",
+    "candidate": "drawdown_scaled",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.0006733343676045346,
+      "annualized_mean_excess_return": 0.16968026063634273,
+      "annualized_mean_excess_ci": [
+        -0.03300237961151708,
+        0.34834689509559064
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.36763530462126415,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": 0.36763530462126415,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_02",
+    "candidate": "lognet_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00012053947456626024,
+      "annualized_mean_excess_return": -0.030375947590697578,
+      "annualized_mean_excess_ci": [
+        -0.06622369917160628,
+        -0.001051327955082181
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": -0.1387625407160773,
+      "benchmark_total_return": -0.08383404888641077,
+      "cumulative_return_difference": -0.054928491829666526,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_02",
+    "candidate": "lognet_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00017859908633251117,
+      "annualized_mean_excess_return": -0.04500696975579282,
+      "annualized_mean_excess_ci": [
+        -0.12685680389247087,
+        0.01913347549701914
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.1387625407160773,
+      "benchmark_total_return": -0.058552109049363255,
+      "cumulative_return_difference": -0.08021043166671404,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_02",
+    "candidate": "lognet_raw",
+    "anchor": "equal50",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00011463064406688738,
+      "annualized_mean_excess_return": -0.02888692230485562,
+      "annualized_mean_excess_ci": [
+        -0.059939448022110195,
+        0.0007084271239724887
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.1387625407160773,
+      "benchmark_total_return": -0.09046934195069567,
+      "cumulative_return_difference": -0.04829319876538163,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_02",
+    "candidate": "lognet_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.0001093837821557184,
+      "annualized_mean_excess_return": -0.02756471310324104,
+      "annualized_mean_excess_ci": [
+        -0.06630417727005829,
+        -0.000497555293823539
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": -0.1341702813563762,
+      "benchmark_total_return": -0.08383404888641077,
+      "cumulative_return_difference": -0.050336232469965436,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_02",
+    "candidate": "lognet_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00016744339392196937,
+      "annualized_mean_excess_return": -0.04219573526833628,
+      "annualized_mean_excess_ci": [
+        -0.12714828816721152,
+        0.01913347549701897
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.1341702813563762,
+      "benchmark_total_return": -0.058552109049363255,
+      "cumulative_return_difference": -0.07561817230701295,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_02",
+    "candidate": "lognet_scaled",
+    "anchor": "equal50",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00010347495165634553,
+      "annualized_mean_excess_return": -0.026075687817399072,
+      "annualized_mean_excess_ci": [
+        -0.059574562596533334,
+        0.0011160861645319652
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.1341702813563762,
+      "benchmark_total_return": -0.09046934195069567,
+      "cumulative_return_difference": -0.04370093940568054,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_02",
+    "candidate": "drawdown_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00012053947456626467,
+      "annualized_mean_excess_return": -0.030375947590698695,
+      "annualized_mean_excess_ci": [
+        -0.06622369917160753,
+        -0.0010513279550836373
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": -0.13876254071607774,
+      "benchmark_total_return": -0.08383404888641077,
+      "cumulative_return_difference": -0.05492849182966697,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_02",
+    "candidate": "drawdown_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00017859908633251567,
+      "annualized_mean_excess_return": -0.04500696975579395,
+      "annualized_mean_excess_ci": [
+        -0.1268568038924717,
+        0.01913347549701823
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.13876254071607774,
+      "benchmark_total_return": -0.058552109049363255,
+      "cumulative_return_difference": -0.08021043166671449,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_02",
+    "candidate": "drawdown_raw",
+    "anchor": "equal50",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00011463064406689183,
+      "annualized_mean_excess_return": -0.02888692230485674,
+      "annualized_mean_excess_ci": [
+        -0.05993944802211125,
+        0.0007084271239714537
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.13876254071607774,
+      "benchmark_total_return": -0.09046934195069567,
+      "cumulative_return_difference": -0.04829319876538207,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_02",
+    "candidate": "drawdown_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00011928937711956663,
+      "annualized_mean_excess_return": -0.030060923034130792,
+      "annualized_mean_excess_ci": [
+        -0.06488252881848194,
+        2.1788371541785743e-05
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.137964816527406,
+      "benchmark_total_return": -0.08383404888641077,
+      "cumulative_return_difference": -0.054130767640995225,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_02",
+    "candidate": "drawdown_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00017734898888581763,
+      "annualized_mean_excess_return": -0.04469194519922604,
+      "annualized_mean_excess_ci": [
+        -0.12555069213146774,
+        0.021316928425666258
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.137964816527406,
+      "benchmark_total_return": -0.058552109049363255,
+      "cumulative_return_difference": -0.07941270747804274,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_02",
+    "candidate": "drawdown_scaled",
+    "anchor": "equal50",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00011338054662019379,
+      "annualized_mean_excess_return": -0.028571897748288833,
+      "annualized_mean_excess_ci": [
+        -0.05770241168058574,
+        0.001134704524599056
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.137964816527406,
+      "benchmark_total_return": -0.09046934195069567,
+      "cumulative_return_difference": -0.04749547457671033,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_03",
+    "candidate": "lognet_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -5.2933304224470556e-05,
+      "annualized_mean_excess_return": -0.01333919266456658,
+      "annualized_mean_excess_ci": [
+        -0.10085323349745792,
+        0.09476199341725737
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.05333593795147962,
+      "benchmark_total_return": -0.02020055639810192,
+      "cumulative_return_difference": -0.033135381553377696,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_03",
+    "candidate": "lognet_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -6.765386919213768e-05,
+      "annualized_mean_excess_return": -0.017048775036418697,
+      "annualized_mean_excess_ci": [
+        -0.16621884582346164,
+        0.148457255781094
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.05333593795147962,
+      "benchmark_total_return": -0.013999435268262306,
+      "cumulative_return_difference": -0.03933650268321731,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_03",
+    "candidate": "lognet_raw",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -8.712541397783101e-05,
+      "annualized_mean_excess_return": -0.021955604322413416,
+      "annualized_mean_excess_ci": [
+        -0.19810955878688286,
+        0.1983603521228166
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.05333593795147962,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": -0.05333593795147962,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_03",
+    "candidate": "lognet_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -3.420305541161451e-05,
+      "annualized_mean_excess_return": -0.008619169963726856,
+      "annualized_mean_excess_ci": [
+        -0.10019421393298844,
+        0.09684537518958973
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.04477265359856808,
+      "benchmark_total_return": -0.02020055639810192,
+      "cumulative_return_difference": -0.02457209720046616,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_03",
+    "candidate": "lognet_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -4.8923620379281664e-05,
+      "annualized_mean_excess_return": -0.01232875233557898,
+      "annualized_mean_excess_ci": [
+        -0.1644429296162104,
+        0.14940593882585765
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.04477265359856808,
+      "benchmark_total_return": -0.013999435268262306,
+      "cumulative_return_difference": -0.030773218330305774,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_03",
+    "candidate": "lognet_scaled",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -6.839516516497492e-05,
+      "annualized_mean_excess_return": -0.017235581621573678,
+      "annualized_mean_excess_ci": [
+        -0.19744279071739304,
+        0.1990303512360207
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.04477265359856808,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": -0.04477265359856808,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_03",
+    "candidate": "drawdown_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -5.2933304224470556e-05,
+      "annualized_mean_excess_return": -0.01333919266456658,
+      "annualized_mean_excess_ci": [
+        -0.10085323349745792,
+        0.09476199341725737
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.05333593795147962,
+      "benchmark_total_return": -0.02020055639810192,
+      "cumulative_return_difference": -0.033135381553377696,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_03",
+    "candidate": "drawdown_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -6.765386919213768e-05,
+      "annualized_mean_excess_return": -0.017048775036418697,
+      "annualized_mean_excess_ci": [
+        -0.16621884582346164,
+        0.148457255781094
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.05333593795147962,
+      "benchmark_total_return": -0.013999435268262306,
+      "cumulative_return_difference": -0.03933650268321731,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_03",
+    "candidate": "drawdown_raw",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -8.712541397783101e-05,
+      "annualized_mean_excess_return": -0.021955604322413416,
+      "annualized_mean_excess_ci": [
+        -0.19810955878688286,
+        0.1983603521228166
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.05333593795147962,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": -0.05333593795147962,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_03",
+    "candidate": "drawdown_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -3.420305541161451e-05,
+      "annualized_mean_excess_return": -0.008619169963726856,
+      "annualized_mean_excess_ci": [
+        -0.10019421393298844,
+        0.09684537518958973
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.04477265359856808,
+      "benchmark_total_return": -0.02020055639810192,
+      "cumulative_return_difference": -0.02457209720046616,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_03",
+    "candidate": "drawdown_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -4.8923620379281664e-05,
+      "annualized_mean_excess_return": -0.01232875233557898,
+      "annualized_mean_excess_ci": [
+        -0.1644429296162104,
+        0.14940593882585765
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.04477265359856808,
+      "benchmark_total_return": -0.013999435268262306,
+      "cumulative_return_difference": -0.030773218330305774,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_03",
+    "candidate": "drawdown_scaled",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -6.839516516497492e-05,
+      "annualized_mean_excess_return": -0.017235581621573678,
+      "annualized_mean_excess_ci": [
+        -0.19744279071739304,
+        0.1990303512360207
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.04477265359856808,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": -0.04477265359856808,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_04",
+    "candidate": "lognet_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -1.9865719215225628e-05,
+      "annualized_mean_excess_return": -0.0050061612422368585,
+      "annualized_mean_excess_ci": [
+        -0.022519520923347223,
+        0.01347577086492179
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.06853734052633831,
+      "benchmark_total_return": 0.07723234515774724,
+      "cumulative_return_difference": -0.008695004631408931,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_04",
+    "candidate": "lognet_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 1.3706378677058374e-05,
+      "annualized_mean_excess_return": 0.0034540074266187102,
+      "annualized_mean_excess_ci": [
+        -0.07848699615365505,
+        0.09895137713268802
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.06853734052633831,
+      "benchmark_total_return": 0.05850764507022199,
+      "cumulative_return_difference": 0.010029695456116317,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_04",
+    "candidate": "lognet_raw",
+    "anchor": "vol10",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.0001316294566000275,
+      "annualized_mean_excess_return": -0.03317062306320693,
+      "annualized_mean_excess_ci": [
+        -0.10806643202058347,
+        0.026354990423776935
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.06853734052633831,
+      "benchmark_total_return": 0.12409135942806393,
+      "cumulative_return_difference": -0.05555401890172562,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_04",
+    "candidate": "lognet_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00010145937205299688,
+      "annualized_mean_excess_return": -0.025567761757355215,
+      "annualized_mean_excess_ci": [
+        -0.07849881273278171,
+        0.029104011278785747
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.03096629020426578,
+      "benchmark_total_return": 0.07723234515774724,
+      "cumulative_return_difference": -0.04626605495348146,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_04",
+    "candidate": "lognet_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -6.78872741607128e-05,
+      "annualized_mean_excess_return": -0.017107593088499625,
+      "annualized_mean_excess_ci": [
+        -0.13304466586948263,
+        0.1107491579876008
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.03096629020426578,
+      "benchmark_total_return": 0.05850764507022199,
+      "cumulative_return_difference": -0.027541354865956214,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_04",
+    "candidate": "lognet_scaled",
+    "anchor": "vol10",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.0002132231094377987,
+      "annualized_mean_excess_return": -0.05373222357832527,
+      "annualized_mean_excess_ci": [
+        -0.15129776125082917,
+        0.02560097305982315
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.03096629020426578,
+      "benchmark_total_return": 0.12409135942806393,
+      "cumulative_return_difference": -0.09312506922379815,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_04",
+    "candidate": "drawdown_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -7.839404866078618e-05,
+      "annualized_mean_excess_return": -0.01975530026251812,
+      "annualized_mean_excess_ci": [
+        -0.06995872996289135,
+        0.02104974334466523
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.04426484659084706,
+      "benchmark_total_return": 0.07723234515774724,
+      "cumulative_return_difference": -0.03296749856690018,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_04",
+    "candidate": "drawdown_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -4.482195076850221e-05,
+      "annualized_mean_excess_return": -0.011295131593662557,
+      "annualized_mean_excess_ci": [
+        -0.10832785218861186,
+        0.0868725630264119
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.04426484659084706,
+      "benchmark_total_return": 0.05850764507022199,
+      "cumulative_return_difference": -0.01424279847937493,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_04",
+    "candidate": "drawdown_raw",
+    "anchor": "vol10",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00019015778604558793,
+      "annualized_mean_excess_return": -0.04791976208348816,
+      "annualized_mean_excess_ci": [
+        -0.16460834036943017,
+        0.038559630408396287
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.04426484659084706,
+      "benchmark_total_return": 0.12409135942806393,
+      "cumulative_return_difference": -0.07982651283721687,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_04",
+    "candidate": "drawdown_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00010262398259054967,
+      "annualized_mean_excess_return": -0.025861243612818517,
+      "annualized_mean_excess_ci": [
+        -0.079361155250474,
+        0.021361164515330305
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.03348427303042012,
+      "benchmark_total_return": 0.07723234515774724,
+      "cumulative_return_difference": -0.04374807212732712,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_04",
+    "candidate": "drawdown_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -6.905188469826566e-05,
+      "annualized_mean_excess_return": -0.017401074943962945,
+      "annualized_mean_excess_ci": [
+        -0.11373419287783884,
+        0.08581591115068014
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.03348427303042012,
+      "benchmark_total_return": 0.05850764507022199,
+      "cumulative_return_difference": -0.025023372039801872,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 10,
+    "fold": "fold_04",
+    "candidate": "drawdown_scaled",
+    "anchor": "vol10",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.0002143877199753515,
+      "annualized_mean_excess_return": -0.054025705433788575,
+      "annualized_mean_excess_ci": [
+        -0.17344136015836262,
+        0.038120888622266806
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.03348427303042012,
+      "benchmark_total_return": 0.12409135942806393,
+      "cumulative_return_difference": -0.09060708639764381,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_01",
+    "candidate": "lognet_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.0002530371363791105,
+      "annualized_mean_excess_return": 0.06376535836753584,
+      "annualized_mean_excess_ci": [
+        -0.00591814298092173,
+        0.124714227752368
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.3405353198850929,
+      "benchmark_total_return": 0.1942286044370194,
+      "cumulative_return_difference": 0.1463067154480735,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_01",
+    "candidate": "lognet_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.00033533847342132923,
+      "annualized_mean_excess_return": 0.08450529530217496,
+      "annualized_mean_excess_ci": [
+        0.012616412682254108,
+        0.14294653917956696
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": 0.3405353198850929,
+      "benchmark_total_return": 0.14044864758997977,
+      "cumulative_return_difference": 0.20008667229511312,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_01",
+    "candidate": "lognet_raw",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.0006312724462059344,
+      "annualized_mean_excess_return": 0.15908065644389546,
+      "annualized_mean_excess_ci": [
+        -0.04237367237970288,
+        0.3427718423828725
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.3405353198850929,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": 0.3405353198850929,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_01",
+    "candidate": "lognet_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.00026315201836308135,
+      "annualized_mean_excess_return": 0.0663143086274965,
+      "annualized_mean_excess_ci": [
+        -0.0047173491118815275,
+        0.12476045501642935
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.3470955028813141,
+      "benchmark_total_return": 0.1942286044370194,
+      "cumulative_return_difference": 0.15286689844429469,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_01",
+    "candidate": "lognet_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.0003454533554053001,
+      "annualized_mean_excess_return": 0.08705424556213562,
+      "annualized_mean_excess_ci": [
+        0.013115710706200082,
+        0.14401476170822086
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": 0.3470955028813141,
+      "benchmark_total_return": 0.14044864758997977,
+      "cumulative_return_difference": 0.2066468552913343,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_01",
+    "candidate": "lognet_scaled",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.000641387328189905,
+      "annualized_mean_excess_return": 0.16162960670385607,
+      "annualized_mean_excess_ci": [
+        -0.04056486872138577,
+        0.34289733144082335
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.3470955028813141,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": 0.3470955028813141,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_01",
+    "candidate": "drawdown_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.00024292225439513957,
+      "annualized_mean_excess_return": 0.06121640810757517,
+      "annualized_mean_excess_ci": [
+        -0.007373133422581497,
+        0.12317480218089605
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.3339889645855014,
+      "benchmark_total_return": 0.1942286044370194,
+      "cumulative_return_difference": 0.13976036014848203,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_01",
+    "candidate": "drawdown_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.00032522359143735837,
+      "annualized_mean_excess_return": 0.08195634504221432,
+      "annualized_mean_excess_ci": [
+        0.012296439336009742,
+        0.14193557642574378
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": 0.3339889645855014,
+      "benchmark_total_return": 0.14044864758997977,
+      "cumulative_return_difference": 0.19354031699552166,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_01",
+    "candidate": "drawdown_raw",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.0006211575642219634,
+      "annualized_mean_excess_return": 0.15653170618393478,
+      "annualized_mean_excess_ci": [
+        -0.043301413846538975,
+        0.3426385554205608
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.3339889645855014,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": 0.3339889645855014,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_01",
+    "candidate": "drawdown_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.00028564209975229926,
+      "annualized_mean_excess_return": 0.07198180913757941,
+      "annualized_mean_excess_ci": [
+        0.0017886825760382381,
+        0.13053277827116988
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": 0.3613765036179595,
+      "benchmark_total_return": 0.1942286044370194,
+      "cumulative_return_difference": 0.16714789918094008,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_01",
+    "candidate": "drawdown_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.00036794343679451806,
+      "annualized_mean_excess_return": 0.09272174607221854,
+      "annualized_mean_excess_ci": [
+        0.014591996599461398,
+        0.15206079103451908
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": 0.3613765036179595,
+      "benchmark_total_return": 0.14044864758997977,
+      "cumulative_return_difference": 0.2209278560279797,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_01",
+    "candidate": "drawdown_scaled",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 486,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 0.0006638774095791231,
+      "annualized_mean_excess_return": 0.16729710721393903,
+      "annualized_mean_excess_ci": [
+        -0.035483172804133635,
+        0.3457622040425415
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.3613765036179595,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": 0.3613765036179595,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_02",
+    "candidate": "lognet_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.0001274177971221423,
+      "annualized_mean_excess_return": -0.03210928487477986,
+      "annualized_mean_excess_ci": [
+        -0.0678085673504491,
+        -0.0025360943690940206
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": -0.14456466010562985,
+      "benchmark_total_return": -0.086975386760485,
+      "cumulative_return_difference": -0.057589273345144854,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_02",
+    "candidate": "lognet_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00015819865617999897,
+      "annualized_mean_excess_return": -0.03986606135735974,
+      "annualized_mean_excess_ci": [
+        -0.12150192858512261,
+        0.025059559085094916
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.14456466010562985,
+      "benchmark_total_return": -0.07408866033165384,
+      "cumulative_return_difference": -0.070475999773976,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_02",
+    "candidate": "lognet_raw",
+    "anchor": "equal50",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00012643834576018926,
+      "annualized_mean_excess_return": -0.031862463131567695,
+      "annualized_mean_excess_ci": [
+        -0.06284882637334678,
+        -0.002153234349615855
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": -0.14456466010562985,
+      "benchmark_total_return": -0.09142206771542405,
+      "cumulative_return_difference": -0.0531425923902058,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_02",
+    "candidate": "lognet_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00011625395049359766,
+      "annualized_mean_excess_return": -0.02929599552438661,
+      "annualized_mean_excess_ci": [
+        -0.06779953347920925,
+        -0.001853012230546661
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": -0.14000068969049473,
+      "benchmark_total_return": -0.086975386760485,
+      "cumulative_return_difference": -0.05302530293000973,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_02",
+    "candidate": "lognet_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.0001470348095514544,
+      "annualized_mean_excess_return": -0.03705277200696651,
+      "annualized_mean_excess_ci": [
+        -0.12188875077630709,
+        0.024838673459246428
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.14000068969049473,
+      "benchmark_total_return": -0.07408866033165384,
+      "cumulative_return_difference": -0.06591202935884088,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_02",
+    "candidate": "lognet_scaled",
+    "anchor": "equal50",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00011527449913164466,
+      "annualized_mean_excess_return": -0.029049173781174456,
+      "annualized_mean_excess_ci": [
+        -0.06268393190585783,
+        -0.0018799829945518062
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": -0.14000068969049473,
+      "benchmark_total_return": -0.09142206771542405,
+      "cumulative_return_difference": -0.04857862197507068,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_02",
+    "candidate": "drawdown_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00012741779712214276,
+      "annualized_mean_excess_return": -0.03210928487477998,
+      "annualized_mean_excess_ci": [
+        -0.0678085673504496,
+        -0.002536094369093856
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": -0.1445646601056313,
+      "benchmark_total_return": -0.086975386760485,
+      "cumulative_return_difference": -0.0575892733451463,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_02",
+    "candidate": "drawdown_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00015819865617999943,
+      "annualized_mean_excess_return": -0.03986606135735986,
+      "annualized_mean_excess_ci": [
+        -0.12150192858512365,
+        0.025059559085095186
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.1445646601056313,
+      "benchmark_total_return": -0.07408866033165384,
+      "cumulative_return_difference": -0.07047599977397745,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_02",
+    "candidate": "drawdown_raw",
+    "anchor": "equal50",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00012643834576018978,
+      "annualized_mean_excess_return": -0.03186246313156783,
+      "annualized_mean_excess_ci": [
+        -0.06284882637334681,
+        -0.0021532343496153306
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": -0.1445646601056313,
+      "benchmark_total_return": -0.09142206771542405,
+      "cumulative_return_difference": -0.053142592390207244,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_02",
+    "candidate": "drawdown_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00012560098310739656,
+      "annualized_mean_excess_return": -0.031651447743063936,
+      "annualized_mean_excess_ci": [
+        -0.06654364511718301,
+        -0.001459964307397231
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": -0.1435409955282233,
+      "benchmark_total_return": -0.086975386760485,
+      "cumulative_return_difference": -0.05656560876773831,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_02",
+    "candidate": "drawdown_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00015638184216525326,
+      "annualized_mean_excess_return": -0.03940822422564382,
+      "annualized_mean_excess_ci": [
+        -0.12020542877455745,
+        0.02726234705426666
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.1435409955282233,
+      "benchmark_total_return": -0.07408866033165384,
+      "cumulative_return_difference": -0.06945233519656946,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_02",
+    "candidate": "drawdown_scaled",
+    "anchor": "equal50",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 484,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00012462153174544355,
+      "annualized_mean_excess_return": -0.031404625999851776,
+      "annualized_mean_excess_ci": [
+        -0.060449007895297925,
+        -0.001669499952886421
+      ],
+      "ci_contains_zero": false,
+      "strategy_total_return": -0.1435409955282233,
+      "benchmark_total_return": -0.09142206771542405,
+      "cumulative_return_difference": -0.052118927812799254,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_03",
+    "candidate": "lognet_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -5.669697753294598e-05,
+      "annualized_mean_excess_return": -0.014287638338302388,
+      "annualized_mean_excess_ci": [
+        -0.10106806727770738,
+        0.09335951181017188
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.05814944934616917,
+      "benchmark_total_return": -0.023414943803489185,
+      "cumulative_return_difference": -0.03473450554267998,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_03",
+    "candidate": "lognet_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -4.5398983597605445e-05,
+      "annualized_mean_excess_return": -0.011440543866596571,
+      "annualized_mean_excess_ci": [
+        -0.16112447316520473,
+        0.15388256594356842
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.05814944934616917,
+      "benchmark_total_return": -0.029527451351278877,
+      "cumulative_return_difference": -0.02862199799489029,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_03",
+    "candidate": "lognet_raw",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -9.768819290748633e-05,
+      "annualized_mean_excess_return": -0.024617424612686557,
+      "annualized_mean_excess_ci": [
+        -0.20037277125238503,
+        0.19561417615532353
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.05814944934616917,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": -0.05814944934616917,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_03",
+    "candidate": "lognet_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -3.796153323444365e-05,
+      "annualized_mean_excess_return": -0.0095663063750798,
+      "annualized_mean_excess_ci": [
+        -0.10082711466231095,
+        0.09554656087448092
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.049627063731666365,
+      "benchmark_total_return": -0.023414943803489185,
+      "cumulative_return_difference": -0.02621211992817718,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_03",
+    "candidate": "lognet_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -2.6663539299103085e-05,
+      "annualized_mean_excess_return": -0.006719211903373977,
+      "annualized_mean_excess_ci": [
+        -0.16089212396966002,
+        0.15491901690910698
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.049627063731666365,
+      "benchmark_total_return": -0.029527451351278877,
+      "cumulative_return_difference": -0.020099612380387488,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_03",
+    "candidate": "lognet_scaled",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -7.895274860898405e-05,
+      "annualized_mean_excess_return": -0.01989609264946398,
+      "annualized_mean_excess_ci": [
+        -0.19975539095201603,
+        0.19626112325519912
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.049627063731666365,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": -0.049627063731666365,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_03",
+    "candidate": "drawdown_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -5.669697753294598e-05,
+      "annualized_mean_excess_return": -0.014287638338302388,
+      "annualized_mean_excess_ci": [
+        -0.10106806727770738,
+        0.09335951181017188
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.05814944934616917,
+      "benchmark_total_return": -0.023414943803489185,
+      "cumulative_return_difference": -0.03473450554267998,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_03",
+    "candidate": "drawdown_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -4.5398983597605445e-05,
+      "annualized_mean_excess_return": -0.011440543866596571,
+      "annualized_mean_excess_ci": [
+        -0.16112447316520473,
+        0.15388256594356842
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.05814944934616917,
+      "benchmark_total_return": -0.029527451351278877,
+      "cumulative_return_difference": -0.02862199799489029,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_03",
+    "candidate": "drawdown_raw",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -9.768819290748633e-05,
+      "annualized_mean_excess_return": -0.024617424612686557,
+      "annualized_mean_excess_ci": [
+        -0.20037277125238503,
+        0.19561417615532353
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.05814944934616917,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": -0.05814944934616917,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_03",
+    "candidate": "drawdown_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -3.796153323444365e-05,
+      "annualized_mean_excess_return": -0.0095663063750798,
+      "annualized_mean_excess_ci": [
+        -0.10082711466231095,
+        0.09554656087448092
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.049627063731666365,
+      "benchmark_total_return": -0.023414943803489185,
+      "cumulative_return_difference": -0.02621211992817718,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_03",
+    "candidate": "drawdown_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -2.6663539299103085e-05,
+      "annualized_mean_excess_return": -0.006719211903373977,
+      "annualized_mean_excess_ci": [
+        -0.16089212396966002,
+        0.15491901690910698
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.049627063731666365,
+      "benchmark_total_return": -0.029527451351278877,
+      "cumulative_return_difference": -0.020099612380387488,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_03",
+    "candidate": "drawdown_scaled",
+    "anchor": "cash",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 483,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -7.895274860898405e-05,
+      "annualized_mean_excess_return": -0.01989609264946398,
+      "annualized_mean_excess_ci": [
+        -0.19975539095201603,
+        0.19626112325519912
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": -0.049627063731666365,
+      "benchmark_total_return": 0.0,
+      "cumulative_return_difference": -0.049627063731666365,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_04",
+    "candidate": "lognet_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -1.6418622286480054e-05,
+      "annualized_mean_excess_return": -0.004137492816192974,
+      "annualized_mean_excess_ci": [
+        -0.021770129480546317,
+        0.014451506765662583
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.0666279526937752,
+      "benchmark_total_return": 0.07369889773236804,
+      "cumulative_return_difference": -0.007070945038592846,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_04",
+    "candidate": "lognet_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": 1.853297489648577e-05,
+      "annualized_mean_excess_return": 0.004670309673914414,
+      "annualized_mean_excess_ci": [
+        -0.07587568032494467,
+        0.09477153606539793
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.0666279526937752,
+      "benchmark_total_return": 0.05486325133424286,
+      "cumulative_return_difference": 0.011764701359532337,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_04",
+    "candidate": "lognet_raw",
+    "anchor": "vol10",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00012563774706474826,
+      "annualized_mean_excess_return": -0.03166071226031656,
+      "annualized_mean_excess_ci": [
+        -0.1065634800520344,
+        0.028043556633464216
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.0666279526937752,
+      "benchmark_total_return": 0.11916442696819884,
+      "cumulative_return_difference": -0.05253647427442365,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_04",
+    "candidate": "lognet_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00010901062480961387,
+      "annualized_mean_excess_return": -0.027470677452022696,
+      "annualized_mean_excess_ci": [
+        -0.07973721931253744,
+        0.027060487632845357
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.024215968100973484,
+      "benchmark_total_return": 0.07369889773236804,
+      "cumulative_return_difference": -0.04948292963139456,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_04",
+    "candidate": "lognet_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -7.405902762664796e-05,
+      "annualized_mean_excess_return": -0.018662874961915286,
+      "annualized_mean_excess_ci": [
+        -0.13129304516827833,
+        0.10430547924588225
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.024215968100973484,
+      "benchmark_total_return": 0.05486325133424286,
+      "cumulative_return_difference": -0.030647283233269373,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_04",
+    "candidate": "lognet_scaled",
+    "anchor": "vol10",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00021822974958788201,
+      "annualized_mean_excess_return": -0.05499389689614627,
+      "annualized_mean_excess_ci": [
+        -0.15252371333103174,
+        0.02390075086640347
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.024215968100973484,
+      "benchmark_total_return": 0.11916442696819884,
+      "cumulative_return_difference": -0.09494845886722536,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_04",
+    "candidate": "drawdown_raw",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -7.419728753413713e-05,
+      "annualized_mean_excess_return": -0.01869771645860256,
+      "annualized_mean_excess_ci": [
+        -0.06909982479823482,
+        0.02198348894020686
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.0427391334175089,
+      "benchmark_total_return": 0.07369889773236804,
+      "cumulative_return_difference": -0.03095976431485914,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_04",
+    "candidate": "drawdown_raw",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -3.9245690351171236e-05,
+      "annualized_mean_excess_return": -0.00988991396849515,
+      "annualized_mean_excess_ci": [
+        -0.10296471512785604,
+        0.08335485992670669
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.0427391334175089,
+      "benchmark_total_return": 0.05486325133424286,
+      "cumulative_return_difference": -0.012124117916733956,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_04",
+    "candidate": "drawdown_raw",
+    "anchor": "vol10",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.0001834164123124052,
+      "annualized_mean_excess_return": -0.046220935902726114,
+      "annualized_mean_excess_ci": [
+        -0.16290502852462607,
+        0.039953248740992466
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.0427391334175089,
+      "benchmark_total_return": 0.11916442696819884,
+      "cumulative_return_difference": -0.07642529355068994,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_04",
+    "candidate": "drawdown_scaled",
+    "anchor": "equal_target_mix",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.0001014669981252471,
+      "annualized_mean_excess_return": -0.02556968352756227,
+      "annualized_mean_excess_ci": [
+        -0.07932825436115443,
+        0.021797048482137395
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.03061314091638767,
+      "benchmark_total_return": 0.07369889773236804,
+      "cumulative_return_difference": -0.04308575681598037,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_04",
+    "candidate": "drawdown_scaled",
+    "anchor": "trailing20",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -6.651540094228123e-05,
+      "annualized_mean_excess_return": -0.01676188103745487,
+      "annualized_mean_excess_ci": [
+        -0.10895591430200734,
+        0.07922453487114864
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.03061314091638767,
+      "benchmark_total_return": 0.05486325133424286,
+      "cumulative_return_difference": -0.024250110417855186,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  },
+  {
+    "cost_bps": 20,
+    "fold": "fold_04",
+    "candidate": "drawdown_scaled",
+    "anchor": "vol10",
+    "comparison": {
+      "method": "paired_overlapping_moving_block_percentile",
+      "n_observations": 434,
+      "block_length": 10,
+      "n_bootstrap": 2000,
+      "bootstrap_seed": 7,
+      "confidence": 0.95,
+      "periods_per_year": 252.0,
+      "mean_daily_excess_return": -0.00021068612290351521,
+      "annualized_mean_excess_return": -0.05309290297168583,
+      "annualized_mean_excess_ci": [
+        -0.1731817416216091,
+        0.03869115527961607
+      ],
+      "ci_contains_zero": true,
+      "strategy_total_return": 0.03061314091638767,
+      "benchmark_total_return": 0.11916442696819884,
+      "cumulative_return_difference": -0.08855128605181117,
+      "interpretation": "Exploratory percentile interval for annualized arithmetic mean paired daily excess, conditional on these realized paths. Not a CAGR interval, future-win probability, corrected multiple-comparison test, or proof of performance on a previously unseen market."
+    }
+  }
+]
