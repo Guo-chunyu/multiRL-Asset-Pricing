@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="606" viewBox="0 0 1200 606" role="img" aria-labelledby="workflow-title workflow-desc">
+<title id="workflow-title">Auditable portfolio research workflow</title>
+<desc id="workflow-desc">Raw data and corporate actions feed causal state, version-specific portfolio decisions, next-open accounting and independent audits. v3 to v8 train, freeze validation selections and evaluate. v9 instead reviews one fixed rule, audits 24 validation paths and stops at a failed gate.</desc>
+<g font-family="Inter,DejaVu Sans,Arial,sans-serif">
+<rect x="0" y="0" width="1200" height="606" rx="20" fill="#f7f9fc" stroke="none"/>
+<text x="44" y="49" font-size="15" fill="#087f82" font-weight="700" text-anchor="start">FROM MARKET DATA TO REVIEWABLE EVIDENCE</text>
+<text x="44" y="87" font-size="29" fill="#14283f" font-weight="700" text-anchor="start">Separate the decision, the account and the claim.</text>
+<rect x="44" y="119" width="260" height="181" rx="12" fill="#ffffff" stroke="#d8e2ec"/>
+<rect x="60" y="135" width="36" height="28" rx="7" fill="#285a9b" stroke="none"/>
+<text x="78" y="155" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">01</text>
+<text x="61" y="193" font-size="22" fill="#14283f" font-weight="600" text-anchor="start">Verified inputs</text>
+<text x="61" y="224" font-size="14" fill="#53677c" font-weight="400" text-anchor="start">Raw OHLCV</text>
+<text x="61" y="249" font-size="14" fill="#53677c" font-weight="400" text-anchor="start">Cash dividends + splits</text>
+<text x="61" y="274" font-size="14" fill="#53677c" font-weight="400" text-anchor="start">Snapshot identities</text>
+<line x1="309" y1="208" x2="323" y2="208" stroke="#8298ad" stroke-width="2"/>
+<path d="M319 203 l5 5 -5 5" fill="none" stroke="#8298ad" stroke-width="2"/>
+<rect x="328" y="119" width="260" height="181" rx="12" fill="#ffffff" stroke="#d8e2ec"/>
+<rect x="344" y="135" width="36" height="28" rx="7" fill="#087f82" stroke="none"/>
+<text x="362" y="155" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">02</text>
+<text x="345" y="193" font-size="22" fill="#14283f" font-weight="600" text-anchor="start">Causal state</text>
+<text x="345" y="224" font-size="14" fill="#53677c" font-weight="400" text-anchor="start">Information through close t</text>
+<text x="345" y="249" font-size="14" fill="#53677c" font-weight="400" text-anchor="start">Positions + receivables</text>
+<text x="345" y="274" font-size="14" fill="#53677c" font-weight="400" text-anchor="start">Past returns / risk</text>
+<line x1="593" y1="208" x2="607" y2="208" stroke="#8298ad" stroke-width="2"/>
+<path d="M603 203 l5 5 -5 5" fill="none" stroke="#8298ad" stroke-width="2"/>
+<rect x="612" y="119" width="260" height="181" rx="12" fill="#ffffff" stroke="#d8e2ec"/>
+<rect x="628" y="135" width="36" height="28" rx="7" fill="#285a9b" stroke="none"/>
+<text x="646" y="155" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">03</text>
+<text x="629" y="193" font-size="22" fill="#14283f" font-weight="600" text-anchor="start">Portfolio decision</text>
+<text x="629" y="224" font-size="14" fill="#53677c" font-weight="400" text-anchor="start">RL, selectors or fixed rules</text>
+<text x="629" y="249" font-size="14" fill="#53677c" font-weight="400" text-anchor="start">Version-specific constraints</text>
+<text x="629" y="274" font-size="14" fill="#53677c" font-weight="400" text-anchor="start">No future observations</text>
+<line x1="877" y1="208" x2="891" y2="208" stroke="#8298ad" stroke-width="2"/>
+<path d="M887 203 l5 5 -5 5" fill="none" stroke="#8298ad" stroke-width="2"/>
+<rect x="896" y="119" width="260" height="181" rx="12" fill="#ffffff" stroke="#d8e2ec"/>
+<rect x="912" y="135" width="36" height="28" rx="7" fill="#087f82" stroke="none"/>
+<text x="930" y="155" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">04</text>
+<text x="913" y="193" font-size="22" fill="#14283f" font-weight="600" text-anchor="start">Account + audit</text>
+<text x="913" y="224" font-size="14" fill="#53677c" font-weight="400" text-anchor="start">Next raw open execution</text>
+<text x="913" y="249" font-size="14" fill="#53677c" font-weight="400" text-anchor="start">Fees + corporate actions</text>
+<text x="913" y="274" font-size="14" fill="#53677c" font-weight="400" text-anchor="start">Independent reconstruction</text>
+<text x="44" y="340" font-size="14" fill="#53677c" font-weight="700" text-anchor="start">TWO DISTINCT RESEARCH PATHS</text>
+<rect x="44" y="359" width="1112" height="83" rx="12" fill="#eaf0f9" stroke="none"/>
+<text x="65" y="391" font-size="19" fill="#285a9b" font-weight="700" text-anchor="start">v3–v8</text>
+<text x="65" y="417" font-size="14" fill="#285a9b" font-weight="400" text-anchor="start">Learned policies</text>
+<text x="250" y="391" font-size="20" fill="#14283f" font-weight="600" text-anchor="start">Train</text>
+<text x="250" y="416" font-size="14" fill="#53677c" font-weight="400" text-anchor="start">Historical train windows</text>
+<text x="510" y="391" font-size="20" fill="#14283f" font-weight="600" text-anchor="start">Select + freeze</text>
+<text x="510" y="416" font-size="14" fill="#53677c" font-weight="400" text-anchor="start">Validation choices + hashes</text>
+<text x="826" y="391" font-size="20" fill="#14283f" font-weight="600" text-anchor="start">Evaluate + audit</text>
+<text x="826" y="416" font-size="14" fill="#53677c" font-weight="400" text-anchor="start">Fixed test paths / 5, 10, 20 bps</text>
+<line x1="445" y1="398" x2="485" y2="398" stroke="#8298ad" stroke-width="2"/>
+<line x1="756" y1="398" x2="800" y2="398" stroke="#8298ad" stroke-width="2"/>
+<rect x="44" y="457" width="1112" height="83" rx="12" fill="#e8f5f3" stroke="none"/>
+<text x="65" y="489" font-size="19" fill="#087f82" font-weight="700" text-anchor="start">v9</text>
+<text x="65" y="515" font-size="14" fill="#087f82" font-weight="400" text-anchor="start">No RL training</text>
+<text x="250" y="489" font-size="20" fill="#14283f" font-weight="600" text-anchor="start">Specify + review</text>
+<text x="250" y="514" font-size="14" fill="#53677c" font-weight="400" text-anchor="start">One rule / frozen gate</text>
+<text x="510" y="489" font-size="20" fill="#14283f" font-weight="600" text-anchor="start">Validate + audit</text>
+<text x="510" y="514" font-size="14" fill="#53677c" font-weight="400" text-anchor="start">24 annual accounts</text>
+<text x="826" y="489" font-size="20" fill="#ab4e28" font-weight="600" text-anchor="start">Gate not passed</text>
+<text x="826" y="514" font-size="14" fill="#53677c" font-weight="400" text-anchor="start">Do not train a new selector</text>
+<line x1="445" y1="496" x2="485" y2="496" stroke="#8298ad" stroke-width="2"/>
+<line x1="756" y1="496" x2="800" y2="496" stroke="#8298ad" stroke-width="2"/>
+<text x="44" y="578" font-size="15" fill="#53677c" font-weight="400" text-anchor="start">Previously inspected historical data. Engineering verification is not evidence of investment efficacy.</text>
+</g>
+</svg>

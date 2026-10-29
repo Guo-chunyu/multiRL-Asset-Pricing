@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="642" viewBox="0 0 1200 642" role="img" aria-labelledby="gate-title gate-desc">
+<title id="gate-title">v9 signal gate: two, two and zero winning years</title>
+<desc id="gate-desc">All 12 score differences in percentage points for relative_momentum50 minus equal50. 5 bps: -1.83, +0.26, -1.36, +0.57. 10 bps: -2.16, +0.04, -1.63, +0.21. 20 bps: -2.82, -0.40, -2.16, -0.51. Years: 2018, 2020, 2022, 2024. The required three of four wins at every cost failed; all drawdown constraints passed.</desc>
+<g font-family="Inter,DejaVu Sans,Arial,sans-serif">
+<rect x="0" y="0" width="1200" height="642" rx="20" fill="#f7f9fc" stroke="none"/>
+<!-- Source: reports/runs/research_v9_signal/gate_decision.json; SHA-256: 0c79ead371284bd4fc8dbaebfc501d3c30e6dc4b6b0d4157083b54ce1c0edb42 -->
+<text x="44" y="48" font-size="15" fill="#087f82" font-weight="700" text-anchor="start">v9 / ALL REGISTERED VALIDATION COMPARISONS</text>
+<text x="44" y="86" font-size="29" fill="#14283f" font-weight="700" text-anchor="start">The relative-allocation rule did not clear the gate.</text>
+<text x="44" y="119" font-size="17" fill="#53677c" font-weight="400" text-anchor="start">Score difference vs equal50, in percentage points. Positive values favor the momentum rule.</text>
+<text x="44" y="173" font-size="13" fill="#53677c" font-weight="700" text-anchor="start">ONE-WAY COST</text>
+<text x="1054" y="173" font-size="13" fill="#53677c" font-weight="700" text-anchor="middle">SCORE WINS</text>
+<text x="280" y="174" font-size="19" fill="#14283f" font-weight="600" text-anchor="middle">2018</text>
+<text x="472" y="174" font-size="19" fill="#14283f" font-weight="600" text-anchor="middle">2020</text>
+<text x="664" y="174" font-size="19" fill="#14283f" font-weight="600" text-anchor="middle">2022</text>
+<text x="856" y="174" font-size="19" fill="#14283f" font-weight="600" text-anchor="middle">2024</text>
+<text x="44" y="235" font-size="22" fill="#14283f" font-weight="600" text-anchor="start">5 bps</text>
+<rect x="190" y="194" width="180" height="66" rx="10" fill="#f8e7dd" stroke="none"/>
+<text x="280" y="237" font-size="29" fill="#ab4e28" font-weight="600" text-anchor="middle">-1.83</text>
+<rect x="382" y="194" width="180" height="66" rx="10" fill="#dfeef9" stroke="none"/>
+<text x="472" y="237" font-size="29" fill="#285a9b" font-weight="600" text-anchor="middle">+0.26</text>
+<rect x="574" y="194" width="180" height="66" rx="10" fill="#f8e7dd" stroke="none"/>
+<text x="664" y="237" font-size="29" fill="#ab4e28" font-weight="600" text-anchor="middle">-1.36</text>
+<rect x="766" y="194" width="180" height="66" rx="10" fill="#dfeef9" stroke="none"/>
+<text x="856" y="237" font-size="29" fill="#285a9b" font-weight="600" text-anchor="middle">+0.57</text>
+<text x="1054" y="224" font-size="29" fill="#14283f" font-weight="700" text-anchor="middle">2 / 4</text>
+<text x="1054" y="249" font-size="13" fill="#53677c" font-weight="400" text-anchor="middle">Need at least 3 / 4</text>
+<text x="44" y="318" font-size="22" fill="#14283f" font-weight="600" text-anchor="start">10 bps</text>
+<rect x="190" y="277" width="180" height="66" rx="10" fill="#f8e7dd" stroke="none"/>
+<text x="280" y="320" font-size="29" fill="#ab4e28" font-weight="600" text-anchor="middle">-2.16</text>
+<rect x="382" y="277" width="180" height="66" rx="10" fill="#dfeef9" stroke="none"/>
+<text x="472" y="320" font-size="29" fill="#285a9b" font-weight="600" text-anchor="middle">+0.04</text>
+<rect x="574" y="277" width="180" height="66" rx="10" fill="#f8e7dd" stroke="none"/>
+<text x="664" y="320" font-size="29" fill="#ab4e28" font-weight="600" text-anchor="middle">-1.63</text>
+<rect x="766" y="277" width="180" height="66" rx="10" fill="#dfeef9" stroke="none"/>
+<text x="856" y="320" font-size="29" fill="#285a9b" font-weight="600" text-anchor="middle">+0.21</text>
+<text x="1054" y="307" font-size="29" fill="#14283f" font-weight="700" text-anchor="middle">2 / 4</text>
+<text x="1054" y="332" font-size="13" fill="#53677c" font-weight="400" text-anchor="middle">Need at least 3 / 4</text>
+<text x="44" y="401" font-size="22" fill="#14283f" font-weight="600" text-anchor="start">20 bps</text>
+<rect x="190" y="360" width="180" height="66" rx="10" fill="#f8e7dd" stroke="none"/>
+<text x="280" y="403" font-size="29" fill="#ab4e28" font-weight="600" text-anchor="middle">-2.82</text>
+<rect x="382" y="360" width="180" height="66" rx="10" fill="#f8e7dd" stroke="none"/>
+<text x="472" y="403" font-size="29" fill="#ab4e28" font-weight="600" text-anchor="middle">-0.40</text>
+<rect x="574" y="360" width="180" height="66" rx="10" fill="#f8e7dd" stroke="none"/>
+<text x="664" y="403" font-size="29" fill="#ab4e28" font-weight="600" text-anchor="middle">-2.16</text>
+<rect x="766" y="360" width="180" height="66" rx="10" fill="#f8e7dd" stroke="none"/>
+<text x="856" y="403" font-size="29" fill="#ab4e28" font-weight="600" text-anchor="middle">-0.51</text>
+<text x="1054" y="390" font-size="29" fill="#14283f" font-weight="700" text-anchor="middle">0 / 4</text>
+<text x="1054" y="415" font-size="13" fill="#53677c" font-weight="400" text-anchor="middle">Need at least 3 / 4</text>
+<line x1="44" y1="465" x2="1156" y2="465" stroke="#d8e2ec" stroke-width="1"/>
+<rect x="44" y="485" width="538" height="70" rx="10" fill="#e8f5f3" stroke="none"/>
+<text x="63" y="513" font-size="15" fill="#087f82" font-weight="700" text-anchor="start">DRAWDOWN CONSTRAINT: PASSED</text>
+<text x="63" y="539" font-size="16" fill="#53677c" font-weight="400" text-anchor="start">No deterioration above 2 pp in any year / cost.</text>
+<rect x="600" y="485" width="556" height="70" rx="10" fill="#fff1e6" stroke="none"/>
+<text x="619" y="513" font-size="15" fill="#ab4e28" font-weight="700" text-anchor="start">OVERALL GATE: NOT PASSED</text>
+<text x="619" y="539" font-size="16" fill="#53677c" font-weight="400" text-anchor="start">No new RL selector was trained under this plan.</text>
+<text x="44" y="590" font-size="15" fill="#53677c" font-weight="400" text-anchor="start">Score = total net return − 0.5 × maximum drawdown. Each annual account starts independently.</text>
+<text x="44" y="615" font-size="15" fill="#53677c" font-weight="400" text-anchor="start">Historical development only. A compute-budget hurdle, not a statistical test or an alpha estimate.</text>
+</g>
+</svg>
