@@ -1,0 +1,9 @@
+{
+  "observed_at_utc": "2026-10-26T17:06:29Z",
+  "event": "Execution session unavailable after interrupted tool wait; no live study processes observed by parent",
+  "termination_cause": "Not established; logs contain no traceback; user did not cancel",
+  "completed_records_preserved": 6,
+  "recovery": "Resume same three registered seeds; verified signed records reused; unfinished fits restart deterministically under unchanged protocol",
+  "source_data_protocol_changed": false,
+  "test_evaluations_before_recovery": 0
+}

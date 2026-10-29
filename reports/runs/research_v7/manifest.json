@@ -1,0 +1,210 @@
+{
+  "identity": {
+    "data": {
+      "ashare_broad_raw.csv": "41c9dfa0f32be0d342703c63d0ade2aea541fb586a62e41326c88bf7dadbc9c8",
+      "cash_actions.csv": "7d8c43024d2f4154435c2e3c2d9ac79c772aa0595569e20f2d494add6ece9640",
+      "splits.csv": "6e5b9b647c5bff6f06aa9555f29ee0c3ca7d66874e66cf2d5753ae52e1b4c7c3",
+      "restoration_verification.json": "b7b53649fbbba0e03b6648c58bcc4b28a601736264f9d51228983a8866af37d6",
+      "restoration_audit.json": "b7b53649fbbba0e03b6648c58bcc4b28a601736264f9d51228983a8866af37d6"
+    },
+    "sources": {
+      "study_v7.py": "5068ffa2adbeefc0984268f3b40a9bdb492a3fada1238c269d5e836845e53b63",
+      "study_v3.py": "18e9cbfab9ec7dc15b841a4fc34257c1fc3909712f4ff72264240a2d0d41bf32",
+      "study_v4.py": "b9acd0ee543613cbce6de32a846a5f292e171b80ea0e5cfe04afab5f8b22595b",
+      "study_v5.py": "7dd6e81860532b59b010a5eefd5bdf231102c3658ad958f78c2c0bf5e14484d3",
+      "statistics.py": "a752ef5e45c3c3d14cb0f10967f125514871c3d26019366abef6458fa05deda5",
+      "selector_env_v6.py": "94cad98eff63e8c0983f31fc5f111cfb7d185aede0a4ce26415c0e9c538945cb",
+      "masked_selector_v7.py": "005e50d8a3d99d4040fbcbb01ce17e0473756a6b2cb41e495b9f5b5d0e22d831",
+      "study_v6.py": "d7ab6bf73295c769f9f67ec32efd39f207723021ab65b021fb7e8eb00506cf86",
+      "residual_env.py": "252dedada74598c4ed080d9a5c6d710e62adb11e22438d68c54a50022436f8af",
+      "risk_env.py": "7c8dcf538d2ef17f15d4530403c679a686f155359923b1447eb4e64184f0f778",
+      "signal_diagnostics.py": "16d8845a3fc912fd425eb605bd6458ff490c52fb80b0f3e265eefdcf899e916d",
+      "corporate_actions.py": "dc8107939442cb0ac42210fb1ad40a896a5a59166622e05f4b71d1baa02a3a69",
+      "robust_env.py": "9a345d0e93c590cdef33ad229233742d27f0ef42d37a72bdfec85ad8fecf1001",
+      "env.py": "c22d1f98e335146df777924af355bf0f5a0e80f002a00317ec9172e49c92c1f7",
+      "data.py": "f12e15203c52bff6c525e421840888b76ab76a05f8705e15090aa10253900272",
+      "finrl_adapter.py": "143e8a49246256e2a6ba94ca0a3a47a826678d761ee907896d0a879134eba794",
+      "metrics.py": "f0d49bedf76c59891596f655780d8c067b57ead137d54a9b53d019b55d70ed64",
+      "research-protocol-v7.md": "4fd9032bd02f18faa8f0d1ce44aff597b8f80f6d7f41c77390577bf741c57478",
+      "audit_research_v3.py": "e94a7b17a2a84e5655edba2578b451bd1accd7dc600fd318fed05c84c6eb1b4f",
+      "test_study_v7.py": "4b158d2d7e1ab81110a8204e6d5c913796399b086bf19516f11830f6b65c4ac0",
+      "test_masked_selector_v7.py": "f22e7eb2225199c780f5c974ad214d845b4516880baf6452093a752c6b5471a5"
+    },
+    "steps": 20000,
+    "seeds": [
+      7,
+      17,
+      29
+    ],
+    "candidates": [
+      "lognet_alltrue",
+      "lognet_phase",
+      "drawdown_alltrue",
+      "drawdown_phase"
+    ],
+    "baselines": [
+      "cash",
+      "equal50",
+      "vol10",
+      "trend10",
+      "equal_target_mix",
+      "trailing20"
+    ],
+    "cost_bps": [
+      5,
+      10,
+      20
+    ],
+    "backend": "sb3_contrib.MaskablePPO==2.7.1",
+    "ppo_config": {
+      "learning_rate": 0.0001,
+      "n_steps": 100,
+      "batch_size": 50,
+      "n_epochs": 10,
+      "gamma": 0.99,
+      "gae_lambda": 0.95,
+      "clip_range": 0.2,
+      "clip_range_vf": null,
+      "normalize_advantage": true,
+      "ent_coef": 0.0,
+      "vf_coef": 0.5,
+      "max_grad_norm": 0.5,
+      "target_kl": null,
+      "policy_kwargs": {
+        "net_arch": [
+          64,
+          64
+        ]
+      }
+    },
+    "daily_market_transitions": 960000,
+    "training_fits": 48
+  },
+  "created_at_utc": "2026-10-26T16:54:35.176798+00:00",
+  "tickers": [
+    "510050",
+    "510300",
+    "510500"
+  ],
+  "sessions": 2800,
+  "folds": [
+    {
+      "name": "fold_01",
+      "train": [
+        120,
+        665
+      ],
+      "validation": [
+        666,
+        908
+      ],
+      "test": [
+        909,
+        1395
+      ],
+      "dates": {
+        "train": [
+          "2015-10-13",
+          "2017-12-29"
+        ],
+        "validation": [
+          "2018-01-02",
+          "2018-12-28"
+        ],
+        "test": [
+          "2019-01-02",
+          "2020-12-31"
+        ]
+      }
+    },
+    {
+      "name": "fold_02",
+      "train": [
+        120,
+        1152
+      ],
+      "validation": [
+        1153,
+        1395
+      ],
+      "test": [
+        1396,
+        1880
+      ],
+      "dates": {
+        "train": [
+          "2015-10-13",
+          "2019-12-31"
+        ],
+        "validation": [
+          "2020-01-02",
+          "2020-12-31"
+        ],
+        "test": [
+          "2021-01-04",
+          "2022-12-30"
+        ]
+      }
+    },
+    {
+      "name": "fold_03",
+      "train": [
+        120,
+        1638
+      ],
+      "validation": [
+        1639,
+        1880
+      ],
+      "test": [
+        1881,
+        2364
+      ],
+      "dates": {
+        "train": [
+          "2015-10-13",
+          "2021-12-31"
+        ],
+        "validation": [
+          "2022-01-04",
+          "2022-12-30"
+        ],
+        "test": [
+          "2023-01-03",
+          "2024-12-31"
+        ]
+      }
+    },
+    {
+      "name": "fold_04",
+      "train": [
+        120,
+        2122
+      ],
+      "validation": [
+        2123,
+        2364
+      ],
+      "test": [
+        2365,
+        2799
+      ],
+      "dates": {
+        "train": [
+          "2015-10-13",
+          "2023-12-29"
+        ],
+        "validation": [
+          "2024-01-02",
+          "2024-12-31"
+        ],
+        "test": [
+          "2025-01-02",
+          "2026-10-22"
+        ]
+      }
+    }
+  ],
+  "data_snapshot": "Restored historical inputs; certification states exact hash equivalence modulo line endings and any fresh verification limitations",
+  "claim": "Retrospective exploratory development on previously inspected historical periods; not pristine out-of-sample or live performance"
+}

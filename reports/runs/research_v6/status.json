@@ -1,0 +1,36 @@
+{
+  "state": "evaluated",
+  "complete_models": 24,
+  "expected_models": 24,
+  "completed": [
+    "fold_01/7/lognet_ppo",
+    "fold_01/7/drawdown_ppo",
+    "fold_01/17/lognet_ppo",
+    "fold_01/17/drawdown_ppo",
+    "fold_01/29/lognet_ppo",
+    "fold_01/29/drawdown_ppo",
+    "fold_02/7/lognet_ppo",
+    "fold_02/7/drawdown_ppo",
+    "fold_02/17/lognet_ppo",
+    "fold_02/17/drawdown_ppo",
+    "fold_02/29/lognet_ppo",
+    "fold_02/29/drawdown_ppo",
+    "fold_03/7/lognet_ppo",
+    "fold_03/7/drawdown_ppo",
+    "fold_03/17/lognet_ppo",
+    "fold_03/17/drawdown_ppo",
+    "fold_03/29/lognet_ppo",
+    "fold_03/29/drawdown_ppo",
+    "fold_04/7/lognet_ppo",
+    "fold_04/7/drawdown_ppo",
+    "fold_04/17/lognet_ppo",
+    "fold_04/17/drawdown_ppo",
+    "fold_04/29/lognet_ppo",
+    "fold_04/29/drawdown_ppo"
+  ],
+  "evaluated_costs": [
+    5,
+    10,
+    20
+  ]
+}

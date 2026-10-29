@@ -1,0 +1,10 @@
+{
+  "scope": "Independent pretraining implementation review, not efficacy",
+  "reviewed_driver_sha256": "5068ffa2adbeefc0984268f3b40a9bdb492a3fada1238c269d5e836845e53b63",
+  "reviewed_wrapper_sha256": "005e50d8a3d99d4040fbcbb01ce17e0473756a6b2cb41e495b9f5b5d0e22d831",
+  "full_test_suite": "444 passed in 50.98s",
+  "focused_tests": "54 passed in 12.89s",
+  "independent_paired_schedule_smoke": "300 transitions, control and phase both [[153,279],[141,267],[143,269]]; exact expected schedule",
+  "reviewer": "independent implementation review",
+  "test_opening_gate": "All48 signed records/checkpoints/validation ledgers/schedules/source and data identity frozen globally before any test evaluation"
+}

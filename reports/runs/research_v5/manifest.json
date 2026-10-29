@@ -1,0 +1,178 @@
+{
+  "identity": {
+    "data": {
+      "ashare_broad_raw.csv": "41c9dfa0f32be0d342703c63d0ade2aea541fb586a62e41326c88bf7dadbc9c8",
+      "cash_actions.csv": "7d8c43024d2f4154435c2e3c2d9ac79c772aa0595569e20f2d494add6ece9640",
+      "splits.csv": "6e5b9b647c5bff6f06aa9555f29ee0c3ca7d66874e66cf2d5753ae52e1b4c7c3",
+      "restoration_verification.json": "b7b53649fbbba0e03b6648c58bcc4b28a601736264f9d51228983a8866af37d6",
+      "restoration_audit.json": "b7b53649fbbba0e03b6648c58bcc4b28a601736264f9d51228983a8866af37d6"
+    },
+    "sources": {
+      "study_v5.py": "7dd6e81860532b59b010a5eefd5bdf231102c3658ad958f78c2c0bf5e14484d3",
+      "study_v3.py": "18e9cbfab9ec7dc15b841a4fc34257c1fc3909712f4ff72264240a2d0d41bf32",
+      "study_v4.py": "b9acd0ee543613cbce6de32a846a5f292e171b80ea0e5cfe04afab5f8b22595b",
+      "statistics.py": "a752ef5e45c3c3d14cb0f10967f125514871c3d26019366abef6458fa05deda5",
+      "residual_env.py": "252dedada74598c4ed080d9a5c6d710e62adb11e22438d68c54a50022436f8af",
+      "risk_env.py": "7c8dcf538d2ef17f15d4530403c679a686f155359923b1447eb4e64184f0f778",
+      "signal_diagnostics.py": "16d8845a3fc912fd425eb605bd6458ff490c52fb80b0f3e265eefdcf899e916d",
+      "corporate_actions.py": "dc8107939442cb0ac42210fb1ad40a896a5a59166622e05f4b71d1baa02a3a69",
+      "robust_env.py": "9a345d0e93c590cdef33ad229233742d27f0ef42d37a72bdfec85ad8fecf1001",
+      "env.py": "c22d1f98e335146df777924af355bf0f5a0e80f002a00317ec9172e49c92c1f7",
+      "data.py": "f12e15203c52bff6c525e421840888b76ab76a05f8705e15090aa10253900272",
+      "finrl_adapter.py": "143e8a49246256e2a6ba94ca0a3a47a826678d761ee907896d0a879134eba794",
+      "metrics.py": "f0d49bedf76c59891596f655780d8c067b57ead137d54a9b53d019b55d70ed64",
+      "research-protocol-v5.md": "12a212c5e265b3ab4387dc3c4d3ef96f9e88fb0c0ee623148a177719d77a9c46",
+      "audit_research_v3.py": "e94a7b17a2a84e5655edba2578b451bd1accd7dc600fd318fed05c84c6eb1b4f"
+    },
+    "steps": 20000,
+    "seeds": [
+      7,
+      17,
+      29
+    ],
+    "candidates": [
+      "v4risk_ppo",
+      "residual_vol_ppo",
+      "residual_trend_ppo"
+    ],
+    "baselines": [
+      "equal_50",
+      "equal_100",
+      "cash",
+      "vol_target10",
+      "trend_target10"
+    ],
+    "cost_bps": [
+      5,
+      10,
+      20
+    ]
+  },
+  "created_at_utc": "2026-10-26T16:07:51.950858+00:00",
+  "tickers": [
+    "510050",
+    "510300",
+    "510500"
+  ],
+  "sessions": 2800,
+  "folds": [
+    {
+      "name": "fold_01",
+      "train": [
+        120,
+        665
+      ],
+      "validation": [
+        666,
+        908
+      ],
+      "test": [
+        909,
+        1395
+      ],
+      "dates": {
+        "train": [
+          "2015-10-13",
+          "2017-12-29"
+        ],
+        "validation": [
+          "2018-01-02",
+          "2018-12-28"
+        ],
+        "test": [
+          "2019-01-02",
+          "2020-12-31"
+        ]
+      }
+    },
+    {
+      "name": "fold_02",
+      "train": [
+        120,
+        1152
+      ],
+      "validation": [
+        1153,
+        1395
+      ],
+      "test": [
+        1396,
+        1880
+      ],
+      "dates": {
+        "train": [
+          "2015-10-13",
+          "2019-12-31"
+        ],
+        "validation": [
+          "2020-01-02",
+          "2020-12-31"
+        ],
+        "test": [
+          "2021-01-04",
+          "2022-12-30"
+        ]
+      }
+    },
+    {
+      "name": "fold_03",
+      "train": [
+        120,
+        1638
+      ],
+      "validation": [
+        1639,
+        1880
+      ],
+      "test": [
+        1881,
+        2364
+      ],
+      "dates": {
+        "train": [
+          "2015-10-13",
+          "2021-12-31"
+        ],
+        "validation": [
+          "2022-01-04",
+          "2022-12-30"
+        ],
+        "test": [
+          "2023-01-03",
+          "2024-12-31"
+        ]
+      }
+    },
+    {
+      "name": "fold_04",
+      "train": [
+        120,
+        2122
+      ],
+      "validation": [
+        2123,
+        2364
+      ],
+      "test": [
+        2365,
+        2799
+      ],
+      "dates": {
+        "train": [
+          "2015-10-13",
+          "2023-12-29"
+        ],
+        "validation": [
+          "2024-01-02",
+          "2024-12-31"
+        ],
+        "test": [
+          "2025-01-02",
+          "2026-10-22"
+        ]
+      }
+    }
+  ],
+  "data_snapshot": "Restored historical inputs; certification states exact hash equivalence modulo line endings and any fresh verification limitations",
+  "claim": "Retrospective exploratory development on previously inspected historical periods; not pristine out-of-sample or live performance"
+}
