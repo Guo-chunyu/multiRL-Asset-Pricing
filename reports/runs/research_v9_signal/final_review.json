@@ -1,0 +1,205 @@
+{
+  "created_at_utc": "2026-10-27T02:03:00.398234+00:00",
+  "status": "passed",
+  "scope": "Independent final validation-only integrity review; engineering audit passed, financial compute-budget gate failed.",
+  "manifest_sha256": "be5fdd776b3797bc9f026ddde9c27813a5726ad45319cc19b9c25f912bb01438",
+  "preflight_review_sha256": "b87f8b8aabcffed7e2368874100067fce53b3f835f7137292b720486ff1a4266",
+  "result_sha256": {
+    "run_record.json": "a90aa3d93b9d9fc6a8bb6302c9c3c62569d96477f66c028f7e6705dc4c6987d8",
+    "all_metrics.csv": "e814d15461ff44da531c7668f856532ac879fa2fa729a978ba5351b6cee10559",
+    "gate_decision.json": "0c79ead371284bd4fc8dbaebfc501d3c30e6dc4b6b0d4157083b54ce1c0edb42",
+    "REPORT.md": "013151fd4df23f1ca9d6fd8e9d2ea9aa0120d421d5f3d5a53c91408ffd9a25e5"
+  },
+  "source_sha256": {
+    "src/rlasset/signal_gate_v9.py": "e9fcebf77702a8e03a2b65c175e7ba1728ada3521dd12945b801db3804b5504e",
+    "tests/test_signal_gate_v9.py": "279e73c73dee32a03a6056dbbbfce9265f04495a3791a1f69d64aaf8e1de5dd9",
+    "docs/research-protocol-v9-signal.md": "1e9c11db6507fe561b113e7ee4baadb095a13552e36aebdc9a6493c7d0dbd84e",
+    "scripts/audit_research_v3.py": "e94a7b17a2a84e5655edba2578b451bd1accd7dc600fd318fed05c84c6eb1b4f",
+    "src/rlasset/study_v3.py": "18e9cbfab9ec7dc15b841a4fc34257c1fc3909712f4ff72264240a2d0d41bf32",
+    "src/rlasset/study_v7.py": "5068ffa2adbeefc0984268f3b40a9bdb492a3fada1238c269d5e836845e53b63",
+    "src/rlasset/robust_env.py": "9a345d0e93c590cdef33ad229233742d27f0ef42d37a72bdfec85ad8fecf1001",
+    "src/rlasset/corporate_actions.py": "dc8107939442cb0ac42210fb1ad40a896a5a59166622e05f4b71d1baa02a3a69",
+    "src/rlasset/env.py": "c22d1f98e335146df777924af355bf0f5a0e80f002a00317ec9172e49c92c1f7",
+    "src/rlasset/data.py": "f12e15203c52bff6c525e421840888b76ab76a05f8705e15090aa10253900272",
+    "src/rlasset/metrics.py": "f0d49bedf76c59891596f655780d8c067b57ead137d54a9b53d019b55d70ed64"
+  },
+  "data_sha256": {
+    "ashare_broad_raw.csv": "41c9dfa0f32be0d342703c63d0ade2aea541fb586a62e41326c88bf7dadbc9c8",
+    "cash_actions.csv": "7d8c43024d2f4154435c2e3c2d9ac79c772aa0595569e20f2d494add6ece9640",
+    "splits.csv": "6e5b9b647c5bff6f06aa9555f29ee0c3ca7d66874e66cf2d5753ae52e1b4c7c3",
+    "restoration_verification.json": "b7b53649fbbba0e03b6648c58bcc4b28a601736264f9d51228983a8866af37d6",
+    "restoration_audit.json": "b7b53649fbbba0e03b6648c58bcc4b28a601736264f9d51228983a8866af37d6"
+  },
+  "full_test_result": "498 passed",
+  "full_test_log": "tmp/pytest-v9-final.log",
+  "full_test_log_sha256": "ce1567df73ea49836a0b1189e96cb84459c57ae7cb851cedba0faaf830fe5445",
+  "review_script": "tmp/audit_v9_final_independent.py",
+  "review_script_sha256": "5eb6049f71192711c13488a55509e52264a15ae090024304a7c05a5dc4271300",
+  "checks": {
+    "validation_ledgers": 24,
+    "separate_raw_accounting_audits_rerun": 24,
+    "audit_sidecars_verified": 24,
+    "maximum_raw_accounting_error": 1.509903313490213e-14,
+    "five_financial_metrics_independently_recomputed_per_ledger": true,
+    "maximum_metric_difference": 8.743006318923108e-15,
+    "scheduled_causal_target_checks": 1176,
+    "registered_dates_costs_rules_only": true,
+    "all_ledger_and_sidecar_hashes_verified": true,
+    "prior_v8_frozen_identity_unchanged": true,
+    "no_new_test_paths_or_RL_models": true,
+    "gate_independently_recomputed": true
+  },
+  "independent_gate": {
+    "passed": false,
+    "decision": "do_not_train_new_selector",
+    "cost_gates": [
+      {
+        "cost_bps": 5,
+        "strict_score_wins": 2,
+        "drawdown_gate_passed": true,
+        "passed": false
+      },
+      {
+        "cost_bps": 10,
+        "strict_score_wins": 2,
+        "drawdown_gate_passed": true,
+        "passed": false
+      },
+      {
+        "cost_bps": 20,
+        "strict_score_wins": 0,
+        "drawdown_gate_passed": true,
+        "passed": false
+      }
+    ],
+    "comparisons": [
+      {
+        "cost_bps": 5,
+        "year": 2018,
+        "score_delta": -0.01833575055086223,
+        "total_return_delta": -0.012322778439222248,
+        "max_drawdown_delta": 0.01202594422327996
+      },
+      {
+        "cost_bps": 5,
+        "year": 2020,
+        "score_delta": 0.002567492293685192,
+        "total_return_delta": 0.0015667955107294684,
+        "max_drawdown_delta": -0.002001393565911447
+      },
+      {
+        "cost_bps": 5,
+        "year": 2022,
+        "score_delta": -0.013593639150947578,
+        "total_return_delta": -0.008238007991528074,
+        "max_drawdown_delta": 0.01071126231883901
+      },
+      {
+        "cost_bps": 5,
+        "year": 2024,
+        "score_delta": 0.005729413292002716,
+        "total_return_delta": 0.006889197923495294,
+        "max_drawdown_delta": 0.002319569262985155
+      },
+      {
+        "cost_bps": 10,
+        "year": 2018,
+        "score_delta": -0.021648252642177068,
+        "total_return_delta": -0.0146410843439434,
+        "max_drawdown_delta": 0.014014336596467336
+      },
+      {
+        "cost_bps": 10,
+        "year": 2020,
+        "score_delta": 0.00038478799478536274,
+        "total_return_delta": -0.0005814584541474765,
+        "max_drawdown_delta": -0.0019324928978656786
+      },
+      {
+        "cost_bps": 10,
+        "year": 2022,
+        "score_delta": -0.01626504521156874,
+        "total_return_delta": -0.010117256843428457,
+        "max_drawdown_delta": 0.012295576736280567
+      },
+      {
+        "cost_bps": 10,
+        "year": 2024,
+        "score_delta": 0.0020939133403796717,
+        "total_return_delta": 0.0037427092286266284,
+        "max_drawdown_delta": 0.0032975917764939133
+      },
+      {
+        "cost_bps": 20,
+        "year": 2018,
+        "score_delta": -0.028239904849863884,
+        "total_return_delta": -0.019252589974786738,
+        "max_drawdown_delta": 0.017974629750154292
+      },
+      {
+        "cost_bps": 20,
+        "year": 2020,
+        "score_delta": -0.00396276409760371,
+        "total_return_delta": -0.004860143453278898,
+        "max_drawdown_delta": -0.001794758711350375
+      },
+      {
+        "cost_bps": 20,
+        "year": 2022,
+        "score_delta": -0.021584815879000296,
+        "total_return_delta": -0.013859027786250921,
+        "max_drawdown_delta": 0.01545157618549875
+      },
+      {
+        "cost_bps": 20,
+        "year": 2024,
+        "score_delta": -0.005140321972908479,
+        "total_return_delta": -0.0025153126648456148,
+        "max_drawdown_delta": 0.005250018616125729
+      }
+    ]
+  },
+  "sidecar_sha256": {
+    "validation_5bps/2018/equal50.audit.json": "eba9a0c436aa1f7d1e43b36397b564d775fe6bb260710182ade7287063930af6",
+    "validation_5bps/2018/relative_momentum50.audit.json": "d3983e70f98e2be16fc92b565b1af64e8814fa24655ab5a50d76999db552ce30",
+    "validation_10bps/2018/equal50.audit.json": "b744f9e84a997cf7f3f9ec0320312b1247bb9b236edc040c1d57e89b407f8b38",
+    "validation_10bps/2018/relative_momentum50.audit.json": "faa36e0385bd3c06db768ad6055e73f3e9824e956193724df3414647b674f272",
+    "validation_20bps/2018/equal50.audit.json": "231646e29da3f0d32b97fe059d173b57eaa1cc6c14e8fd9bd5efb9a38f4ba2db",
+    "validation_20bps/2018/relative_momentum50.audit.json": "9267870d0ac1cb13a661418219ac83ab3ff492c31c9d51f75c4cd9b8c7fbd72b",
+    "validation_5bps/2020/equal50.audit.json": "43a3bc434a732746e901ac1eb0663ea03a76727558fc1138c0f962cc04d07dee",
+    "validation_5bps/2020/relative_momentum50.audit.json": "3b3af1e4bdfbb72dea355cddfe9fd25c4003d59a3e924b8886fb39e00426f09d",
+    "validation_10bps/2020/equal50.audit.json": "536b296c6212c87407aa4d0ab49f2665efadc025e9aa1f0eb10d794f5aeabb89",
+    "validation_10bps/2020/relative_momentum50.audit.json": "2af4cef7708e41a6f77c1b809d4e96e96ef4dec8739e2176561156baf02e5d8e",
+    "validation_20bps/2020/equal50.audit.json": "e03815d18dbb8e750b0c8b246a4b14e266a29e853166c226cdbc10c2be51f4a4",
+    "validation_20bps/2020/relative_momentum50.audit.json": "7af7f4fc460ec5e408b260eff75118a9e17c4d921e26d25ec96617168b21157c",
+    "validation_5bps/2022/equal50.audit.json": "393153ddaa2f97455f94b8a5210df1bc73f0959aba960ce13a0e3821eb83b9a3",
+    "validation_5bps/2022/relative_momentum50.audit.json": "ae4c870ede4cabcab66a6db175181f6f282365f0a9da1dbebfeea8afac4106c7",
+    "validation_10bps/2022/equal50.audit.json": "a51ee82b7e5154a4541db3b0d98104c16bc81f84e0b7f1f8fc3c374a5b5bfb8b",
+    "validation_10bps/2022/relative_momentum50.audit.json": "4890feeb108eadd654916e6ffd06d23da64fe0afbbdf13a35d34cec625bc7aca",
+    "validation_20bps/2022/equal50.audit.json": "953fd4cce269dee04b9e0c64f41ac59eb90c0a4e0b338904e7f32dfda0846593",
+    "validation_20bps/2022/relative_momentum50.audit.json": "63667a8467f54e48bc29f24ba516a26770e82ba067b7f2d56640ea0e5137d842",
+    "validation_5bps/2024/equal50.audit.json": "e5919ea79ef755fe9880ccc203e4ee47c6709590185903486a725d73cc94375f",
+    "validation_5bps/2024/relative_momentum50.audit.json": "2b73d8171bf5b48601a3e6f6fc2fa44e5665753833915409323f2678b5871910",
+    "validation_10bps/2024/equal50.audit.json": "8c2c124f5b90f130a73a0ff953e8394ae40b59155dd030c52f93076dccce02b0",
+    "validation_10bps/2024/relative_momentum50.audit.json": "0afac3f88d5564497bb06fbb348338105a4edc4ef092df645a3ed4a27a429161",
+    "validation_20bps/2024/equal50.audit.json": "6018c2ae3b9643abda668029060be37b446673de24f3ce3c8d3008cbbff3c761",
+    "validation_20bps/2024/relative_momentum50.audit.json": "a149c1bfe7eb15d74f00d059fe6574fa6eb04e8f599bff65e509c24a30fc1b5e"
+  },
+  "engineering_fix_source": {
+    "failure": "First attempted ledger write lacked parent directory; prior review missed actual save-path orchestration.",
+    "fix": "Create each ledger parent before running and saving; protocol, rules, costs, data, calendars and gate unchanged.",
+    "failed_attempt_directory": "runs/research_v9_signal_failed_preflight_20261027_015754",
+    "failed_attempt_file_sha256": {
+      "manifest.json": "7a76b80b73c72c1bbc9a8a992cb43d0fe05a7aad37c291281feaee89de6458e6",
+      "evaluate.log": "d2834b3d0f06a48ff65142475337d1edb857d6b79d70c5ec79ef6bb3ce8a58e7",
+      "preflight_review.json": "449eb89692225cee877ae99340baee1ce4de59f47e1e1f3bc6973d01a3093501"
+    },
+    "failed_attempt_outputs": "Only manifest, old preflight and error log retained; no saved ledger or financial metric output.",
+    "prior_review_superseded": true
+  },
+  "limitations": [
+    "All years were previously inspected historical validation periods, some overlapping prior tests; no untouched OOS assertion.",
+    "Accounting correctness and a prespecified budget hurdle do not establish alpha or prospective profitability.",
+    "No new selector should be trained under this failed signal-gate plan."
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "created_at_utc": "2026-10-27T01:51:04.391974+00:00",
+  "status": "passed",
+  "scope": "Independent final integrity review and independent arithmetic recomputation from sealed actual-account net-return ledgers. Accounting sidecar verification, not a third accounting engine; diagnostics reconciled to sealed validation records, not rerun.",
+  "checks": {
+    "model_and_validation_records_verified": 48,
+    "accounting_sidecars_and_ledger_hashes_verified": 288,
+    "test_metric_rows_independently_recomputed": 216,
+    "paired_block_contrasts_independently_recomputed": 24,
+    "diagnostic_records_reconciled": 48,
+    "selection_and_all_frozen_artifact_hashes_unchanged": true,
+    "source_data_runtime_and_original_control_identity_verified": true,
+    "execution_recovery_and_pretest_review_unchanged": true,
+    "final_regression": "483 passed",
+    "maximum_financial_metric_recomputation_error": 2.4202861936828413e-14,
+    "maximum_recorded_accounting_error": 3.097522238704187e-14
+  },
+  "hashes": {
+    "manifest.json": "dad69d9ec8748a4b43c1370ff44311d4ab6acecb10a76a73711f05e9f640e63f",
+    "pretraining_review.json": "967ace96871e8653f7f1f66652fa26da46907e514e90920aa56b227823cb3407",
+    "pretest_review.json": "a74c1d1ec6893be299da1283708834e1a4a526045760cff039da7dfc95e6b1bb",
+    "frozen_selection.json": "4bbedd79d023be1cfd1293af531e2d28650ad9bdcc3c8942519f5100b61e1971",
+    "execution_recovery.json": "cb70273bb5487f4f5c551844fc1d6a208cd49e8d57a2e5fbc9a3bb87905110f7",
+    "REPORT.md": "4634576bd912a2b7e7a2a9d3a90e538f05c335f1f207d18efc810a55c903964e",
+    "all_metrics.csv": "56a217fbcfd9b540077a298aead33dc248697583bedaf68bf18e7542eae1b59b",
+    "selected_metrics.csv": "2ff1bc52f34ed356ce02db80315159e9992d0047ee603a27af1997688f4abb6c",
+    "paired_scaling_contrasts.json": "68bd7143a63fc3de4b01b6134a702c8cc09bb6e618763ad3e0eb4e24883e54ce",
+    "primary_contrasts.json": "8930a73cae1ea4eff6626fbdacc35ba3d451c8672f1b4cd55327518382117e30",
+    "validation_diagnostics.json": "8f5c31893876b7b54827bb8335e963c68d211aa725f61a3862889549ab074d22"
+  },
+  "final_regression_log_sha256": "18623020b20a503a3a6363cd2074a957387c57d4453403918e98d39bbaa1531d",
+  "paired_summary": [
+    {
+      "cost_bps": 5,
+      "fold": "fold_01",
+      "objective": "lognet",
+      "mean_seed_total_return_delta": 0.006585869310190118,
+      "annualized_arithmetic_excess_ci": [
+        -7.882006488543578e-16,
+        0.0034148024290020225
+      ]
+    },
+    {
+      "cost_bps": 5,
+      "fold": "fold_01",
+      "objective": "drawdown",
+      "mean_seed_total_return_delta": 0.027627517605279078,
+      "annualized_arithmetic_excess_ci": [
+        -0.0016749907237621371,
+        0.017082498462547443
+      ]
+    },
+    {
+      "cost_bps": 5,
+      "fold": "fold_02",
+      "objective": "lognet",
+      "mean_seed_total_return_delta": 0.0048548065771538695,
+      "annualized_arithmetic_excess_ci": [
+        -0.0018780684541072833,
+        0.0028102036079060318
+      ]
+    },
+    {
+      "cost_bps": 5,
+      "fold": "fold_02",
+      "objective": "drawdown",
+      "mean_seed_total_return_delta": 0.00023103009590523063,
+      "annualized_arithmetic_excess_ci": [
+        -0.005535519113193068,
+        0.008189130895340036
+      ]
+    },
+    {
+      "cost_bps": 5,
+      "fold": "fold_03",
+      "objective": "lognet",
+      "mean_seed_total_return_delta": 0.008570742675995372,
+      "annualized_arithmetic_excess_ci": [
+        -1.3373858887407551e-15,
+        0.006630903110601038
+      ]
+    },
+    {
+      "cost_bps": 5,
+      "fold": "fold_03",
+      "objective": "drawdown",
+      "mean_seed_total_return_delta": 0.008570742675995372,
+      "annualized_arithmetic_excess_ci": [
+        -1.3373858887407551e-15,
+        0.006630903110601038
+      ]
+    },
+    {
+      "cost_bps": 5,
+      "fold": "fold_04",
+      "objective": "lognet",
+      "mean_seed_total_return_delta": -0.035116152747065886,
+      "annualized_arithmetic_excess_ci": [
+        -0.05674809394594663,
+        0.020084532405064463
+      ]
+    },
+    {
+      "cost_bps": 5,
+      "fold": "fold_04",
+      "objective": "drawdown",
+      "mean_seed_total_return_delta": -0.010546959344673498,
+      "annualized_arithmetic_excess_ci": [
+        -0.013903466261123267,
+        0.004310383698514404
+      ]
+    },
+    {
+      "cost_bps": 10,
+      "fold": "fold_01",
+      "objective": "lognet",
+      "mean_seed_total_return_delta": 0.006572672421474228,
+      "annualized_arithmetic_excess_ci": [
+        9.218112275350501e-17,
+        0.0034884836196371585
+      ]
+    },
+    {
+      "cost_bps": 10,
+      "fold": "fold_01",
+      "objective": "drawdown",
+      "mean_seed_total_return_delta": 0.027566326693049186,
+      "annualized_arithmetic_excess_ci": [
+        -0.001644693233748232,
+        0.017195351201363413
+      ]
+    },
+    {
+      "cost_bps": 10,
+      "fold": "fold_02",
+      "objective": "lognet",
+      "mean_seed_total_return_delta": 0.004830283304666135,
+      "annualized_arithmetic_excess_ci": [
+        -0.0018138731484090105,
+        0.0028112344874568467
+      ]
+    },
+    {
+      "cost_bps": 10,
+      "fold": "fold_02",
+      "objective": "drawdown",
+      "mean_seed_total_return_delta": 0.00036300302675936386,
+      "annualized_arithmetic_excess_ci": [
+        -0.0053815426108711276,
+        0.008248342937638197
+      ]
+    },
+    {
+      "cost_bps": 10,
+      "fold": "fold_03",
+      "objective": "lognet",
+      "mean_seed_total_return_delta": 0.008550320660658528,
+      "annualized_arithmetic_excess_ci": [
+        -1.4404491786934656e-15,
+        0.006717741549919763
+      ]
+    },
+    {
+      "cost_bps": 10,
+      "fold": "fold_03",
+      "objective": "drawdown",
+      "mean_seed_total_return_delta": 0.008550320660658528,
+      "annualized_arithmetic_excess_ci": [
+        -1.4404491786934656e-15,
+        0.006717741549919763
+      ]
+    },
+    {
+      "cost_bps": 10,
+      "fold": "fold_04",
+      "objective": "lognet",
+      "mean_seed_total_return_delta": -0.03747538943244103,
+      "annualized_arithmetic_excess_ci": [
+        -0.057914892855214097,
+        0.018663470978741468
+      ]
+    },
+    {
+      "cost_bps": 10,
+      "fold": "fold_04",
+      "objective": "drawdown",
+      "mean_seed_total_return_delta": -0.01124950646022597,
+      "annualized_arithmetic_excess_ci": [
+        -0.014414236767735941,
+        0.003932340068704773
+      ]
+    },
+    {
+      "cost_bps": 20,
+      "fold": "fold_01",
+      "objective": "lognet",
+      "mean_seed_total_return_delta": 0.0065463558684013545,
+      "annualized_arithmetic_excess_ci": [
+        -1.2006563999868309e-15,
+        0.003635744112377543
+      ]
+    },
+    {
+      "cost_bps": 20,
+      "fold": "fold_01",
+      "objective": "drawdown",
+      "mean_seed_total_return_delta": 0.027444349553981857,
+      "annualized_arithmetic_excess_ci": [
+        -0.00161284485098849,
+        0.01750761373735339
+      ]
+    },
+    {
+      "cost_bps": 20,
+      "fold": "fold_02",
+      "objective": "lognet",
+      "mean_seed_total_return_delta": 0.004781606305590584,
+      "annualized_arithmetic_excess_ci": [
+        -0.0016856258645590403,
+        0.002813289350393674
+      ]
+    },
+    {
+      "cost_bps": 20,
+      "fold": "fold_02",
+      "objective": "drawdown",
+      "mean_seed_total_return_delta": 0.0006230866929143689,
+      "annualized_arithmetic_excess_ci": [
+        -0.005073843029545132,
+        0.008225541876891626
+      ]
+    },
+    {
+      "cost_bps": 20,
+      "fold": "fold_03",
+      "objective": "lognet",
+      "mean_seed_total_return_delta": 0.008509619247554926,
+      "annualized_arithmetic_excess_ci": [
+        -1.938630380264685e-16,
+        0.007060445371953265
+      ]
+    },
+    {
+      "cost_bps": 20,
+      "fold": "fold_03",
+      "objective": "drawdown",
+      "mean_seed_total_return_delta": 0.008509619247554926,
+      "annualized_arithmetic_excess_ci": [
+        -1.938630380264685e-16,
+        0.007060445371953265
+      ]
+    },
+    {
+      "cost_bps": 20,
+      "fold": "fold_04",
+      "objective": "lognet",
+      "mean_seed_total_return_delta": -0.04215375326261239,
+      "annualized_arithmetic_excess_ci": [
+        -0.06037674671319851,
+        0.015555775164779687
+      ]
+    },
+    {
+      "cost_bps": 20,
+      "fold": "fold_04",
+      "objective": "drawdown",
+      "mean_seed_total_return_delta": -0.012640929855502359,
+      "annualized_arithmetic_excess_ci": [
+        -0.015319456133243321,
+        0.00327388241344519
+      ]
+    }
+  ],
+  "mechanism_summary": [
+    {
+      "fold": "fold_01",
+      "candidate": "lognet_raw",
+      "mean_mature_saturation": 0.7667824228604635,
+      "mean_max_action_probability_std": 0.00038430021959356964,
+      "mean_entropy_nats": 0.5143823772668839
+    },
+    {
+      "fold": "fold_01",
+      "candidate": "lognet_scaled",
+      "mean_mature_saturation": 0.05671296392877897,
+      "mean_max_action_probability_std": 0.01969023607671261,
+      "mean_entropy_nats": 0.5258860985438029
+    },
+    {
+      "fold": "fold_01",
+      "candidate": "drawdown_raw",
+      "mean_mature_saturation": 0.6799768408139547,
+      "mean_max_action_probability_std": 0.0015807603679907818,
+      "mean_entropy_nats": 0.5676097969214121
+    },
+    {
+      "fold": "fold_01",
+      "candidate": "drawdown_scaled",
+      "mean_mature_saturation": 0.05497685198982557,
+      "mean_max_action_probability_std": 0.02684859822814663,
+      "mean_entropy_nats": 0.6067291895548502
+    },
+    {
+      "fold": "fold_02",
+      "candidate": "lognet_raw",
+      "mean_mature_saturation": 0.7168981631596884,
+      "mean_max_action_probability_std": 0.0031913477093136557,
+      "mean_entropy_nats": 0.6733787655830383
+    },
+    {
+      "fold": "fold_02",
+      "candidate": "lognet_scaled",
+      "mean_mature_saturation": 0.07349536816279094,
+      "mean_max_action_probability_std": 0.014502744190394878,
+      "mean_entropy_nats": 0.6458463172117869
+    },
+    {
+      "fold": "fold_02",
+      "candidate": "drawdown_raw",
+      "mean_mature_saturation": 0.6403935154279073,
+      "mean_max_action_probability_std": 0.004636953041578333,
+      "mean_entropy_nats": 1.0098280707995098
+    },
+    {
+      "fold": "fold_02",
+      "candidate": "drawdown_scaled",
+      "mean_mature_saturation": 0.04050925808648268,
+      "mean_max_action_probability_std": 0.0404635826125741,
+      "mean_entropy_nats": 1.0711227655410767
+    },
+    {
+      "fold": "fold_03",
+      "candidate": "lognet_raw",
+      "mean_mature_saturation": 0.721874992052714,
+      "mean_max_action_probability_std": 0.0006223807577043772,
+      "mean_entropy_nats": 0.6518463492393494
+    },
+    {
+      "fold": "fold_03",
+      "candidate": "lognet_scaled",
+      "mean_mature_saturation": 0.0629629623144865,
+      "mean_max_action_probability_std": 0.006164194967520113,
+      "mean_entropy_nats": 0.33901772399743396
+    },
+    {
+      "fold": "fold_03",
+      "candidate": "drawdown_raw",
+      "mean_mature_saturation": 0.6826388835906982,
+      "mean_max_action_probability_std": 0.001119128583619992,
+      "mean_entropy_nats": 0.5444995661576589
+    },
+    {
+      "fold": "fold_03",
+      "candidate": "drawdown_scaled",
+      "mean_mature_saturation": 0.04988426094253858,
+      "mean_max_action_probability_std": 0.006647595029789954,
+      "mean_entropy_nats": 0.4401398201783498
+    },
+    {
+      "fold": "fold_04",
+      "candidate": "lognet_raw",
+      "mean_mature_saturation": 0.7209490736325582,
+      "mean_max_action_probability_std": 0.0032151613074044385,
+      "mean_entropy_nats": 0.8946113785107931
+    },
+    {
+      "fold": "fold_04",
+      "candidate": "lognet_scaled",
+      "mean_mature_saturation": 0.03483796368042628,
+      "mean_max_action_probability_std": 0.13529667258262634,
+      "mean_entropy_nats": 1.0666661858558655
+    },
+    {
+      "fold": "fold_04",
+      "candidate": "drawdown_raw",
+      "mean_mature_saturation": 0.7172453800837199,
+      "mean_max_action_probability_std": 0.005611424019055751,
+      "mean_entropy_nats": 0.45389196028312045
+    },
+    {
+      "fold": "fold_04",
+      "candidate": "drawdown_scaled",
+      "mean_mature_saturation": 0.0596064825852712,
+      "mean_max_action_probability_std": 0.0373019864782691,
+      "mean_entropy_nats": 0.6445220609505972
+    }
+  ],
+  "limitations": [
+    "Seed means summarize algorithm outcomes, not a separately traded portfolio.",
+    "Repeated historical inspection and overlapping periods preclude pristine out-of-sample claims.",
+    "Bootstrap intervals describe annualized arithmetic excess, not CAGR or future probabilities; no multiple-comparison correction.",
+    "Lower saturation and more switching do not establish financial advantage.",
+    "Two execution interruptions have unknown causes and unknown discarded partial compute additional to 480000 new retained transitions."
+  ]
+}

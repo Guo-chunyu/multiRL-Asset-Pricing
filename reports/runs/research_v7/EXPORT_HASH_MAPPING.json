@@ -1,0 +1,10 @@
+{
+  "scope": "Export metadata only; original run inventory retained as provenance",
+  "files": {
+    "reports/runs/research_v7/pretraining_review.json": {
+      "original_sha256": "5d737e8a7d5c4f19cb646e5ef307a040cc6bef593b2941790841ff6eec7db914",
+      "export_sha256": "5496eeab615afe04dd5b4b2b61b8d39efcc040e218adeae880c11babcf509653",
+      "changed_field": "reviewer"
+    }
+  }
+}

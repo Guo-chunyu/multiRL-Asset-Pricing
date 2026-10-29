@@ -1,0 +1,20 @@
+{
+  "recorded_at_utc": "2026-10-26T16:29:23.013857+00:00",
+  "independent_review_agent": "review_v6_selector_integrity",
+  "review_outcome": "approved before formal training; no blocking accounting, causality or freeze issue",
+  "reviewed_study_sha256": "d7ab6bf73295c769f9f67ec32efd39f207723021ab65b021fb7e8eb00506cf86",
+  "current_study_sha256": "d7ab6bf73295c769f9f67ec32efd39f207723021ab65b021fb7e8eb00506cf86",
+  "focused_v6_tests_passed": 26,
+  "inherited_regression_tests_passed": 107,
+  "final_summary_only_change_study_tests_repassed": 9,
+  "synthetic_finrl_discrete_smoke": {
+    "steps": 100,
+    "backend": "finrl",
+    "net_arch": [
+      64,
+      64
+    ],
+    "passed": true
+  },
+  "claim": "Test counts and approval communicated by independent review agent; smoke executed by run agent. No efficacy conclusions."
+}

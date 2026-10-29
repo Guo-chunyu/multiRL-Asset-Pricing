@@ -1,0 +1,111 @@
+{
+  "passed": false,
+  "decision": "do_not_train_new_selector",
+  "interpretation": "Exploratory compute-budget gate only, not statistical evidence of alpha or permission to deploy",
+  "cost_gates": [
+    {
+      "cost_bps": 5,
+      "strict_score_wins": 2,
+      "drawdown_gate_passed": true,
+      "passed": false
+    },
+    {
+      "cost_bps": 10,
+      "strict_score_wins": 2,
+      "drawdown_gate_passed": true,
+      "passed": false
+    },
+    {
+      "cost_bps": 20,
+      "strict_score_wins": 0,
+      "drawdown_gate_passed": true,
+      "passed": false
+    }
+  ],
+  "comparisons": [
+    {
+      "cost_bps": 5,
+      "year": 2018,
+      "score_delta": -0.018335750550860563,
+      "total_return_delta": -0.012322778439220972,
+      "max_drawdown_delta": 0.012025944223279184
+    },
+    {
+      "cost_bps": 5,
+      "year": 2020,
+      "score_delta": 0.0025674922936836653,
+      "total_return_delta": 0.001566795510728053,
+      "max_drawdown_delta": -0.0020013935659112247
+    },
+    {
+      "cost_bps": 5,
+      "year": 2022,
+      "score_delta": -0.013593639150946885,
+      "total_return_delta": -0.008238007991527477,
+      "max_drawdown_delta": 0.010711262318838788
+    },
+    {
+      "cost_bps": 5,
+      "year": 2024,
+      "score_delta": 0.005729413292002543,
+      "total_return_delta": 0.006889197923495349,
+      "max_drawdown_delta": 0.002319569262985627
+    },
+    {
+      "cost_bps": 10,
+      "year": 2018,
+      "score_delta": -0.021648252642176097,
+      "total_return_delta": -0.014641084343942734,
+      "max_drawdown_delta": 0.014014336596466753
+    },
+    {
+      "cost_bps": 10,
+      "year": 2020,
+      "score_delta": 0.0003847879947852517,
+      "total_return_delta": -0.0005814584541473933,
+      "max_drawdown_delta": -0.0019324928978653039
+    },
+    {
+      "cost_bps": 10,
+      "year": 2022,
+      "score_delta": -0.01626504521156702,
+      "total_return_delta": -0.010117256843427264,
+      "max_drawdown_delta": 0.012295576736279457
+    },
+    {
+      "cost_bps": 10,
+      "year": 2024,
+      "score_delta": 0.0020939133403798244,
+      "total_return_delta": 0.003742709228626531,
+      "max_drawdown_delta": 0.0032975917764934276
+    },
+    {
+      "cost_bps": 20,
+      "year": 2018,
+      "score_delta": -0.028239904849863162,
+      "total_return_delta": -0.01925258997478632,
+      "max_drawdown_delta": 0.017974629750153653
+    },
+    {
+      "cost_bps": 20,
+      "year": 2020,
+      "score_delta": -0.0039627640976035855,
+      "total_return_delta": -0.004860143453278634,
+      "max_drawdown_delta": -0.0017947587113501112
+    },
+    {
+      "cost_bps": 20,
+      "year": 2022,
+      "score_delta": -0.02158481587899949,
+      "total_return_delta": -0.013859027786250186,
+      "max_drawdown_delta": 0.015451576185498611
+    },
+    {
+      "cost_bps": 20,
+      "year": 2024,
+      "score_delta": -0.005140321972908021,
+      "total_return_delta": -0.0025153126648451846,
+      "max_drawdown_delta": 0.0052500186161256734
+    }
+  ]
+}

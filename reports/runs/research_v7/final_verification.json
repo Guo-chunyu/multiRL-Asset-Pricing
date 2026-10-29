@@ -1,0 +1,20 @@
+{
+  "state": "evaluated",
+  "complete_models": 48,
+  "expected_models": 48,
+  "evaluated_costs": [
+    5,
+    10,
+    20
+  ],
+  "actual_account_ledgers_audited": 312,
+  "test_ledgers_audited": 216,
+  "max_absolute_audit_error": 3.097522238704187e-14,
+  "manifest_sha256": "39aa48f97e0361b8ba9865adb325f90efffe07b02fdac9fbb6ca4a17c277b70b",
+  "frozen_selection_sha256": "3873b017ad681697d3382793074f7d4a896f7cf1f109bebeff9f814a72733658",
+  "reviewed_driver_sha256": "5068ffa2adbeefc0984268f3b40a9bdb492a3fada1238c269d5e836845e53b63",
+  "report_sha256": "341ed254ecd699eda098b6ce2771939b6936f3db4c88166303380c3cdfb1b6c4",
+  "results_summary_sha256": "cb94d437d483fff5799e91c180844a03c0d8796114023aa6d40aa943320543a9",
+  "final_full_pytest": "444 passed in 63.13s",
+  "independent_final_report_review": "PASS: all216 metric rows and48 selected rows, all24 paired contrasts recomputed; report/detailed summary consistent; no blockers"
+}

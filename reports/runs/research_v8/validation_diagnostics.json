@@ -1,0 +1,3122 @@
+[
+  {
+    "fold": "fold_01",
+    "seed": 7,
+    "candidate": "lognet_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.2084100842475891,
+      "probability_std_by_action": [
+        0.02286151796579361,
+        0.035612963140010834,
+        0.07442103326320648,
+        0.015949618071317673
+      ],
+      "max_probability_std": 0.07442103326320648,
+      "mean_first_tanh_saturation": 0.7225765585899353,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.18404901027679443,
+      "probability_std_by_action": [
+        5.014352063881233e-05,
+        0.00016285727906506509,
+        0.00024401128757745028,
+        3.4552191209513694e-05
+      ],
+      "max_probability_std": 0.00024401128757745028,
+      "mean_first_tanh_saturation": 0.765625,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.20932739973068237,
+        "probability_std_by_action": [
+          0.02285907231271267,
+          0.03562426567077637,
+          0.07442934811115265,
+          0.015950562432408333
+        ],
+        "max_probability_std": 0.07442934811115265,
+        "mean_first_tanh_saturation": 0.7018494606018066,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.1844121664762497,
+        "probability_std_by_action": [
+          5.666138531523757e-05,
+          0.0001711492077447474,
+          0.0002649167727213353,
+          3.89131237170659e-05
+        ],
+        "max_probability_std": 0.0002649167727213353,
+        "mean_first_tanh_saturation": 0.7430555820465088,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_01",
+    "seed": 7,
+    "candidate": "lognet_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.6316109895706177,
+      "probability_std_by_action": [
+        0.0021147194784134626,
+        0.05793377384543419,
+        0.060577359050512314,
+        0.000685516104567796
+      ],
+      "max_probability_std": 0.060577359050512314,
+      "mean_first_tanh_saturation": 0.06281887739896774,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.640588104724884,
+      "probability_std_by_action": [
+        0.0017824429087340832,
+        0.05135199427604675,
+        0.05362265929579735,
+        0.0005177579587325454
+      ],
+      "max_probability_std": 0.05362265929579735,
+      "mean_first_tanh_saturation": 0.06701388955116272,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.7326868176460266,
+        "probability_std_by_action": [
+          0.0017677636351436377,
+          0.056794174015522,
+          0.05879911407828331,
+          0.00046705722343176603
+        ],
+        "max_probability_std": 0.05879911407828331,
+        "mean_first_tanh_saturation": 0.0535714291036129,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.7420958876609802,
+        "probability_std_by_action": [
+          0.0015344398561865091,
+          0.04843011870980263,
+          0.05024387687444687,
+          0.0003654276661109179
+        ],
+        "max_probability_std": 0.05024387687444687,
+        "mean_first_tanh_saturation": 0.0572916679084301,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_01",
+    "seed": 7,
+    "candidate": "drawdown_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.48836594820022583,
+      "probability_std_by_action": [
+        0.04975055158138275,
+        0.03302422910928726,
+        0.09871570765972137,
+        0.01625664159655571
+      ],
+      "max_probability_std": 0.09871570765972137,
+      "mean_first_tanh_saturation": 0.6208546161651611,
+      "distinct_argmax_actions": 2
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.4588589668273926,
+      "probability_std_by_action": [
+        0.0010389379458501935,
+        0.0014975119847804308,
+        0.0027941646985709667,
+        0.0002757745678536594
+      ],
+      "max_probability_std": 0.0027941646985709667,
+      "mean_first_tanh_saturation": 0.6579861044883728,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.49349966645240784,
+        "probability_std_by_action": [
+          0.049726229161024094,
+          0.032839082181453705,
+          0.09856532514095306,
+          0.016279444098472595
+        ],
+        "max_probability_std": 0.09856532514095306,
+        "mean_first_tanh_saturation": 0.5953443646430969,
+        "distinct_argmax_actions": 2
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.46354585886001587,
+        "probability_std_by_action": [
+          0.001163259381428361,
+          0.0017001393716782331,
+          0.003213736927136779,
+          0.00036013193312101066
+        ],
+        "max_probability_std": 0.003213736927136779,
+        "mean_first_tanh_saturation": 0.6312500238418579,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_01",
+    "seed": 7,
+    "candidate": "drawdown_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.8766986131668091,
+      "probability_std_by_action": [
+        0.009235506877303123,
+        0.09204576164484024,
+        0.10070256143808365,
+        0.0006917513674125075
+      ],
+      "max_probability_std": 0.10070256143808365,
+      "mean_first_tanh_saturation": 0.0446428582072258,
+      "distinct_argmax_actions": 2
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.8853952884674072,
+      "probability_std_by_action": [
+        0.008433671668171883,
+        0.08204559981822968,
+        0.0901215523481369,
+        0.00035642259172163904
+      ],
+      "max_probability_std": 0.0901215523481369,
+      "mean_first_tanh_saturation": 0.04826388880610466,
+      "distinct_argmax_actions": 2
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.9100903868675232,
+        "probability_std_by_action": [
+          0.007229953072965145,
+          0.07603662461042404,
+          0.0825718343257904,
+          0.0007264796877279878
+        ],
+        "max_probability_std": 0.0825718343257904,
+        "mean_first_tanh_saturation": 0.03603316470980644,
+        "distinct_argmax_actions": 2
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.9164378643035889,
+        "probability_std_by_action": [
+          0.006312382407486439,
+          0.06296170502901077,
+          0.06887075304985046,
+          0.0003905828925780952
+        ],
+        "max_probability_std": 0.06887075304985046,
+        "mean_first_tanh_saturation": 0.03888889029622078,
+        "distinct_argmax_actions": 2
+      }
+    }
+  },
+  {
+    "fold": "fold_01",
+    "seed": 17,
+    "candidate": "lognet_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.6441163420677185,
+      "probability_std_by_action": [
+        0.025378452613949776,
+        0.02510225959122181,
+        0.09672824293375015,
+        0.04641137644648552
+      ],
+      "max_probability_std": 0.09672824293375015,
+      "mean_first_tanh_saturation": 0.6980229616165161,
+      "distinct_argmax_actions": 2
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.6242506504058838,
+      "probability_std_by_action": [
+        0.0003511981340125203,
+        0.00032674617250449955,
+        0.0007532224408350885,
+        0.00016859336756169796
+      ],
+      "max_probability_std": 0.0007532224408350885,
+      "mean_first_tanh_saturation": 0.7361111044883728,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.6433850526809692,
+        "probability_std_by_action": [
+          0.02540517784655094,
+          0.025072799995541573,
+          0.09675848484039307,
+          0.046431444585323334
+        ],
+        "max_probability_std": 0.09675848484039307,
+        "mean_first_tanh_saturation": 0.6951530575752258,
+        "distinct_argmax_actions": 2
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.6234229803085327,
+        "probability_std_by_action": [
+          0.0003211622533854097,
+          0.00034096426679752767,
+          0.0007493362063542008,
+          0.00017347856191918254
+        ],
+        "max_probability_std": 0.0007493362063542008,
+        "mean_first_tanh_saturation": 0.734375,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_01",
+    "seed": 17,
+    "candidate": "lognet_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.2382592111825943,
+      "probability_std_by_action": [
+        0.003283299505710602,
+        0.006053331308066845,
+        0.012205646373331547,
+        0.0028718793764710426
+      ],
+      "max_probability_std": 0.012205646373331547,
+      "mean_first_tanh_saturation": 0.047512754797935486,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.22701849043369293,
+      "probability_std_by_action": [
+        0.0012431851355358958,
+        0.002429464366286993,
+        0.004768794402480125,
+        0.0010975927580147982
+      ],
+      "max_probability_std": 0.004768794402480125,
+      "mean_first_tanh_saturation": 0.05173611268401146,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.23491251468658447,
+        "probability_std_by_action": [
+          0.0021059748250991106,
+          0.004036795813590288,
+          0.008143304847180843,
+          0.0020023814868181944
+        ],
+        "max_probability_std": 0.008143304847180843,
+        "mean_first_tanh_saturation": 0.0424107126891613,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.2270107865333557,
+        "probability_std_by_action": [
+          0.0009160845656879246,
+          0.0018234775634482503,
+          0.0035959016531705856,
+          0.0008579413988627493
+        ],
+        "max_probability_std": 0.0035959016531705856,
+        "mean_first_tanh_saturation": 0.04618055373430252,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_01",
+    "seed": 17,
+    "candidate": "drawdown_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.3825383186340332,
+      "probability_std_by_action": [
+        0.03903316333889961,
+        0.028292275965213776,
+        0.11805544048547745,
+        0.050784166902303696
+      ],
+      "max_probability_std": 0.11805544048547745,
+      "mean_first_tanh_saturation": 0.6808035969734192,
+      "distinct_argmax_actions": 2
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.35751843452453613,
+      "probability_std_by_action": [
+        0.00012021235306747258,
+        0.00017008917347993702,
+        0.00044497475028038025,
+        0.00015766301658004522
+      ],
+      "max_probability_std": 0.00044497475028038025,
+      "mean_first_tanh_saturation": 0.7208333611488342,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.38198989629745483,
+        "probability_std_by_action": [
+          0.039014533162117004,
+          0.02822170779109001,
+          0.11797279864549637,
+          0.05077569559216499
+        ],
+        "max_probability_std": 0.11797279864549637,
+        "mean_first_tanh_saturation": 0.6629464030265808,
+        "distinct_argmax_actions": 2
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.35726895928382874,
+        "probability_std_by_action": [
+          0.00011398971400922164,
+          0.00015698115748818964,
+          0.0004121899255551398,
+          0.00014437288336921483
+        ],
+        "max_probability_std": 0.0004121899255551398,
+        "mean_first_tanh_saturation": 0.7010416388511658,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_01",
+    "seed": 17,
+    "candidate": "drawdown_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.2954716682434082,
+      "probability_std_by_action": [
+        0.006756971590220928,
+        0.005749998614192009,
+        0.015149345621466637,
+        0.002648909343406558
+      ],
+      "max_probability_std": 0.015149345621466637,
+      "mean_first_tanh_saturation": 0.06505101919174194,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.2823498547077179,
+      "probability_std_by_action": [
+        0.0031177527271211147,
+        0.0027584536001086235,
+        0.007043273188173771,
+        0.0011764930095523596
+      ],
+      "max_probability_std": 0.007043273188173771,
+      "mean_first_tanh_saturation": 0.07083333283662796,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.2903102934360504,
+        "probability_std_by_action": [
+          0.004838587250560522,
+          0.004374989308416843,
+          0.011263757012784481,
+          0.0020575157832354307
+        ],
+        "max_probability_std": 0.011263757012784481,
+        "mean_first_tanh_saturation": 0.056441325694322586,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.28018587827682495,
+        "probability_std_by_action": [
+          0.002440099138766527,
+          0.0022515656892210245,
+          0.005673421546816826,
+          0.000993406749330461
+        ],
+        "max_probability_std": 0.005673421546816826,
+        "mean_first_tanh_saturation": 0.06145833432674408,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_01",
+    "seed": 29,
+    "candidate": "lognet_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.7499620318412781,
+      "probability_std_by_action": [
+        0.020831264555454254,
+        0.01503241527825594,
+        0.053457241505384445,
+        0.01767563261091709
+      ],
+      "max_probability_std": 0.053457241505384445,
+      "mean_first_tanh_saturation": 0.7458546161651611,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.7353834509849548,
+      "probability_std_by_action": [
+        2.7880332709173672e-05,
+        8.54513345984742e-05,
+        0.0001534013426862657,
+        4.616886508301832e-05
+      ],
+      "max_probability_std": 0.0001534013426862657,
+      "mean_first_tanh_saturation": 0.7881944179534912,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.7495878338813782,
+        "probability_std_by_action": [
+          0.02082792855799198,
+          0.015002899803221226,
+          0.053410228341817856,
+          0.017655041068792343
+        ],
+        "max_probability_std": 0.053410228341817856,
+        "mean_first_tanh_saturation": 0.7774234414100647,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.7353119850158691,
+        "probability_std_by_action": [
+          2.5147388441837393e-05,
+          7.221348641905934e-05,
+          0.00013864767970517278,
+          4.674602678278461e-05
+        ],
+        "max_probability_std": 0.00013864767970517278,
+        "mean_first_tanh_saturation": 0.8229166865348816,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_01",
+    "seed": 29,
+    "candidate": "lognet_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.5984523296356201,
+      "probability_std_by_action": [
+        0.00046735789510421455,
+        0.00604287488386035,
+        0.006354132201522589,
+        0.0016744360327720642
+      ],
+      "max_probability_std": 0.006354132201522589,
+      "mean_first_tanh_saturation": 0.059630103409290314,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.5975931882858276,
+      "probability_std_by_action": [
+        0.00035422478686086833,
+        0.005024923011660576,
+        0.005251365713775158,
+        0.000980958342552185
+      ],
+      "max_probability_std": 0.005251365713775158,
+      "mean_first_tanh_saturation": 0.0642361119389534,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.6096240282058716,
+        "probability_std_by_action": [
+          0.0004916946054436266,
+          0.0049578421749174595,
+          0.005760103929787874,
+          0.0015505594201385975
+        ],
+        "max_probability_std": 0.005760103929787874,
+        "mean_first_tanh_saturation": 0.06122449040412903,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.6085516214370728,
+        "probability_std_by_action": [
+          0.00040187162812799215,
+          0.004532881546765566,
+          0.0052309297025203705,
+          0.0009146375232376158
+        ],
+        "max_probability_std": 0.0052309297025203705,
+        "mean_first_tanh_saturation": 0.06666667014360428,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_01",
+    "seed": 29,
+    "candidate": "drawdown_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.8985137343406677,
+      "probability_std_by_action": [
+        0.05925290659070015,
+        0.012376246973872185,
+        0.08617306500673294,
+        0.019644729793071747
+      ],
+      "max_probability_std": 0.08617306500673294,
+      "mean_first_tanh_saturation": 0.668367326259613,
+      "distinct_argmax_actions": 2
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.8833636045455933,
+      "probability_std_by_action": [
+        0.00022831028036307544,
+        0.000790519523434341,
+        0.0015476298285648227,
+        0.0005307566025294363
+      ],
+      "max_probability_std": 0.0015476298285648227,
+      "mean_first_tanh_saturation": 0.706944465637207,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.8956771492958069,
+        "probability_std_by_action": [
+          0.0591314435005188,
+          0.010291807353496552,
+          0.0845317393541336,
+          0.018732810392975807
+        ],
+        "max_probability_std": 0.0845317393541336,
+        "mean_first_tanh_saturation": 0.6664540767669678,
+        "distinct_argmax_actions": 2
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.8820145726203918,
+        "probability_std_by_action": [
+          0.0001528548018541187,
+          0.0005764058441855013,
+          0.001116354251280427,
+          0.0003898354771081358
+        ],
+        "max_probability_std": 0.001116354251280427,
+        "mean_first_tanh_saturation": 0.7076388597488403,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_01",
+    "seed": 29,
+    "candidate": "drawdown_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.6304510235786438,
+      "probability_std_by_action": [
+        0.0007585780113004148,
+        0.002651775488629937,
+        0.006284673698246479,
+        0.0029518883675336838
+      ],
+      "max_probability_std": 0.006284673698246479,
+      "mean_first_tanh_saturation": 0.0580357126891613,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.6300019025802612,
+      "probability_std_by_action": [
+        0.0007316960254684091,
+        0.0026754955761134624,
+        0.006294866092503071,
+        0.0029206883627921343
+      ],
+      "max_probability_std": 0.006294866092503071,
+      "mean_first_tanh_saturation": 0.06215277686715126,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.6243878602981567,
+        "probability_std_by_action": [
+          0.0007267108303494751,
+          0.0024894848465919495,
+          0.0061135729774832726,
+          0.0029587303288280964
+        ],
+        "max_probability_std": 0.0061135729774832726,
+        "mean_first_tanh_saturation": 0.05931122601032257,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.623563826084137,
+        "probability_std_by_action": [
+          0.0006629616254940629,
+          0.0024817397352308035,
+          0.006001620087772608,
+          0.0028853861149400473
+        ],
+        "max_probability_std": 0.006001620087772608,
+        "mean_first_tanh_saturation": 0.06458333134651184,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_02",
+    "seed": 7,
+    "candidate": "lognet_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.28408461809158325,
+      "probability_std_by_action": [
+        0.01523921824991703,
+        0.0169876366853714,
+        0.05224888399243355,
+        0.020023314282298088
+      ],
+      "max_probability_std": 0.05224888399243355,
+      "mean_first_tanh_saturation": 0.6938775777816772,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.2643267512321472,
+      "probability_std_by_action": [
+        0.00011003444524249062,
+        0.0001418281317455694,
+        0.00045139313442632556,
+        0.00019992921443190426
+      ],
+      "max_probability_std": 0.00045139313442632556,
+      "mean_first_tanh_saturation": 0.7322916388511658,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.2847120761871338,
+        "probability_std_by_action": [
+          0.015236915089190006,
+          0.016984999179840088,
+          0.05224122852087021,
+          0.020020684227347374
+        ],
+        "max_probability_std": 0.05224122852087021,
+        "mean_first_tanh_saturation": 0.703125,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.26477885246276855,
+        "probability_std_by_action": [
+          0.00010757862764876336,
+          0.0001395305007463321,
+          0.00044028859701938927,
+          0.0001935376349138096
+        ],
+        "max_probability_std": 0.00044028859701938927,
+        "mean_first_tanh_saturation": 0.7430555820465088,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_02",
+    "seed": 7,
+    "candidate": "lognet_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.4622061550617218,
+      "probability_std_by_action": [
+        0.002403252525255084,
+        0.00727257551625371,
+        0.015966113656759262,
+        0.0063003054820001125
+      ],
+      "max_probability_std": 0.015966113656759262,
+      "mean_first_tanh_saturation": 0.058673471212387085,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.4574967324733734,
+      "probability_std_by_action": [
+        0.002309741685166955,
+        0.006923484615981579,
+        0.015226364135742188,
+        0.00600120285525918
+      ],
+      "max_probability_std": 0.015226364135742188,
+      "mean_first_tanh_saturation": 0.06388889253139496,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.4750473201274872,
+        "probability_std_by_action": [
+          0.0022296570241451263,
+          0.007281309925019741,
+          0.015833107754588127,
+          0.006333190016448498
+        ],
+        "max_probability_std": 0.015833107754588127,
+        "mean_first_tanh_saturation": 0.05771683529019356,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.4707667827606201,
+        "probability_std_by_action": [
+          0.0021456812974065542,
+          0.007057254668325186,
+          0.015312337316572666,
+          0.006116862408816814
+        ],
+        "max_probability_std": 0.015312337316572666,
+        "mean_first_tanh_saturation": 0.06284721940755844,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_02",
+    "seed": 7,
+    "candidate": "drawdown_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 1.012263298034668,
+      "probability_std_by_action": [
+        0.02222895249724388,
+        0.009557661600410938,
+        0.008779770694673061,
+        0.040154993534088135
+      ],
+      "max_probability_std": 0.040154993534088135,
+      "mean_first_tanh_saturation": 0.6476402878761292,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 1.0029685497283936,
+      "probability_std_by_action": [
+        0.0018586922669783235,
+        0.0015993424458429217,
+        0.002244665753096342,
+        0.0037207910791039467
+      ],
+      "max_probability_std": 0.0037207910791039467,
+      "mean_first_tanh_saturation": 0.6809027791023254,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 1.013850450515747,
+        "probability_std_by_action": [
+          0.022163039073348045,
+          0.00935757253319025,
+          0.008531934581696987,
+          0.03968305513262749
+        ],
+        "max_probability_std": 0.03968305513262749,
+        "mean_first_tanh_saturation": 0.6460459232330322,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 1.005234718322754,
+        "probability_std_by_action": [
+          0.001728803152218461,
+          0.0011780980275943875,
+          0.0017238333821296692,
+          0.0024551195092499256
+        ],
+        "max_probability_std": 0.0024551195092499256,
+        "mean_first_tanh_saturation": 0.6791666746139526,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_02",
+    "seed": 7,
+    "candidate": "drawdown_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 1.090476155281067,
+      "probability_std_by_action": [
+        0.010082286782562733,
+        0.00759932491928339,
+        0.030973443761467934,
+        0.02036176435649395
+      ],
+      "max_probability_std": 0.030973443761467934,
+      "mean_first_tanh_saturation": 0.02104591764509678,
+      "distinct_argmax_actions": 2
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 1.0864126682281494,
+      "probability_std_by_action": [
+        0.008365805260837078,
+        0.0056115067563951015,
+        0.027339300140738487,
+        0.019230501726269722
+      ],
+      "max_probability_std": 0.027339300140738487,
+      "mean_first_tanh_saturation": 0.02291666716337204,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 1.1084600687026978,
+        "probability_std_by_action": [
+          0.00995827279984951,
+          0.00741981528699398,
+          0.02694561332464218,
+          0.014064082875847816
+        ],
+        "max_probability_std": 0.02694561332464218,
+        "mean_first_tanh_saturation": 0.019451530650258064,
+        "distinct_argmax_actions": 2
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 1.1044561862945557,
+        "probability_std_by_action": [
+          0.008583776652812958,
+          0.006011013872921467,
+          0.024861304089426994,
+          0.014297889545559883
+        ],
+        "max_probability_std": 0.024861304089426994,
+        "mean_first_tanh_saturation": 0.02118055522441864,
+        "distinct_argmax_actions": 2
+      }
+    }
+  },
+  {
+    "fold": "fold_02",
+    "seed": 17,
+    "candidate": "lognet_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 1.2064311504364014,
+      "probability_std_by_action": [
+        0.039178237318992615,
+        0.01140353549271822,
+        0.002848530886694789,
+        0.0297152791172266
+      ],
+      "max_probability_std": 0.039178237318992615,
+      "mean_first_tanh_saturation": 0.639668345451355,
+      "distinct_argmax_actions": 2
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 1.2014247179031372,
+      "probability_std_by_action": [
+        0.0009622360812500119,
+        0.00661564851179719,
+        0.0015368856256827712,
+        0.005057745613157749
+      ],
+      "max_probability_std": 0.00661564851179719,
+      "mean_first_tanh_saturation": 0.6767361164093018,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 1.20411217212677,
+        "probability_std_by_action": [
+          0.039332740008831024,
+          0.011824952438473701,
+          0.002964174607768655,
+          0.029943063855171204
+        ],
+        "max_probability_std": 0.039332740008831024,
+        "mean_first_tanh_saturation": 0.6265943646430969,
+        "distinct_argmax_actions": 2
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 1.199013113975525,
+        "probability_std_by_action": [
+          0.0010003414936363697,
+          0.007255663629621267,
+          0.001740983803756535,
+          0.0054372502490878105
+        ],
+        "max_probability_std": 0.007255663629621267,
+        "mean_first_tanh_saturation": 0.6621527671813965,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_02",
+    "seed": 17,
+    "candidate": "lognet_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 1.1044259071350098,
+      "probability_std_by_action": [
+        0.0032623717561364174,
+        0.023952020332217216,
+        0.01979796402156353,
+        0.008311930112540722
+      ],
+      "max_probability_std": 0.023952020332217216,
+      "mean_first_tanh_saturation": 0.078125,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 1.1041479110717773,
+      "probability_std_by_action": [
+        0.0032859165221452713,
+        0.024596158415079117,
+        0.020166100934147835,
+        0.008413639850914478
+      ],
+      "max_probability_std": 0.024596158415079117,
+      "mean_first_tanh_saturation": 0.08472222089767456,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 1.1061652898788452,
+        "probability_std_by_action": [
+          0.0037392955273389816,
+          0.02138008177280426,
+          0.01857970841228962,
+          0.0076327091082930565
+        ],
+        "max_probability_std": 0.02138008177280426,
+        "mean_first_tanh_saturation": 0.0736607164144516,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 1.1057236194610596,
+        "probability_std_by_action": [
+          0.003817530581727624,
+          0.021937573328614235,
+          0.01888664811849594,
+          0.0076560466550290585
+        ],
+        "max_probability_std": 0.021937573328614235,
+        "mean_first_tanh_saturation": 0.08020833134651184,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_02",
+    "seed": 17,
+    "candidate": "drawdown_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 1.2241625785827637,
+      "probability_std_by_action": [
+        0.04863138869404793,
+        0.014244765043258667,
+        0.025201736018061638,
+        0.009889235720038414
+      ],
+      "max_probability_std": 0.04863138869404793,
+      "mean_first_tanh_saturation": 0.5484693646430969,
+      "distinct_argmax_actions": 2
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 1.219211459159851,
+      "probability_std_by_action": [
+        0.0019846553914248943,
+        0.0022951324936002493,
+        0.0035580871626734734,
+        0.0010900477645918727
+      ],
+      "max_probability_std": 0.0035580871626734734,
+      "mean_first_tanh_saturation": 0.5795139074325562,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 1.2250561714172363,
+        "probability_std_by_action": [
+          0.04878611117601395,
+          0.014290377497673035,
+          0.025251876562833786,
+          0.010012853890657425
+        ],
+        "max_probability_std": 0.04878611117601395,
+        "mean_first_tanh_saturation": 0.5334821343421936,
+        "distinct_argmax_actions": 2
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 1.2198933362960815,
+        "probability_std_by_action": [
+          0.0023742648772895336,
+          0.002181639662012458,
+          0.0038968191947788,
+          0.0010906157549470663
+        ],
+        "max_probability_std": 0.0038968191947788,
+        "mean_first_tanh_saturation": 0.5628471970558167,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_02",
+    "seed": 17,
+    "candidate": "drawdown_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 1.301627278327942,
+      "probability_std_by_action": [
+        0.12147332727909088,
+        0.02663235180079937,
+        0.04043475165963173,
+        0.07627720385789871
+      ],
+      "max_probability_std": 0.12147332727909088,
+      "mean_first_tanh_saturation": 0.024872448295354843,
+      "distinct_argmax_actions": 2
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 1.2995060682296753,
+      "probability_std_by_action": [
+        0.12121658772230148,
+        0.02718321420252323,
+        0.03972723335027695,
+        0.07704078406095505
+      ],
+      "max_probability_std": 0.12121658772230148,
+      "mean_first_tanh_saturation": 0.02708333358168602,
+      "distinct_argmax_actions": 2
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 1.3020298480987549,
+        "probability_std_by_action": [
+          0.09016770124435425,
+          0.022397659718990326,
+          0.026765476912260056,
+          0.06896498054265976
+        ],
+        "max_probability_std": 0.09016770124435425,
+        "mean_first_tanh_saturation": 0.025191325694322586,
+        "distinct_argmax_actions": 2
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 1.29965078830719,
+        "probability_std_by_action": [
+          0.08940189331769943,
+          0.023033762350678444,
+          0.025512948632240295,
+          0.06920012831687927
+        ],
+        "max_probability_std": 0.08940189331769943,
+        "mean_first_tanh_saturation": 0.02743055485188961,
+        "distinct_argmax_actions": 2
+      }
+    }
+  },
+  {
+    "fold": "fold_02",
+    "seed": 29,
+    "candidate": "lognet_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.5720667243003845,
+      "probability_std_by_action": [
+        0.0198601633310318,
+        0.01293469499796629,
+        0.04855455830693245,
+        0.01580563746392727
+      ],
+      "max_probability_std": 0.04855455830693245,
+      "mean_first_tanh_saturation": 0.6935586929321289,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.5554912090301514,
+      "probability_std_by_action": [
+        0.001293505891226232,
+        0.0008582458831369877,
+        0.0019780825823545456,
+        0.0007269519846886396
+      ],
+      "max_probability_std": 0.0019780825823545456,
+      "mean_first_tanh_saturation": 0.7295138835906982,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.5728179812431335,
+        "probability_std_by_action": [
+          0.019899828359484673,
+          0.01283425185829401,
+          0.048478662967681885,
+          0.015807855874300003
+        ],
+        "max_probability_std": 0.048478662967681885,
+        "mean_first_tanh_saturation": 0.7075892686843872,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.5563443303108215,
+        "probability_std_by_action": [
+          0.0013516595354303718,
+          0.0010108983842656016,
+          0.001878090901300311,
+          0.0007380040478892624
+        ],
+        "max_probability_std": 0.001878090901300311,
+        "mean_first_tanh_saturation": 0.7454861402511597,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_02",
+    "seed": 29,
+    "candidate": "lognet_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.3511829674243927,
+      "probability_std_by_action": [
+        0.0024259358178824186,
+        0.0019245123257860541,
+        0.006039333064109087,
+        0.0017209375509992242
+      ],
+      "max_probability_std": 0.006039333064109087,
+      "mean_first_tanh_saturation": 0.08290816098451614,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.34784650802612305,
+      "probability_std_by_action": [
+        0.002133925911039114,
+        0.0016087350668385625,
+        0.0052102431654930115,
+        0.0015014208620414138
+      ],
+      "max_probability_std": 0.0052102431654930115,
+      "mean_first_tanh_saturation": 0.0902777761220932,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.3639049828052521,
+        "probability_std_by_action": [
+          0.0026628507766872644,
+          0.00206444738432765,
+          0.006759691517800093,
+          0.0020645642653107643
+        ],
+        "max_probability_std": 0.006759691517800093,
+        "mean_first_tanh_saturation": 0.07110969722270966,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.36104854941368103,
+        "probability_std_by_action": [
+          0.002496996894478798,
+          0.0018582285847514868,
+          0.006258321925997734,
+          0.0019343154272064567
+        ],
+        "max_probability_std": 0.006258321925997734,
+        "mean_first_tanh_saturation": 0.07743055373430252,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_02",
+    "seed": 29,
+    "candidate": "drawdown_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.8293334245681763,
+      "probability_std_by_action": [
+        0.033645469695329666,
+        0.006743325851857662,
+        0.08148489892482758,
+        0.04201097786426544
+      ],
+      "max_probability_std": 0.08148489892482758,
+      "mean_first_tanh_saturation": 0.6256377696990967,
+      "distinct_argmax_actions": 2
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.8120705485343933,
+      "probability_std_by_action": [
+        0.006785394158214331,
+        0.001972006633877754,
+        0.008516569621860981,
+        0.003125810297206044
+      ],
+      "max_probability_std": 0.008516569621860981,
+      "mean_first_tanh_saturation": 0.6628472208976746,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.8218722343444824,
+        "probability_std_by_action": [
+          0.034060828387737274,
+          0.006635727826505899,
+          0.08202316612005234,
+          0.042232535779476166
+        ],
+        "max_probability_std": 0.08202316612005234,
+        "mean_first_tanh_saturation": 0.6419005393981934,
+        "distinct_argmax_actions": 2
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.8043561577796936,
+        "probability_std_by_action": [
+          0.006226861849427223,
+          0.0020593900699168444,
+          0.007558920420706272,
+          0.0028347098268568516
+        ],
+        "max_probability_std": 0.007558920420706272,
+        "mean_first_tanh_saturation": 0.6791666746139526,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_02",
+    "seed": 29,
+    "candidate": "drawdown_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.8069384694099426,
+      "probability_std_by_action": [
+        0.001962358132004738,
+        0.0020755785517394543,
+        0.008700970560312271,
+        0.0047875638119876385
+      ],
+      "max_probability_std": 0.008700970560312271,
+      "mean_first_tanh_saturation": 0.07079081982374191,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.8039777278900146,
+      "probability_std_by_action": [
+        0.0015896381810307503,
+        0.0016944186063483357,
+        0.007400083355605602,
+        0.0042477562092244625
+      ],
+      "max_probability_std": 0.007400083355605602,
+      "mean_first_tanh_saturation": 0.07708333432674408,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.8117355108261108,
+        "probability_std_by_action": [
+          0.0017950786277651787,
+          0.0018120449967682362,
+          0.008128602989017963,
+          0.004645559936761856
+        ],
+        "max_probability_std": 0.008128602989017963,
+        "mean_first_tanh_saturation": 0.0669642835855484,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.8092613220214844,
+        "probability_std_by_action": [
+          0.001508147339336574,
+          0.0015197261236608028,
+          0.007127550430595875,
+          0.004229538608342409
+        ],
+        "max_probability_std": 0.007127550430595875,
+        "mean_first_tanh_saturation": 0.0729166641831398,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_03",
+    "seed": 7,
+    "candidate": "lognet_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.5403332114219666,
+      "probability_std_by_action": [
+        0.026568610221147537,
+        0.016884753480553627,
+        0.09904218465089798,
+        0.05580122023820877
+      ],
+      "max_probability_std": 0.09904218465089798,
+      "mean_first_tanh_saturation": 0.624043345451355,
+      "distinct_argmax_actions": 2
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.5203839540481567,
+      "probability_std_by_action": [
+        0.0001506814151071012,
+        0.000399710435885936,
+        0.0008024468552321196,
+        0.00029868714045733213
+      ],
+      "max_probability_std": 0.0008024468552321196,
+      "mean_first_tanh_saturation": 0.6576389074325562,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.5445319414138794,
+        "probability_std_by_action": [
+          0.026559600606560707,
+          0.016987858340144157,
+          0.0990050658583641,
+          0.0557793490588665
+        ],
+        "max_probability_std": 0.0990050658583641,
+        "mean_first_tanh_saturation": 0.6403061151504517,
+        "distinct_argmax_actions": 2
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.5238518118858337,
+        "probability_std_by_action": [
+          0.00020152615616098046,
+          0.0005050686304457486,
+          0.0010032884310930967,
+          0.00040096495649777353
+        ],
+        "max_probability_std": 0.0010032884310930967,
+        "mean_first_tanh_saturation": 0.6763888597488403,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_03",
+    "seed": 7,
+    "candidate": "lognet_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.2856033146381378,
+      "probability_std_by_action": [
+        5.9452399000292644e-05,
+        0.0008610596414655447,
+        0.001436881022527814,
+        0.0005172417149879038
+      ],
+      "max_probability_std": 0.001436881022527814,
+      "mean_first_tanh_saturation": 0.07940050959587097,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.2844812870025635,
+      "probability_std_by_action": [
+        3.803788058576174e-05,
+        0.0005638418369926512,
+        0.0009328682790510356,
+        0.00033220663317479193
+      ],
+      "max_probability_std": 0.0009328682790510356,
+      "mean_first_tanh_saturation": 0.08611111342906952,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.2875511348247528,
+        "probability_std_by_action": [
+          5.7666711654746905e-05,
+          0.0008337176986970007,
+          0.0013792127138003707,
+          0.0004897942417301238
+        ],
+        "max_probability_std": 0.0013792127138003707,
+        "mean_first_tanh_saturation": 0.08290816098451614,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.28651437163352966,
+        "probability_std_by_action": [
+          3.977376036345959e-05,
+          0.0005816022166982293,
+          0.0009434014791622758,
+          0.00032377851312048733
+        ],
+        "max_probability_std": 0.0009434014791622758,
+        "mean_first_tanh_saturation": 0.0902777761220932,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_03",
+    "seed": 7,
+    "candidate": "drawdown_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.47604429721832275,
+      "probability_std_by_action": [
+        0.042302921414375305,
+        0.013420789502561092,
+        0.11273478716611862,
+        0.05798545107245445
+      ],
+      "max_probability_std": 0.11273478716611862,
+      "mean_first_tanh_saturation": 0.6029974222183228,
+      "distinct_argmax_actions": 2
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.4541988670825958,
+      "probability_std_by_action": [
+        0.0002763729717116803,
+        0.0007211706833913922,
+        0.0013055074959993362,
+        0.00030835234792903066
+      ],
+      "max_probability_std": 0.0013055074959993362,
+      "mean_first_tanh_saturation": 0.637499988079071,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.4790148437023163,
+        "probability_std_by_action": [
+          0.042291220277547836,
+          0.013524613343179226,
+          0.11269218474626541,
+          0.05797412991523743
+        ],
+        "max_probability_std": 0.11269218474626541,
+        "mean_first_tanh_saturation": 0.6106505393981934,
+        "distinct_argmax_actions": 2
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.45681068301200867,
+        "probability_std_by_action": [
+          0.0003634545428212732,
+          0.0009310398017987609,
+          0.0017065169522538781,
+          0.0004129289882257581
+        ],
+        "max_probability_std": 0.0017065169522538781,
+        "mean_first_tanh_saturation": 0.6451388597488403,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_03",
+    "seed": 7,
+    "candidate": "drawdown_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.16057205200195312,
+      "probability_std_by_action": [
+        0.00011026865104213357,
+        0.0005783296655863523,
+        0.0010477842297405005,
+        0.00035928006400354207
+      ],
+      "max_probability_std": 0.0010477842297405005,
+      "mean_first_tanh_saturation": 0.06568877398967743,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.15960684418678284,
+      "probability_std_by_action": [
+        7.61943229008466e-05,
+        0.00040929808164946735,
+        0.0007383219199255109,
+        0.00025290207122452557
+      ],
+      "max_probability_std": 0.0007383219199255109,
+      "mean_first_tanh_saturation": 0.0711805522441864,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.1637558490037918,
+        "probability_std_by_action": [
+          0.00012077299470547587,
+          0.0006385814631357789,
+          0.001156116253696382,
+          0.0003968771197833121
+        ],
+        "max_probability_std": 0.001156116253696382,
+        "mean_first_tanh_saturation": 0.06122449040412903,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.1627839356660843,
+        "probability_std_by_action": [
+          9.363405115436763e-05,
+          0.0005025937571190298,
+          0.000907032226677984,
+          0.0003108922974206507
+        ],
+        "max_probability_std": 0.000907032226677984,
+        "mean_first_tanh_saturation": 0.06666667014360428,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_03",
+    "seed": 17,
+    "candidate": "lognet_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.4979122579097748,
+      "probability_std_by_action": [
+        0.007666644640266895,
+        0.015550901181995869,
+        0.03387029469013214,
+        0.010660361498594284
+      ],
+      "max_probability_std": 0.03387029469013214,
+      "mean_first_tanh_saturation": 0.6926020383834839,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.48503443598747253,
+      "probability_std_by_action": [
+        6.943666085135192e-05,
+        0.0002352980081923306,
+        0.0003313083725515753,
+        0.00019640517712105066
+      ],
+      "max_probability_std": 0.0003313083725515753,
+      "mean_first_tanh_saturation": 0.7281249761581421,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.4979756474494934,
+        "probability_std_by_action": [
+          0.007668301463127136,
+          0.015563562512397766,
+          0.033884938806295395,
+          0.010662149637937546
+        ],
+        "max_probability_std": 0.033884938806295395,
+        "mean_first_tanh_saturation": 0.6798469424247742,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.48505645990371704,
+        "probability_std_by_action": [
+          4.876385719398968e-05,
+          0.00021615081641357392,
+          0.00024307833518832922,
+          0.0001721732405712828
+        ],
+        "max_probability_std": 0.00024307833518832922,
+        "mean_first_tanh_saturation": 0.7152777910232544,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_03",
+    "seed": 17,
+    "candidate": "lognet_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.5655191540718079,
+      "probability_std_by_action": [
+        0.002141837729141116,
+        0.005275225266814232,
+        0.017536791041493416,
+        0.010353922843933105
+      ],
+      "max_probability_std": 0.017536791041493416,
+      "mean_first_tanh_saturation": 0.03125,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.5602799654006958,
+      "probability_std_by_action": [
+        0.001844502636231482,
+        0.004426645580679178,
+        0.016181087121367455,
+        0.010008427314460278
+      ],
+      "max_probability_std": 0.016181087121367455,
+      "mean_first_tanh_saturation": 0.03402777761220932,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.5656996369361877,
+        "probability_std_by_action": [
+          0.0022740131244063377,
+          0.005150954704731703,
+          0.01815514639019966,
+          0.01094761025160551
+        ],
+        "max_probability_std": 0.01815514639019966,
+        "mean_first_tanh_saturation": 0.026466837152838707,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.5611324310302734,
+        "probability_std_by_action": [
+          0.0020427850540727377,
+          0.004438602831214666,
+          0.01716640405356884,
+          0.010765200480818748
+        ],
+        "max_probability_std": 0.01716640405356884,
+        "mean_first_tanh_saturation": 0.02881944365799427,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_03",
+    "seed": 17,
+    "candidate": "drawdown_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.8560419678688049,
+      "probability_std_by_action": [
+        0.012237684801220894,
+        0.016361454501748085,
+        0.038213491439819336,
+        0.009701412171125412
+      ],
+      "max_probability_std": 0.038213491439819336,
+      "mean_first_tanh_saturation": 0.6715561151504517,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.8447151184082031,
+      "probability_std_by_action": [
+        0.0001301187148783356,
+        0.0002567154006101191,
+        0.0007298375712707639,
+        0.00039804939297027886
+      ],
+      "max_probability_std": 0.0007298375712707639,
+      "mean_first_tanh_saturation": 0.7072916626930237,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.8573883771896362,
+        "probability_std_by_action": [
+          0.012247187085449696,
+          0.016362609341740608,
+          0.03827103227376938,
+          0.009753542020916939
+        ],
+        "max_probability_std": 0.03827103227376938,
+        "mean_first_tanh_saturation": 0.6619898080825806,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.8457985520362854,
+        "probability_std_by_action": [
+          0.00013958961062598974,
+          0.0002904607681557536,
+          0.0008154785027727485,
+          0.00042166211642324924
+        ],
+        "max_probability_std": 0.0008154785027727485,
+        "mean_first_tanh_saturation": 0.6979166865348816,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_03",
+    "seed": 17,
+    "candidate": "drawdown_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.9607014656066895,
+      "probability_std_by_action": [
+        0.0060856943018734455,
+        0.004822757560759783,
+        0.019385987892746925,
+        0.008883892558515072
+      ],
+      "max_probability_std": 0.019385987892746925,
+      "mean_first_tanh_saturation": 0.04113520309329033,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.9571385979652405,
+      "probability_std_by_action": [
+        0.00516363512724638,
+        0.0034263012930750847,
+        0.016930541023612022,
+        0.008496289141476154
+      ],
+      "max_probability_std": 0.016930541023612022,
+      "mean_first_tanh_saturation": 0.04479166492819786,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.9649731516838074,
+        "probability_std_by_action": [
+          0.006528348661959171,
+          0.004931592382490635,
+          0.020445600152015686,
+          0.009407972916960716
+        ],
+        "max_probability_std": 0.020445600152015686,
+        "mean_first_tanh_saturation": 0.031887754797935486,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.9610220193862915,
+        "probability_std_by_action": [
+          0.005752973724156618,
+          0.0035055065527558327,
+          0.01822676509618759,
+          0.009098595939576626
+        ],
+        "max_probability_std": 0.01822676509618759,
+        "mean_first_tanh_saturation": 0.0347222238779068,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_03",
+    "seed": 29,
+    "candidate": "lognet_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.9561609625816345,
+      "probability_std_by_action": [
+        0.05663203075528145,
+        0.035709645599126816,
+        0.05057030916213989,
+        0.02948899380862713
+      ],
+      "max_probability_std": 0.05663203075528145,
+      "mean_first_tanh_saturation": 0.7155612111091614,
+      "distinct_argmax_actions": 2
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.946416974067688,
+      "probability_std_by_action": [
+        0.00034826440969482064,
+        0.0004520372021943331,
+        0.0008045535068958998,
+        0.00023144546139519662
+      ],
+      "max_probability_std": 0.0008045535068958998,
+      "mean_first_tanh_saturation": 0.7552083134651184,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.9560528993606567,
+        "probability_std_by_action": [
+          0.05660708248615265,
+          0.0356321856379509,
+          0.05052674189209938,
+          0.02943454496562481
+        ],
+        "max_probability_std": 0.05660708248615265,
+        "mean_first_tanh_saturation": 0.7315050959587097,
+        "distinct_argmax_actions": 2
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.9466307759284973,
+        "probability_std_by_action": [
+          0.0002511497004888952,
+          0.0005143759772181511,
+          0.0006207755068317056,
+          0.00024998048320412636
+        ],
+        "max_probability_std": 0.0006207755068317056,
+        "mean_first_tanh_saturation": 0.7739583253860474,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_03",
+    "seed": 29,
+    "candidate": "lognet_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.1714116632938385,
+      "probability_std_by_action": [
+        0.0003448108327575028,
+        0.0008634491823613644,
+        0.0015017088735476136,
+        0.00030688164406456053
+      ],
+      "max_probability_std": 0.0015017088735476136,
+      "mean_first_tanh_saturation": 0.06983418017625809,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.16988950967788696,
+      "probability_std_by_action": [
+        8.295709994854406e-05,
+        0.00033119323779828846,
+        0.00044326428906060755,
+        5.41583176527638e-05
+      ],
+      "max_probability_std": 0.00044326428906060755,
+      "mean_first_tanh_saturation": 0.07604166865348816,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.17097187042236328,
+        "probability_std_by_action": [
+          0.0003515199350658804,
+          0.0008595209801569581,
+          0.0015189453260973096,
+          0.0003180848725605756
+        ],
+        "max_probability_std": 0.0015189453260973096,
+        "mean_first_tanh_saturation": 0.06441326439380646,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.16940636932849884,
+        "probability_std_by_action": [
+          7.581666432088241e-05,
+          0.00026143272407352924,
+          0.00038277936982922256,
+          7.867676322348416e-05
+        ],
+        "max_probability_std": 0.00038277936982922256,
+        "mean_first_tanh_saturation": 0.06979166716337204,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_03",
+    "seed": 29,
+    "candidate": "drawdown_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.36089345812797546,
+      "probability_std_by_action": [
+        0.0459534153342247,
+        0.026753848418593407,
+        0.10739503055810928,
+        0.03469526395201683
+      ],
+      "max_probability_std": 0.10739503055810928,
+      "mean_first_tanh_saturation": 0.6690050959587097,
+      "distinct_argmax_actions": 2
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.33112335205078125,
+      "probability_std_by_action": [
+        0.00039547946653328836,
+        0.00026317156152799726,
+        0.000902160070836544,
+        0.00024746620329096913
+      ],
+      "max_probability_std": 0.000902160070836544,
+      "mean_first_tanh_saturation": 0.7079861164093018,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.3592240512371063,
+        "probability_std_by_action": [
+          0.045751456171274185,
+          0.026614490896463394,
+          0.10690921545028687,
+          0.03455088287591934
+        ],
+        "max_probability_std": 0.10690921545028687,
+        "mean_first_tanh_saturation": 0.6651785969734192,
+        "distinct_argmax_actions": 2
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.3308894634246826,
+        "probability_std_by_action": [
+          0.0003667074197437614,
+          0.00024524718173779547,
+          0.0008353902958333492,
+          0.00022776276455260813
+        ],
+        "max_probability_std": 0.0008353902958333492,
+        "mean_first_tanh_saturation": 0.7048611044883728,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_03",
+    "seed": 29,
+    "candidate": "drawdown_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.19322526454925537,
+      "probability_std_by_action": [
+        0.0015952126123011112,
+        0.0015418744878843427,
+        0.004038109909743071,
+        0.0009054795373231173
+      ],
+      "max_probability_std": 0.004038109909743071,
+      "mean_first_tanh_saturation": 0.04559949040412903,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.19017963111400604,
+      "probability_std_by_action": [
+        0.00028604367980733514,
+        0.00022411829559132457,
+        0.0006110857939347625,
+        0.00012260137009434402
+      ],
+      "max_probability_std": 0.0006110857939347625,
+      "mean_first_tanh_saturation": 0.04965277761220932,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.2001655548810959,
+        "probability_std_by_action": [
+          0.0015706887934356928,
+          0.0015472936211153865,
+          0.004023502115160227,
+          0.0009112163679674268
+        ],
+        "max_probability_std": 0.004023502115160227,
+        "mean_first_tanh_saturation": 0.0446428582072258,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.19661350548267365,
+        "probability_std_by_action": [
+          0.000323241954902187,
+          0.00031453141127713025,
+          0.0008089877665042877,
+          0.00019355262338649482
+        ],
+        "max_probability_std": 0.0008089877665042877,
+        "mean_first_tanh_saturation": 0.04826388880610466,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_04",
+    "seed": 7,
+    "candidate": "lognet_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 1.0149537324905396,
+      "probability_std_by_action": [
+        0.04190031439065933,
+        0.009751072153449059,
+        0.026199407875537872,
+        0.02363424561917782
+      ],
+      "max_probability_std": 0.04190031439065933,
+      "mean_first_tanh_saturation": 0.6179847121238708,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 1.0033447742462158,
+      "probability_std_by_action": [
+        0.004341544583439827,
+        0.004194479901343584,
+        0.0007321848534047604,
+        0.0008153048693202436
+      ],
+      "max_probability_std": 0.004341544583439827,
+      "mean_first_tanh_saturation": 0.6527777910232544,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 1.0170321464538574,
+        "probability_std_by_action": [
+          0.041695669293403625,
+          0.010093162767589092,
+          0.02616278827190399,
+          0.023610856384038925
+        ],
+        "max_probability_std": 0.041695669293403625,
+        "mean_first_tanh_saturation": 0.6332908272743225,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 1.0054844617843628,
+        "probability_std_by_action": [
+          0.004600110463798046,
+          0.004320585168898106,
+          0.0008172525558620691,
+          0.0007912390865385532
+        ],
+        "max_probability_std": 0.004600110463798046,
+        "mean_first_tanh_saturation": 0.6694444417953491,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_04",
+    "seed": 7,
+    "candidate": "lognet_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 1.206241488456726,
+      "probability_std_by_action": [
+        0.14797231554985046,
+        0.05539363622665405,
+        0.1514817178249359,
+        0.06419304758310318
+      ],
+      "max_probability_std": 0.1514817178249359,
+      "mean_first_tanh_saturation": 0.03125,
+      "distinct_argmax_actions": 3
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 1.1983098983764648,
+      "probability_std_by_action": [
+        0.1438453048467636,
+        0.054366741329431534,
+        0.14252732694149017,
+        0.058819472789764404
+      ],
+      "max_probability_std": 0.1438453048467636,
+      "mean_first_tanh_saturation": 0.03402777761220932,
+      "distinct_argmax_actions": 3
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 1.1906377077102661,
+        "probability_std_by_action": [
+          0.15168151259422302,
+          0.046947166323661804,
+          0.17014184594154358,
+          0.06969944387674332
+        ],
+        "max_probability_std": 0.17014184594154358,
+        "mean_first_tanh_saturation": 0.02678571455180645,
+        "distinct_argmax_actions": 3
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 1.185509204864502,
+        "probability_std_by_action": [
+          0.1464683711528778,
+          0.045952681452035904,
+          0.1594810038805008,
+          0.06368400156497955
+        ],
+        "max_probability_std": 0.1594810038805008,
+        "mean_first_tanh_saturation": 0.02916666679084301,
+        "distinct_argmax_actions": 3
+      }
+    }
+  },
+  {
+    "fold": "fold_04",
+    "seed": 7,
+    "candidate": "drawdown_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.2373843491077423,
+      "probability_std_by_action": [
+        0.003328055841848254,
+        0.0021218517795205116,
+        0.0005360541981644928,
+        0.0006718148360960186
+      ],
+      "max_probability_std": 0.003328055841848254,
+      "mean_first_tanh_saturation": 0.7241709232330322,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.23553618788719177,
+      "probability_std_by_action": [
+        0.0009985744254663587,
+        0.0006686556152999401,
+        0.00012264026736374944,
+        0.00020735309226438403
+      ],
+      "max_probability_std": 0.0009985744254663587,
+      "mean_first_tanh_saturation": 0.7583333253860474,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.23914234340190887,
+        "probability_std_by_action": [
+          0.0033513118978589773,
+          0.0021401734557002783,
+          0.0005364774842746556,
+          0.0006773289642296731
+        ],
+        "max_probability_std": 0.0033513118978589773,
+        "mean_first_tanh_saturation": 0.7165178656578064,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.23728981614112854,
+        "probability_std_by_action": [
+          0.0012575894361361861,
+          0.0008410848677158356,
+          0.00015400469419546425,
+          0.0002625805209390819
+        ],
+        "max_probability_std": 0.0012575894361361861,
+        "mean_first_tanh_saturation": 0.75,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_04",
+    "seed": 7,
+    "candidate": "drawdown_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.23104609549045563,
+      "probability_std_by_action": [
+        0.008239183574914932,
+        0.006159077864140272,
+        0.001058046706020832,
+        0.0010327263735234737
+      ],
+      "max_probability_std": 0.008239183574914932,
+      "mean_first_tanh_saturation": 0.09438775479793549,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.22772955894470215,
+      "probability_std_by_action": [
+        0.00790882296860218,
+        0.005877124145627022,
+        0.0010294768726453185,
+        0.0010108809219673276
+      ],
+      "max_probability_std": 0.00790882296860218,
+      "mean_first_tanh_saturation": 0.10138888657093048,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.21705979108810425,
+        "probability_std_by_action": [
+          0.005702254828065634,
+          0.004320883192121983,
+          0.0006923581240698695,
+          0.0006961161270737648
+        ],
+        "max_probability_std": 0.005702254828065634,
+        "mean_first_tanh_saturation": 0.08290816098451614,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.21417972445487976,
+        "probability_std_by_action": [
+          0.005251244641840458,
+          0.003950962331146002,
+          0.0006478535360656679,
+          0.0006581348134204745
+        ],
+        "max_probability_std": 0.005251244641840458,
+        "mean_first_tanh_saturation": 0.08993055671453476,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_04",
+    "seed": 17,
+    "candidate": "lognet_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.6857386231422424,
+      "probability_std_by_action": [
+        0.012598404660820961,
+        0.03125846013426781,
+        0.05624931678175926,
+        0.012481825426220894
+      ],
+      "max_probability_std": 0.05624931678175926,
+      "mean_first_tanh_saturation": 0.7200255393981934,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.6713907718658447,
+      "probability_std_by_action": [
+        0.0006678572972305119,
+        0.0023676403798162937,
+        0.0020276978611946106,
+        0.00030388953746296465
+      ],
+      "max_probability_std": 0.0023676403798162937,
+      "mean_first_tanh_saturation": 0.7597222328186035,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.6861335039138794,
+        "probability_std_by_action": [
+          0.012631175108253956,
+          0.03125802055001259,
+          0.05626916512846947,
+          0.012490191496908665
+        ],
+        "max_probability_std": 0.05626916512846947,
+        "mean_first_tanh_saturation": 0.6964285969734192,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.6715399622917175,
+        "probability_std_by_action": [
+          0.0007462424109689891,
+          0.0024033852387219667,
+          0.0018797207158058882,
+          0.0003030308580491692
+        ],
+        "max_probability_std": 0.0024033852387219667,
+        "mean_first_tanh_saturation": 0.7329860925674438,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_04",
+    "seed": 17,
+    "candidate": "lognet_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 1.0218666791915894,
+      "probability_std_by_action": [
+        0.012748570181429386,
+        0.04603761434555054,
+        0.026637153699994087,
+        0.013574901036918163
+      ],
+      "max_probability_std": 0.04603761434555054,
+      "mean_first_tanh_saturation": 0.04719387739896774,
+      "distinct_argmax_actions": 2
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 1.026756763458252,
+      "probability_std_by_action": [
+        0.013049560599029064,
+        0.043765027076005936,
+        0.02341391146183014,
+        0.013750763610005379
+      ],
+      "max_probability_std": 0.043765027076005936,
+      "mean_first_tanh_saturation": 0.05138888955116272,
+      "distinct_argmax_actions": 2
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 1.0218086242675781,
+        "probability_std_by_action": [
+          0.01272240187972784,
+          0.0466020293533802,
+          0.027434632182121277,
+          0.013583705760538578
+        ],
+        "max_probability_std": 0.0466020293533802,
+        "mean_first_tanh_saturation": 0.047512754797935486,
+        "distinct_argmax_actions": 2
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 1.026693344116211,
+        "probability_std_by_action": [
+          0.013025207445025444,
+          0.04433077573776245,
+          0.02428172528743744,
+          0.013759595341980457
+        ],
+        "max_probability_std": 0.04433077573776245,
+        "mean_first_tanh_saturation": 0.05173611268401146,
+        "distinct_argmax_actions": 2
+      }
+    }
+  },
+  {
+    "fold": "fold_04",
+    "seed": 17,
+    "candidate": "drawdown_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 1.079138994216919,
+      "probability_std_by_action": [
+        0.03719870746135712,
+        0.027624091133475304,
+        0.08947441726922989,
+        0.025027059018611908
+      ],
+      "max_probability_std": 0.08947441726922989,
+      "mean_first_tanh_saturation": 0.5593112111091614,
+      "distinct_argmax_actions": 2
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 1.0655580759048462,
+      "probability_std_by_action": [
+        0.007134209852665663,
+        0.003181466832756996,
+        0.013208936899900436,
+        0.0040146345272660255
+      ],
+      "max_probability_std": 0.013208936899900436,
+      "mean_first_tanh_saturation": 0.5927083492279053,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 1.083174705505371,
+        "probability_std_by_action": [
+          0.03537636250257492,
+          0.026545269414782524,
+          0.08606752753257751,
+          0.024563489481806755
+        ],
+        "max_probability_std": 0.08606752753257751,
+        "mean_first_tanh_saturation": 0.5382652878761292,
+        "distinct_argmax_actions": 2
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 1.0692764520645142,
+        "probability_std_by_action": [
+          0.007961498573422432,
+          0.003680031280964613,
+          0.015509390272200108,
+          0.004816255532205105
+        ],
+        "max_probability_std": 0.015509390272200108,
+        "mean_first_tanh_saturation": 0.5697916746139526,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_04",
+    "seed": 17,
+    "candidate": "drawdown_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.3969052731990814,
+      "probability_std_by_action": [
+        0.04034864902496338,
+        0.009524494409561157,
+        0.0043267360888421535,
+        0.02654966153204441
+      ],
+      "max_probability_std": 0.04034864902496338,
+      "mean_first_tanh_saturation": 0.0602678582072258,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.3805857002735138,
+      "probability_std_by_action": [
+        0.035770196467638016,
+        0.008352936245501041,
+        0.0038249429780989885,
+        0.023635096848011017
+      ],
+      "max_probability_std": 0.035770196467638016,
+      "mean_first_tanh_saturation": 0.06562499701976776,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.5446978807449341,
+        "probability_std_by_action": [
+          0.08583039045333862,
+          0.026793427765369415,
+          0.012181066907942295,
+          0.04705387353897095
+        ],
+        "max_probability_std": 0.08583039045333862,
+        "mean_first_tanh_saturation": 0.051020409911870956,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.5219881534576416,
+        "probability_std_by_action": [
+          0.07867501676082611,
+          0.024345094338059425,
+          0.011106148362159729,
+          0.043333426117897034
+        ],
+        "max_probability_std": 0.07867501676082611,
+        "mean_first_tanh_saturation": 0.0555555559694767,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_04",
+    "seed": 29,
+    "candidate": "lognet_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 1.0161341428756714,
+      "probability_std_by_action": [
+        0.025723407045006752,
+        0.037936389446258545,
+        0.016992228105664253,
+        0.02914559282362461
+      ],
+      "max_probability_std": 0.037936389446258545,
+      "mean_first_tanh_saturation": 0.719706654548645,
+      "distinct_argmax_actions": 2
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 1.0068199634552002,
+      "probability_std_by_action": [
+        0.0015881572617217898,
+        0.002641383558511734,
+        0.0009283156250603497,
+        0.0018439807463437319
+      ],
+      "max_probability_std": 0.002641383558511734,
+      "mean_first_tanh_saturation": 0.7604166865348816,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 1.0162259340286255,
+        "probability_std_by_action": [
+          0.025735242292284966,
+          0.03795895352959633,
+          0.016993209719657898,
+          0.029160020872950554
+        ],
+        "max_probability_std": 0.03795895352959633,
+        "mean_first_tanh_saturation": 0.719706654548645,
+        "distinct_argmax_actions": 2
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 1.0068097114562988,
+        "probability_std_by_action": [
+          0.0015887615736573935,
+          0.002641988219693303,
+          0.0009287229622714221,
+          0.0018446050817146897
+        ],
+        "max_probability_std": 0.002641988219693303,
+        "mean_first_tanh_saturation": 0.7604166865348816,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_04",
+    "seed": 29,
+    "candidate": "lognet_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.9396688342094421,
+      "probability_std_by_action": [
+        0.19389963150024414,
+        0.05819707736372948,
+        0.16610777378082275,
+        0.036154601722955704
+      ],
+      "max_probability_std": 0.19389963150024414,
+      "mean_first_tanh_saturation": 0.021364795044064522,
+      "distinct_argmax_actions": 2
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.9476085901260376,
+      "probability_std_by_action": [
+        0.2008015215396881,
+        0.06061745434999466,
+        0.17069348692893982,
+        0.036944128572940826
+      ],
+      "max_probability_std": 0.2008015215396881,
+      "mean_first_tanh_saturation": 0.02326388843357563,
+      "distinct_argmax_actions": 2
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.9762660264968872,
+        "probability_std_by_action": [
+          0.19569364190101624,
+          0.04855511710047722,
+          0.1710859090089798,
+          0.033012837171554565
+        ],
+        "max_probability_std": 0.19569364190101624,
+        "mean_first_tanh_saturation": 0.021683674305677414,
+        "distinct_argmax_actions": 2
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.9877960085868835,
+        "probability_std_by_action": [
+          0.20207823812961578,
+          0.05051422119140625,
+          0.17490288615226746,
+          0.033133551478385925
+        ],
+        "max_probability_std": 0.20207823812961578,
+        "mean_first_tanh_saturation": 0.02361111156642437,
+        "distinct_argmax_actions": 2
+      }
+    }
+  },
+  {
+    "fold": "fold_04",
+    "seed": 29,
+    "candidate": "drawdown_raw",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 0.057175178080797195,
+      "probability_std_by_action": [
+        0.00248582917265594,
+        0.00045913143549114466,
+        0.0008385615074075758,
+        0.001188132562674582
+      ],
+      "max_probability_std": 0.00248582917265594,
+      "mean_first_tanh_saturation": 0.7895408272743225,
+      "distinct_argmax_actions": 1
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 0.0551077276468277,
+      "probability_std_by_action": [
+        6.708614819217473e-05,
+        1.2179853911220562e-05,
+        2.272375422762707e-05,
+        3.2193842343986034e-05
+      ],
+      "max_probability_std": 6.708614819217473e-05,
+      "mean_first_tanh_saturation": 0.8295139074325562,
+      "distinct_argmax_actions": 1
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 0.05714612081646919,
+        "probability_std_by_action": [
+          0.002484725322574377,
+          0.0004588387964759022,
+          0.0008382697124034166,
+          0.001187611254863441
+        ],
+        "max_probability_std": 0.002484725322574377,
+        "mean_first_tanh_saturation": 0.7901785969734192,
+        "distinct_argmax_actions": 1
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 0.05510961264371872,
+        "probability_std_by_action": [
+          6.729234883096069e-05,
+          1.3012504496145993e-05,
+          2.213527295680251e-05,
+          3.2155039662029594e-05
+        ],
+        "max_probability_std": 6.729234883096069e-05,
+        "mean_first_tanh_saturation": 0.831944465637207,
+        "distinct_argmax_actions": 1
+      }
+    }
+  },
+  {
+    "fold": "fold_04",
+    "seed": 29,
+    "candidate": "drawdown_scaled",
+    "state_path": "own_policy",
+    "phase_zero_only": true,
+    "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+    "all_decisions": {
+      "states": 49,
+      "mean_entropy_nats": 1.1827548742294312,
+      "probability_std_by_action": [
+        0.011753926984965801,
+        0.010076905600726604,
+        0.027888646349310875,
+        0.023206885904073715
+      ],
+      "max_probability_std": 0.027888646349310875,
+      "mean_first_tanh_saturation": 0.03443877398967743,
+      "distinct_argmax_actions": 2
+    },
+    "mature_decisions": {
+      "states": 45,
+      "mean_entropy_nats": 1.1801480054855347,
+      "probability_std_by_action": [
+        0.011762869544327259,
+        0.01008673943579197,
+        0.028149312362074852,
+        0.020789558067917824
+      ],
+      "max_probability_std": 0.028149312362074852,
+      "mean_first_tanh_saturation": 0.03750000149011612,
+      "distinct_argmax_actions": 2
+    },
+    "common_state": {
+      "state_path": "fixed_equal50",
+      "phase_zero_only": true,
+      "saturation_definition": "abs(tanh(first_linear)) > 0.95",
+      "all_decisions": {
+        "states": 49,
+        "mean_entropy_nats": 1.1990939378738403,
+        "probability_std_by_action": [
+          0.010728228837251663,
+          0.008468038402497768,
+          0.028028225526213646,
+          0.021824602037668228
+        ],
+        "max_probability_std": 0.028028225526213646,
+        "mean_first_tanh_saturation": 0.030612245202064514,
+        "distinct_argmax_actions": 2
+      },
+      "mature_decisions": {
+        "states": 45,
+        "mean_entropy_nats": 1.19739830493927,
+        "probability_std_by_action": [
+          0.010863423347473145,
+          0.008594974875450134,
+          0.027979698032140732,
+          0.019609520211815834
+        ],
+        "max_probability_std": 0.027979698032140732,
+        "mean_first_tanh_saturation": 0.03333333507180214,
+        "distinct_argmax_actions": 2
+      }
+    }
+  }
+]

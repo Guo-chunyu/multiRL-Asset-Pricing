@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="hero-title hero-desc">
+<title id="hero-title">multiRL Asset Pricing</title>
+<desc id="hero-desc">A-share ETF research with causal decisions, auditable accounts and frozen protocols. Latest study v9 failed its prespecified signal gate; no new RL was trained.</desc>
+<g font-family="Inter,DejaVu Sans,Arial,sans-serif">
+<rect x="0" y="0" width="1200" height="360" rx="20" fill="#0b1d31" stroke="none"/>
+<rect x="36" y="34" width="5" height="290" rx="2" fill="#4bd2c4" stroke="none"/>
+<text x="64" y="66" font-size="15" fill="#9db3cb" font-weight="600" text-anchor="start">REPRODUCIBLE PORTFOLIO RESEARCH</text>
+<text x="60" y="146" font-size="74" fill="#ffffff" font-weight="700" text-anchor="start">multiRL</text>
+<text x="64" y="207" font-size="49" fill="#ffffff" font-weight="600" text-anchor="start">Asset Pricing</text>
+<text x="66" y="249" font-size="20" fill="#b6c7da" font-weight="400" text-anchor="start">A-share ETFs  /  Deep reinforcement learning</text>
+<line x1="66" y1="278" x2="637" y2="278" stroke="#2a4058" stroke-width="1"/>
+<text x="66" y="307" font-size="13" fill="#72dcd1" font-weight="600" text-anchor="start">CAUSAL DECISIONS</text>
+<text x="265" y="307" font-size="13" fill="#72dcd1" font-weight="600" text-anchor="start">AUDITABLE ACCOUNTS</text>
+<text x="492" y="307" font-size="13" fill="#72dcd1" font-weight="600" text-anchor="start">FROZEN PROTOCOLS</text>
+<rect x="742" y="34" width="420" height="292" rx="18" fill="#142b44" stroke="#2b455f"/>
+<text x="772" y="70" font-size="14" fill="#9db3cb" font-weight="600" text-anchor="start">LATEST STUDY</text>
+<text x="1128" y="73" font-size="27" fill="#72dcd1" font-weight="700" text-anchor="end">v9</text>
+<text x="772" y="114" font-size="24" fill="#ffffff" font-weight="600" text-anchor="start">Relative-allocation signal</text>
+<text x="772" y="147" font-size="17" fill="#b6c7da" font-weight="400" text-anchor="start">3 ETFs  ·  4 years  ·  3 cost levels</text>
+<rect x="772" y="173" width="112" height="44" rx="8" fill="#213e59" stroke="none"/>
+<text x="828" y="200" font-size="13" fill="#d2e6f5" font-weight="500" text-anchor="middle">20-session rank</text>
+<rect x="893" y="173" width="112" height="44" rx="8" fill="#213e59" stroke="none"/>
+<text x="949" y="200" font-size="13" fill="#d2e6f5" font-weight="500" text-anchor="middle">50% equity</text>
+<rect x="1014" y="173" width="112" height="44" rx="8" fill="#213e59" stroke="none"/>
+<text x="1070" y="200" font-size="13" fill="#d2e6f5" font-weight="500" text-anchor="middle">24 ledgers</text>
+<rect x="772" y="240" width="360" height="57" rx="9" fill="#43382e" stroke="none"/>
+<text x="791" y="264" font-size="16" fill="#ffd3a6" font-weight="700" text-anchor="start">GATE NOT PASSED</text>
+<text x="791" y="286" font-size="15" fill="#f1d7bc" font-weight="400" text-anchor="start">No new RL training under this plan</text>
+</g>
+</svg>

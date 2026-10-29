@@ -1,0 +1,46 @@
+{
+  "created_at_utc": "2026-10-27T01:27:14.154237+00:00",
+  "reason": "Execution interruption; original session handles no longer available. Cause undetermined.",
+  "verified_reused_completed_new_fits": 6,
+  "completed_record_sha256": {
+    "fold_01/seed_7/drawdown_scaled.json": "cfa7a9c8d4c6591b8e2cdaa7a79458c123f88fd45996d4ac6a7e3df48048fee4",
+    "fold_01/seed_7/lognet_scaled.json": "8140d5c4cc2ed0f06ccaf00d08589ec72c65faf281bb9624c38f2cca4894755f",
+    "fold_01/seed_29/drawdown_scaled.json": "01acee424c0894b895f78bfb10e6f77a96a920e4c4b709cac90fc62b8740e692",
+    "fold_01/seed_29/lognet_scaled.json": "eee1e12df48d5139651ae57442c2541724ba6c31adfc9f94fdfa17fa6fb37828",
+    "fold_01/seed_17/drawdown_scaled.json": "15a2e23f460dcd0e5f2da0c19cbb978567210647683f779b6053b981196bf2b1",
+    "fold_01/seed_17/lognet_scaled.json": "4d6ca75e13ffef693d99567d9a0a88a78cb8c1cbe7be561e7db595ef23f10d7b"
+  },
+  "original_logs_preserved": [
+    "fit_seed_7.log",
+    "fit_seed_17.log",
+    "fit_seed_29.log"
+  ],
+  "observation": "No artifact changes across a further 30-second observation after reported multi-minute inactivity; no active study_v8 process visible in available process view. Process views alone are not a cross-executor guarantee.",
+  "resume_plan": "Resume only missing records using identical frozen plan, seeds and schedules; preserve all verified completed fits.",
+  "discarded_partial_compute": "Unknown; additional to retained-fit transition count.",
+  "manifest_sha256": "dad69d9ec8748a4b43c1370ff44311d4ab6acecb10a76a73711f05e9f640e63f",
+  "pretraining_review_sha256": "967ace96871e8653f7f1f66652fa26da46907e514e90920aa56b227823cb3407",
+  "no_test_evaluation_opened": true,
+  "later_recoveries": [
+    {
+      "created_at_utc": "2026-10-27T01:35:34.885121+00:00",
+      "verified_complete_fits": 9,
+      "cause": "Undetermined execution/lifecycle interruption; no assertion of user cancellation",
+      "evidence": "Training logs stopped after fold_02 lognet for all seeds; records remained unchanged across progress checks; previous supervisor no longer running; status command verified complete records.",
+      "completed_record_sha256": {
+        "fold_01/seed_7/drawdown_scaled.json": "cfa7a9c8d4c6591b8e2cdaa7a79458c123f88fd45996d4ac6a7e3df48048fee4",
+        "fold_01/seed_7/lognet_scaled.json": "8140d5c4cc2ed0f06ccaf00d08589ec72c65faf281bb9624c38f2cca4894755f",
+        "fold_01/seed_29/drawdown_scaled.json": "01acee424c0894b895f78bfb10e6f77a96a920e4c4b709cac90fc62b8740e692",
+        "fold_01/seed_29/lognet_scaled.json": "eee1e12df48d5139651ae57442c2541724ba6c31adfc9f94fdfa17fa6fb37828",
+        "fold_01/seed_17/drawdown_scaled.json": "15a2e23f460dcd0e5f2da0c19cbb978567210647683f779b6053b981196bf2b1",
+        "fold_01/seed_17/lognet_scaled.json": "4d6ca75e13ffef693d99567d9a0a88a78cb8c1cbe7be561e7db595ef23f10d7b",
+        "fold_02/seed_7/lognet_scaled.json": "fd463d2e463306e45e45b5f0dbfc67b268d9204a0e455405b2b5c749d6eb4acf",
+        "fold_02/seed_29/lognet_scaled.json": "31a7dcf88e31962552f91775ed29984a83f2b92eedb1dcb117dffba8fe723123",
+        "fold_02/seed_17/lognet_scaled.json": "9e069764f146e097ae4a182f1c94cc76cd1be30cddc3fb7a010c51d8ce802dba"
+      },
+      "resume": "Identical frozen plans, missing fits only; retained executor polling instead of detached waiting",
+      "discarded_partial_compute": "Unknown, additional to retained fits",
+      "no_test_evaluation_opened": true
+    }
+  ]
+}

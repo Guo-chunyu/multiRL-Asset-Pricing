@@ -1,0 +1,96 @@
+{
+  "identity": {
+    "sources": {
+      "src/rlasset/signal_gate_v9.py": "e9fcebf77702a8e03a2b65c175e7ba1728ada3521dd12945b801db3804b5504e",
+      "tests/test_signal_gate_v9.py": "279e73c73dee32a03a6056dbbbfce9265f04495a3791a1f69d64aaf8e1de5dd9",
+      "docs/research-protocol-v9-signal.md": "1e9c11db6507fe561b113e7ee4baadb095a13552e36aebdc9a6493c7d0dbd84e",
+      "scripts/audit_research_v3.py": "e94a7b17a2a84e5655edba2578b451bd1accd7dc600fd318fed05c84c6eb1b4f",
+      "src/rlasset/study_v3.py": "18e9cbfab9ec7dc15b841a4fc34257c1fc3909712f4ff72264240a2d0d41bf32",
+      "src/rlasset/study_v7.py": "5068ffa2adbeefc0984268f3b40a9bdb492a3fada1238c269d5e836845e53b63",
+      "src/rlasset/robust_env.py": "9a345d0e93c590cdef33ad229233742d27f0ef42d37a72bdfec85ad8fecf1001",
+      "src/rlasset/corporate_actions.py": "dc8107939442cb0ac42210fb1ad40a896a5a59166622e05f4b71d1baa02a3a69",
+      "src/rlasset/env.py": "c22d1f98e335146df777924af355bf0f5a0e80f002a00317ec9172e49c92c1f7",
+      "src/rlasset/data.py": "f12e15203c52bff6c525e421840888b76ab76a05f8705e15090aa10253900272",
+      "src/rlasset/metrics.py": "f0d49bedf76c59891596f655780d8c067b57ead137d54a9b53d019b55d70ed64"
+    },
+    "data": {
+      "ashare_broad_raw.csv": "41c9dfa0f32be0d342703c63d0ade2aea541fb586a62e41326c88bf7dadbc9c8",
+      "cash_actions.csv": "7d8c43024d2f4154435c2e3c2d9ac79c772aa0595569e20f2d494add6ece9640",
+      "splits.csv": "6e5b9b647c5bff6f06aa9555f29ee0c3ca7d66874e66cf2d5753ae52e1b4c7c3",
+      "restoration_verification.json": "b7b53649fbbba0e03b6648c58bcc4b28a601736264f9d51228983a8866af37d6",
+      "restoration_audit.json": "b7b53649fbbba0e03b6648c58bcc4b28a601736264f9d51228983a8866af37d6"
+    },
+    "tickers": [
+      "510050",
+      "510300",
+      "510500"
+    ],
+    "years": [
+      2018,
+      2020,
+      2022,
+      2024
+    ],
+    "costs": [
+      5,
+      10,
+      20
+    ],
+    "rules": [
+      "equal50",
+      "relative_momentum50"
+    ],
+    "gate": {
+      "strict_positive_score_years_per_cost": 3,
+      "score": "total_return - 0.5 * max_drawdown",
+      "maximum_drawdown_deterioration_each_year_each_cost": 0.02
+    },
+    "new_rl_fits": 0
+  },
+  "validation_periods": [
+    {
+      "year": 2018,
+      "interval": [
+        666,
+        908
+      ],
+      "dates": [
+        "2018-01-02",
+        "2018-12-28"
+      ]
+    },
+    {
+      "year": 2020,
+      "interval": [
+        1153,
+        1395
+      ],
+      "dates": [
+        "2020-01-02",
+        "2020-12-31"
+      ]
+    },
+    {
+      "year": 2022,
+      "interval": [
+        1639,
+        1880
+      ],
+      "dates": [
+        "2022-01-04",
+        "2022-12-30"
+      ]
+    },
+    {
+      "year": 2024,
+      "interval": [
+        2123,
+        2364
+      ],
+      "dates": [
+        "2024-01-02",
+        "2024-12-31"
+      ]
+    }
+  ]
+}
