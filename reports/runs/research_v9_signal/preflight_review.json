@@ -1,0 +1,68 @@
+{
+  "created_at_utc": "2026-10-27T02:00:05.385490+00:00",
+  "status": "passed",
+  "scope": "Independent replacement preflight after directory-creation engineering fix. No historical financial metrics inspected.",
+  "manifest_sha256": "be5fdd776b3797bc9f026ddde9c27813a5726ad45319cc19b9c25f912bb01438",
+  "source_sha256": {
+    "src/rlasset/signal_gate_v9.py": "e9fcebf77702a8e03a2b65c175e7ba1728ada3521dd12945b801db3804b5504e",
+    "tests/test_signal_gate_v9.py": "279e73c73dee32a03a6056dbbbfce9265f04495a3791a1f69d64aaf8e1de5dd9",
+    "docs/research-protocol-v9-signal.md": "1e9c11db6507fe561b113e7ee4baadb095a13552e36aebdc9a6493c7d0dbd84e",
+    "scripts/audit_research_v3.py": "e94a7b17a2a84e5655edba2578b451bd1accd7dc600fd318fed05c84c6eb1b4f",
+    "src/rlasset/study_v3.py": "18e9cbfab9ec7dc15b841a4fc34257c1fc3909712f4ff72264240a2d0d41bf32",
+    "src/rlasset/study_v7.py": "5068ffa2adbeefc0984268f3b40a9bdb492a3fada1238c269d5e836845e53b63",
+    "src/rlasset/robust_env.py": "9a345d0e93c590cdef33ad229233742d27f0ef42d37a72bdfec85ad8fecf1001",
+    "src/rlasset/corporate_actions.py": "dc8107939442cb0ac42210fb1ad40a896a5a59166622e05f4b71d1baa02a3a69",
+    "src/rlasset/env.py": "c22d1f98e335146df777924af355bf0f5a0e80f002a00317ec9172e49c92c1f7",
+    "src/rlasset/data.py": "f12e15203c52bff6c525e421840888b76ab76a05f8705e15090aa10253900272",
+    "src/rlasset/metrics.py": "f0d49bedf76c59891596f655780d8c067b57ead137d54a9b53d019b55d70ed64"
+  },
+  "data_sha256": {
+    "ashare_broad_raw.csv": "41c9dfa0f32be0d342703c63d0ade2aea541fb586a62e41326c88bf7dadbc9c8",
+    "cash_actions.csv": "7d8c43024d2f4154435c2e3c2d9ac79c772aa0595569e20f2d494add6ece9640",
+    "splits.csv": "6e5b9b647c5bff6f06aa9555f29ee0c3ca7d66874e66cf2d5753ae52e1b4c7c3",
+    "restoration_verification.json": "b7b53649fbbba0e03b6648c58bcc4b28a601736264f9d51228983a8866af37d6",
+    "restoration_audit.json": "b7b53649fbbba0e03b6648c58bcc4b28a601736264f9d51228983a8866af37d6"
+  },
+  "test_result": "15 passed",
+  "test_log": "tmp/pytest-v9-preflight-independent-fixed.log",
+  "test_log_sha256": "b4f6a96b91ded75ecbef4a3fd341c6759eb040632c2e70182a2c3d14a941eec3",
+  "real_save_integration_log": "tmp/v9-real-save-integration-check.log",
+  "real_save_integration_log_sha256": "25b67e00cedab67bb045ab11dc6c832f29b86c2cb5fad1725204478e38f4b68d",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "engineering_fix": {
+    "failure": "First attempted ledger write lacked parent directory; prior review missed actual save-path orchestration.",
+    "fix": "Create each ledger parent before running and saving; protocol, rules, costs, data, calendars and gate unchanged.",
+    "failed_attempt_directory": "runs/research_v9_signal_failed_preflight_20261027_015754",
+    "failed_attempt_file_sha256": {
+      "manifest.json": "7a76b80b73c72c1bbc9a8a992cb43d0fe05a7aad37c291281feaee89de6458e6",
+      "evaluate.log": "d2834b3d0f06a48ff65142475337d1edb857d6b79d70c5ec79ef6bb3ce8a58e7",
+      "preflight_review.json": "449eb89692225cee877ae99340baee1ce4de59f47e1e1f3bc6973d01a3093501"
+    },
+    "failed_attempt_outputs": "Only manifest, old preflight and error log retained; no saved ledger or financial metric output.",
+    "prior_review_superseded": true
+  },
+  "checks": {
+    "registered_three_tickers_and_four_validation_years": true,
+    "twenty_session_prefix_only_ranking_and_fixed_ties": true,
+    "half_equity_targets_do_not_claim_equal_risk": true,
+    "all_costs_three_of_four_wins_and_two_pp_drawdown_hurdle_unchanged": true,
+    "failure_forbids_new_selector_training": true,
+    "independent_targeted_tests_passed": true,
+    "synthetic_real_run_rule_and_real_save_ledger_grid": 24,
+    "saved_json_weights_roundtrip_checked": true,
+    "separate_raw_auditor_still_required_for_financial_run": true,
+    "new_output_contains_manifest_only_before_review": true,
+    "prior_tracked_sources_unchanged": true
+  },
+  "limitations": [
+    "Historical validation years were inspected previously and overlap prior test periods; not untouched OOS.",
+    "Gate is a prespecified arbitrary compute-budget hurdle, not proof of alpha or deployment permission.",
+    "Synthetic file-path integration stubs the auditor; real ledger accounting still must be audited during financial evaluation.",
+    "Existing raw-data cross-source verification limitations remain."
+  ],
+  "next_gate": "Verify all24 saved validation ledgers, independent accounting sidecars, metrics and exact gate decision after evaluation."
+}

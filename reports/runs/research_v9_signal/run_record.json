@@ -1,0 +1,31 @@
+{
+  "manifest_sha256": "be5fdd776b3797bc9f026ddde9c27813a5726ad45319cc19b9c25f912bb01438",
+  "completed_at_utc": "2026-10-27T02:00:32.375812+00:00",
+  "ledger_sha256": {
+    "validation_5bps/2018/equal50.csv": "5d97f7257e92f4a6ecb1eb5926a9d90a7229c3a113ac2e6d522f348e418e805c",
+    "validation_5bps/2018/relative_momentum50.csv": "f987cffd648afc0a62479c594251b5849b69f385528b80488325631a5af6177a",
+    "validation_5bps/2020/equal50.csv": "c01d6c0be65a7164b66dad8844eabf151d1b79590cce72d81316ba052794e9c4",
+    "validation_5bps/2020/relative_momentum50.csv": "ed5016c8732adfc5e4f466ffb208ee014c9598861739f59b0cdc0914a1431f4e",
+    "validation_5bps/2022/equal50.csv": "1c30372b97a73038340feda7dd38f66b617d41ce59492b6d5ad9beded18eba0a",
+    "validation_5bps/2022/relative_momentum50.csv": "4fcfbe0cb01c4aa4ef2e05d0116bc638f1dd14ce7d8bf62b3f1600da0752e3e5",
+    "validation_5bps/2024/equal50.csv": "9edf6866f3082eb340127595d095004c808dc10adc76b8f99f7e446e26c6e59a",
+    "validation_5bps/2024/relative_momentum50.csv": "9afdb4391140176a2e20c258655ff4876bdd331a6cffb6fe3f4e31f8f767dfdf",
+    "validation_10bps/2018/equal50.csv": "00a6a1cac01adf5fd7a6abbb41f444ecdaaa765959c238ce2d7ffc3ec016dc2c",
+    "validation_10bps/2018/relative_momentum50.csv": "9b07c6673bf93b0f1ebba35681e46c75b6feac6154d09b40f95b002dd22de357",
+    "validation_10bps/2020/equal50.csv": "f687837fb2eb8cc4c55ec65c53fd58d3e1551629f2807b29cc5aea9d280d4dc7",
+    "validation_10bps/2020/relative_momentum50.csv": "dae729b0ce5919581f43574c38eb2eac93c2037dfc28d7ee21f37a67cbeb97bc",
+    "validation_10bps/2022/equal50.csv": "92b349e94d7663561895044d8f1dc2c9a0cde7642a38ac724fdb037d01fc710a",
+    "validation_10bps/2022/relative_momentum50.csv": "be01f338b8ad91de7a520d0ff295a7896530623f77d57183d7553e1b30e52c15",
+    "validation_10bps/2024/equal50.csv": "12bd8ddf52c9f274b46ea669fbffa86ebd53fe08b60933312765bd6bf1585aad",
+    "validation_10bps/2024/relative_momentum50.csv": "e1a18361f7f286d5261da674b94836d1af7403225216016378350a6d8629bb92",
+    "validation_20bps/2018/equal50.csv": "4fed20fdd686cf86dcc7267c9182b45bc323e2541c0323eacf76f7610812f045",
+    "validation_20bps/2018/relative_momentum50.csv": "e0aa00a20b495b7875f024a5bbd2929a631c45ccaf58ec654be80d2c91eb3bd5",
+    "validation_20bps/2020/equal50.csv": "14add9f4ed0b5cfc38c1578f1b3804e85ad4d6f2bd9a19f9e9c581d3f7bd4970",
+    "validation_20bps/2020/relative_momentum50.csv": "8acf60de6faf6c4db8f4ad9a3efa07e88e82602c0ed20b51f5f938b7c7309ea6",
+    "validation_20bps/2022/equal50.csv": "c91fe7a13c06cf079ddd1b318d0c29712f0c296d01387167cd8878733b143789",
+    "validation_20bps/2022/relative_momentum50.csv": "e8f43241c830244369bd6012f7ed0dd3c1f9b9a114ead318ff360e910142cfc6",
+    "validation_20bps/2024/equal50.csv": "301e058c80840edeea5ffee86d0891dda926a57d0aa182ec9307af7346f55ee8",
+    "validation_20bps/2024/relative_momentum50.csv": "a102fc54fbea25fbe5d34b98cd9f83bd0f775ada4a93254028fe2b7c593a7d13"
+  },
+  "claim": "Validation-only exploratory gate; no RL fit or new test-period evaluation"
+}
